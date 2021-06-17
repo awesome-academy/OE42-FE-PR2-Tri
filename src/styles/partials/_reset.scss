@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    outline: 0;
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: $color-black;
+
+    &:hover {
+        text-decoration: none;
+        color: $color-black;
+
+    }
+}
