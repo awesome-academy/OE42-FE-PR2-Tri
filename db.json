@@ -1,0 +1,218 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "productName": "",
+            "sale": "",
+            "class": "new",
+            "oldPrice": "",
+            "newPrice": "",
+            "images": [],
+            "totalRating": 4,
+            "categoryId": 1,
+            "brandId": 1,
+            "quantitySold": 10
+        }
+    ],
+    "ratings": [
+        {
+            "id": 1,
+            "useId": 2,
+            "productId": 2,
+            "rating" : 4
+        }
+    ],
+    "brands": [
+        {
+            "id": 1,
+            "nameBrand": "The Blue T-Shirt"
+        },
+        {
+            "id": 2,
+            "nameBrand": "Gucci"
+        },
+        {
+            "id": 3,
+            "nameBrand": "Nice"
+        },
+        {
+            "id": 4,
+            "brandName": "Elise"
+        }
+    ],
+    "categories": [
+        {
+            "id": 1,
+            "otherId": "men-clothes",
+            "categoryName": "Quần Áo Nam" 
+        },
+        {
+            "id": 2,
+            "otherId": "women-clothes",
+            "categoryName": "Quần Áo Nữ"
+        },
+        {
+            "id": 3,
+            "otherId": "kids-clothes",
+            "categoryName": "Quần Áo Trẻ Em"
+        },
+        {
+            "id": 4,
+            "otherId": "handbag-and-shoes",
+            "categoryName": "Túi & Giày"
+        }
+    ],
+    "sizes": [
+        {
+            "id": 1,
+            "sizeName": "11" 
+        },
+        {
+            "id": 2,
+            "sizeName": "12" 
+        },
+        {
+            "id": 3,
+            "sizeName": "13" 
+        },
+        {
+            "id": 4,
+            "sizeName": "14" 
+        },
+        {
+            "id": 5,
+            "sizeName": "15" 
+        },
+        {
+            "id": 6,
+            "sizeName": "16" 
+        },
+        {
+            "id": 7,
+            "sizeName": "17" 
+        },
+        {
+            "id": 8,
+            "sizeName": "18" 
+        },
+        {
+            "id": 9,
+            "sizeName": "19" 
+        },
+        {
+            "id": 10,
+            "sizeName": "20" 
+        },
+        {
+            "id": 11,
+            "sizeName": "21"
+        },
+        {
+            "id": 12,
+            "sizeName": "22" 
+        },
+        {
+            "id": 13,
+            "sizeName": "23"
+        },
+        {
+            "id": 14,
+            "sizeName": "24"
+        },
+        {
+            "id": 15,
+            "sizeName": "25"
+        },
+        {
+            "id": 16,
+            "sizeName": "26"
+        },
+        {
+            "id": 17,
+            "sizeName": "27"
+        },
+        {
+            "id": 18,
+            "sizeName": "28"
+        },
+        {
+            "id": 19,
+            "sizeName": "29"
+        },
+        {
+            "id": 20,
+            "sizeName": "30"
+        },
+        {
+            "id": 21,
+            "sizeName": "31"
+        },
+        {
+            "id": 22,
+            "sizeName": "32"
+        },
+        {
+            "id": 23,
+            "sizeName": "33"
+        },
+        {
+            "id": 24,
+            "sizeName": "34"
+        },
+        {
+            "id": 25,
+            "sizeName": "S"
+        },
+        {
+            "id": 26,
+            "sizeName": "M"
+        },
+        {
+            "id": 27,
+            "sizeName": "L"
+        },
+        {
+            "id": 28,
+            "sizeName": "Xl"
+        },
+        {
+            "id": 29,
+            "sizeName": "XXl"
+        }
+    ],
+    "news": [],
+    "user": [
+        {
+            "id": 1,
+            "email": "tripro9x12@gmail.com",
+            "password": "123456789",
+            "firstName": "Huỳnh",
+            "lastName": "Trí",
+            "avatar": "123.jpg",
+            "phoneNumber": "0838611735",
+            "address": "TP.Huế",
+            "roleId": 1
+        },
+        {
+            "id": 2,
+            "email": "trihuynh123@gmail.com",
+            "password": "123456789",
+            "firstName": "Huỳnh",
+            "lastName": "Trí",
+            "avatar": "123.jpg",
+            "phoneNumber": "0838611735",
+            "address": "TP.Huế",
+            "roleId": 2
+        }
+    ],
+    "role": [
+        {
+           "id" : 1,
+           "roleName": "Admin"
+        },
+        {
+            "id" : 2,
+            "roleName": "Khách Hàng"
+        }  
+    ]
+}
