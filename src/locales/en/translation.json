@@ -1,3 +1,7 @@
 {
-    "Home Page": "Home Page"
+    "Home Page": "Home Page",
+    "language": {
+        "english": "English",
+        "vietnamese": "Vietnamese"
+    }
 }
