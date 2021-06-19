@@ -7,15 +7,19 @@ import 'react-multi-carousel/lib/styles.css';
 import './styles/styles.scss';
 import configureStore from './redux/configureStore';
 import {Provider} from 'react-redux';
+import {I18nextProvider} from 'react-i18next';
+import i18next from './i18next';
 
 const store = configureStore();
 
 ReactDOM.render(
-  <Provider store={store}>
-    <React.StrictMode>
-      <App />
-    </React.StrictMode>
-  </Provider>,
+  <I18nextProvider i18n={i18next}>
+    <Provider store={store}>
+      <React.StrictMode>
+          <App />
+      </React.StrictMode>
+    </Provider>
+  </I18nextProvider>,
   document.getElementById('root')
 );
 
