@@ -17,6 +17,11 @@
     border-radius: 50%;
 }
 
+@mixin width-height($val-width, $val-height){
+    width: $val-width;
+    height: $val-height;
+}
+
 @mixin transition-ease-in-out {
-    transition: all 0.3s ease-in-out;
+    transition: all 0.35s ease-in-out;
 }
