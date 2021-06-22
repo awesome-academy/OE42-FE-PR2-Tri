@@ -44,22 +44,22 @@
         {
             "id": 1,
             "otherId": "men-clothes",
-            "categoryName": "Quần Áo Nam" 
+            "categoryName": "men clothes" 
         },
         {
             "id": 2,
             "otherId": "women-clothes",
-            "categoryName": "Quần Áo Nữ"
+            "categoryName": "women clothes"
         },
         {
             "id": 3,
             "otherId": "kids-clothes",
-            "categoryName": "Quần Áo Trẻ Em"
+            "categoryName": "kids clothes"
         },
         {
             "id": 4,
             "otherId": "handbag-and-shoes",
-            "categoryName": "Túi & Giày"
+            "categoryName": "handbag and shoes"
         }
     ],
     "sizes": [

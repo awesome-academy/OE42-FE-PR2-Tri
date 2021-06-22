@@ -9,7 +9,7 @@ export const success = (title) => toast.success(title, {
 });
 export const fail = (title) => toast.error(title, {
     position: "top-right",
-    autoClose: 1000,
+    autoClose: 1500,
     hideProgressBar: true,
     closeOnClick: true,
     pauseOnHover: false
