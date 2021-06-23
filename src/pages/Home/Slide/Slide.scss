@@ -1,0 +1,9 @@
+@import './../../../styles/styles.scss';
+
+.carousel__sale{
+    img{
+        display: block;
+        @include width-height(100%, 550px);
+        margin: auto;
+    }
+}
