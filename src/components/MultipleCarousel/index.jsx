@@ -79,7 +79,7 @@ function MultipleCarousel({ label, products }) {
                                 </div>
                                 <div className="product__sale-and-new">
                                     {product.class !== "" ? <span className="new">{product.class}</span> : null}
-                                    {product.sale !== 0 ? <span className="sale">{product.sale}%</span> : null}
+                                    {product.sale !== 0 ? <span className="sale">-{product.sale}%</span> : null}
                                 </div>
                             </div>
                             <div className="des">
