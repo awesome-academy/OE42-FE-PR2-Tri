@@ -7,7 +7,7 @@ import React, { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useDispatch, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
-import { actCheckCallApi, actFetchCategories } from './../../../actions';
+import { actCheckCallApi, actFetchCategories, actFetchProducts } from './../../../actions';
 
 function Navigate() {
     const { t } = useTranslation();
@@ -18,6 +18,7 @@ function Navigate() {
     useEffect(() => {
         if (checkCallApi) {
             dispatch(actFetchCategories());
+            dispatch(actFetchProducts());
         }
         return () => {
             dispatch(actCheckCallApi(false));
