@@ -1,0 +1,10 @@
+@import './../../styles/styles.scss';
+
+.loading__product{
+    @include width-height(100%, 250px);
+    @include flexCenter(column);
+
+    img{
+        @include width-height(150px, 150px);
+    }
+}

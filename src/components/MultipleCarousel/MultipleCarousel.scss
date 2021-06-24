@@ -18,6 +18,9 @@
 
     .product__wrapper{
         border: 1px solid $border-dark-light;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 1px 1px 10px $border-dark-light;
 
         .img{
             @include width-height(100%, 16.25rem);

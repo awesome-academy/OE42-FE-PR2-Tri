@@ -1,0 +1,33 @@
+@import './../../../styles/styles.scss';
+
+.filter__rating{
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid $color-dark;
+    margin-bottom: 1.5rem;
+
+    &-title{
+        font-size: 1.25rem;
+        text-transform: capitalize;
+        color: $color-dark;
+        font-weight: 600;
+        margin-bottom: 1rem;
+    }
+
+    &-content{
+
+        li{
+            line-height: 1.8;
+
+            .rating{
+                cursor: pointer;
+
+                .MuiRating-icon{
+                    font-size: 1.25rem;
+                }
+            }
+
+        }
+    }
+
+    
+}

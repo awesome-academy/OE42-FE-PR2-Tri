@@ -7,7 +7,10 @@ import React, { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useDispatch, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
-import { actCheckCallApi, actFetchCategories, actFetchProducts } from './../../../actions';
+import {
+    actCheckCallApi, actFetchCategories,
+    actFetchProducts, actFetchNews
+} from './../../../actions';
 
 function Navigate() {
     const { t } = useTranslation();
@@ -19,11 +22,13 @@ function Navigate() {
         if (checkCallApi) {
             dispatch(actFetchCategories());
             dispatch(actFetchProducts());
+            dispatch(actFetchNews());
         }
         return () => {
             dispatch(actCheckCallApi(false));
         }
-    }, [])
+    }, []);
+
 
     return (
         <div className="header__wrapper-content">
@@ -48,7 +53,7 @@ function Navigate() {
                                 </li>
                                 {categories.map(cate => (
                                     <li key={cate.id}>
-                                        <Link to={`/${cate.otherId}`}>{t(`${cate.categoryName}`)}</Link>
+                                        <Link to={`/product/${cate.otherId}`}>{t(`${cate.categoryName}`)}</Link>
                                     </li>
                                 ))}
                                 <li>

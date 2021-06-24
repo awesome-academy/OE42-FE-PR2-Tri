@@ -95,3 +95,63 @@ export const actSetHandbagAndShoesData = (products) => {
         payload: products
     }
 }
+
+export const actFetchNews = () => {
+    return{
+        type: types.FETCH_NEWS
+    }
+}
+
+export const actFetchNewsSuccess = (news) => {
+    return{
+        type: types.FETCH_NEWS_SUCCESS,
+        payload: news
+    }
+}
+
+export const actFetchNewsFailed = (error) => {
+    return{
+        type: types.FETCH_NEWS_FAILED,
+        payload: error
+    }
+}
+
+export const actFetchBrands = () => {
+    return{
+        type: types.FETCH_BRANDS
+    }
+}
+
+export const actFetchBrandsSuccess = (brands) => {
+    return{
+        type: types.FETCH_BRANDS_SUCCESS,
+        payload: brands
+    }
+}
+
+export const actFetchBrandsFailed = (error) => {
+    return{
+        type: types.FETCH_BRANDS_FAILED,
+        payload: error
+    }
+}
+
+export const actChangePage = (page) => {
+    return{
+        type: types.CHANGE_PAGE,
+        payload: page
+    }
+}
+
+export const actChangeFilterProductData = (products) => {
+    return{
+        type: types.CHANGE_FILTER_PRODUCT_DATA,
+        payload: products
+    }
+}
+
+export const actResetFilterProduct = () => {
+    return{
+        type: types.RESET_FILTER_PRODUCT
+    }
+}
