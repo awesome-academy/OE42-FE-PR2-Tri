@@ -2,24 +2,207 @@
     "products": [
         {
             "id": 1,
-            "productName": "",
-            "sale": "",
-            "class": "new",
-            "oldPrice": "",
-            "newPrice": "",
-            "images": [],
+            "productName": "T-shirt U1ATN2031002",
+            "sale": 0,
+            "class": "",
+            "oldPrice": 265000,
+            "newPrice": 265000,
+            "images": [
+                "https://storage.googleapis.com/cdn.nhanh.vn/store/7136/ps/20210331/31032021090312_IMG_4449.gif",
+                "https://storage.googleapis.com/cdn.nhanh.vn/store/7136/ps/20210331/31032021090326_IMG_4451.gif"
+            ],
             "totalRating": 4,
-            "categoryId": 1,
+            "categoryId": "men-clothes",
             "brandId": 1,
-            "quantitySold": 10
+            "quantitySold": 5
+        },
+        {
+            "id": 2,
+            "productName": "shirt M1SMD2031001",
+            "sale": 0,
+            "class": "new",
+            "oldPrice": 285000,
+            "newPrice": 285000,
+            "images": [
+                "https://storage.googleapis.com/cdn.nhanh.vn/store/7136/ps/20210331/31032021090352_IMG_4442.jpg",
+                "https://storage.googleapis.com/cdn.nhanh.vn/store/7136/ps/20210331/31032021090310_IMG_4440.jpg",
+                "https://storage.googleapis.com/cdn.nhanh.vn/store/7136/ps/20210331/31032021090352_IMG_4442.jpg"
+            ],
+            "totalRating": 5,
+            "categoryId": "men-clothes",
+            "brandId": 5,
+            "quantitySold": 6
+        },
+        {
+            "id": 3,
+            "productName": "T-shirt W2ATN2051003",
+            "sale": 0,
+            "class": "",
+            "oldPrice": 185000,
+            "newPrice": 185000,
+            "images": [
+                "https://storage.googleapis.com/cdn.nhanh.vn/store/7136/ps/20210618/18062021030623_IMG_9829.jpg",
+                "https://storage.googleapis.com/cdn.nhanh.vn/store/7136/ps/20210618/18062021030618_IMG_9825.jpg",
+                "https://storage.googleapis.com/cdn.nhanh.vn/store/7136/ps/20210618/18062021030604_IMG_9830.jpg",
+                "https://storage.googleapis.com/cdn.nhanh.vn/store/7136/ps/20210618/18062021030628_IMG_9826.jpg",
+                "https://storage.googleapis.com/cdn.nhanh.vn/store/7136/ps/20210618/18062021030614_IMG_9827.jpg"
+            ],
+            "totalRating": 5,
+            "categoryId": "women-clothes",
+            "brandId": 1,
+            "quantitySold": 3
+        },
+        {
+            "id": 4,
+            "productName": "T-shirt W2ATN2051003",
+            "sale": 0,
+            "class": "",
+            "oldPrice": 185000,
+            "newPrice": 185000,
+            "images": [
+                "https://storage.googleapis.com/cdn.nhanh.vn/store/7136/ps/20210618/18062021030650_IMG_9813.jpg",
+                "https://storage.googleapis.com/cdn.nhanh.vn/store/7136/ps/20210618/18062021030618_IMG_9809.jpg",
+                "https://storage.googleapis.com/cdn.nhanh.vn/store/7136/ps/20210618/18062021030607_IMG_9810.jpg",
+                "https://storage.googleapis.com/cdn.nhanh.vn/store/7136/ps/20210618/18062021030612_IMG_9811.jpg"
+            ],
+            "totalRating": 4,
+            "categoryId": "women-clothes",
+            "brandId": 1,
+            "quantitySold": 2
+        },
+        {
+            "id": 5,
+            "productName": "jacket U1AKD2051003",
+            "sale": 0,
+            "class": "",
+            "oldPrice": 295000,
+            "newPrice": 295000,
+            "images": [
+                "https://storage.googleapis.com/cdn.nhanh.vn/store/7136/ps/20210527/27052021060532_IMG_9861.jpg"
+            ],
+            "totalRating": 5,
+            "categoryId": "men-clothes",
+            "brandId": 4,
+            "quantitySold": 2
+        },
+        {
+            "id": 6,
+            "productName": "trousers jean W2QJN50410011",
+            "sale": 0,
+            "class": "new",
+            "oldPrice": 320000,
+            "newPrice": 320000,
+            "images": [
+                "https://storage.googleapis.com/cdn.nhanh.vn/store/7136/ps/20210416/16042021110430_IMG_7034.jpg"
+            ],
+            "totalRating": 4,
+            "categoryId": "women-clothes",
+            "brandId": 4,
+            "quantitySold": 3
+        },
+        {
+            "id": 7,
+            "productName": "GYMBOREE 50313",
+            "sale": 20,
+            "class": "new",
+            "oldPrice": 450000,
+            "newPrice": 360000,
+            "images": [
+                "http://bizweb.dktcdn.net/thumb/medium/100/115/248/products/2113096140150313-jpeg.jpg?v=1470970202037"
+            ],
+            "totalRating": 4,
+            "categoryId": "kids-clothes",
+            "brandId": 5,
+            "quantitySold": 0
+        },
+        {
+            "id": 8,
+            "productName": "suede men's shoes AG0001",
+            "sale": 30,
+            "class": "new",
+            "oldPrice": 495000,
+            "newPrice": 346000,
+            "images": [
+                "https://imgproxy.agiay.com/imgproxy/6TlljkqeSTgs3KRvXTWzvF5GFFJtoynxle2wMBM-_vQ/fill/500/500/no/1/aHR0cHM6Ly9obmNncm91cC13ZWIuc2dwMS5jZG4uZGlnaXRhbG9jZWFuc3BhY2VzLmNvbS8yMDIxLzA0LzYwNzk0ZmI3NzdjNTIxZjYwNmFkNTI3OWVmNGY5ZmU3LmpwZw.jpg",
+                "https://imgproxy.agiay.com/imgproxy/HiENkXP_VR589T-gVDLjFeserr5YiYkiaRurTXJI0Tc/fill/500/500/no/1/aHR0cHM6Ly9obmNncm91cC13ZWIuc2dwMS5jZG4uZGlnaXRhbG9jZWFuc3BhY2VzLmNvbS8yMDIxLzA0LzFlZTUwMDk0YTg4NGU4Njc4NzNhZjUwZGZmNzExYjllLmpwZw.jpg"
+            ],
+            "totalRating": 5,
+            "categoryId": "handbag-and-shoes",
+            "brandId": 5,
+            "quantitySold": 4
+        },
+        {
+            "id": 9,
+            "productName": "hot women's lazy shoes 2021 BN0091",
+            "sale": 20,
+            "class": "",
+            "oldPrice": 320000,
+            "newPrice": 256000,
+            "images": [
+                "https://imgproxy.agiay.com/imgproxy/HjrU8_psrtbKRIYpcoLfpzzMHHiCNp9C76xTU-qyx3g/fill/500/500/no/1/aHR0cHM6Ly9obmNncm91cC13ZWIuc2dwMS5jZG4uZGlnaXRhbG9jZWFuc3BhY2VzLmNvbS8yMDIxLzAzLzE2OTBhNDMxMGQyYTlhZDRiOTljNjIzZmRhYzI1MWVmLmpwZw.jpg",
+                "https://imgproxy.agiay.com/imgproxy/Gz4dr6PuMikYns0VMXUqvCSuyVF38jHRgdVpHaE9lbA/fill/500/500/no/1/aHR0cHM6Ly9obmNncm91cC13ZWIuc2dwMS5jZG4uZGlnaXRhbG9jZWFuc3BhY2VzLmNvbS8yMDIxLzAzLzZkODdhNDZlNWU4NGQ5NTEyYWI0NjAyYTQ0Y2NkYzc2LmpwZw.jpg",
+                "https://imgproxy.agiay.com/imgproxy/gychvpN9qD0awSlMEQq8z8kHagt8r-u42W0awx-w3Gw/fill/500/500/no/1/aHR0cHM6Ly9obmNncm91cC13ZWIuc2dwMS5jZG4uZGlnaXRhbG9jZWFuc3BhY2VzLmNvbS8yMDIxLzAzLzEwODg3ZmRhM2ZlODhlMzNhNjQ2YzdhZjFhZmY5NTVjLmpwZw.jpg"
+            ],
+            "totalRating": 0,
+            "categoryId": "handbag-and-shoes",
+            "brandId": 5,
+            "quantitySold": 5
         }
     ],
     "ratings": [
         {
             "id": 1,
             "useId": 2,
-            "productId": 2,
+            "productId": 1,
             "rating" : 4
+        },
+        {
+            "id": 2,
+            "useId": 1,
+            "productId": 1,
+            "rating" : 4
+        },
+        {
+            "id": 3,
+            "useId": 2,
+            "productId": 2,
+            "rating" : 5
+        },
+        {
+            "id": 4,
+            "useId": 2,
+            "productId": 3,
+            "rating" : 5
+        },
+        {
+            "id": 5,
+            "useId": 2,
+            "productId": 4,
+            "rating" : 4
+        },
+        {
+            "id": 6,
+            "useId": 2,
+            "productId": 5,
+            "rating" : 5
+        },
+        {
+            "id": 7,
+            "useId": 2,
+            "productId": 6,
+            "rating" : 4
+        },
+        {
+            "id": 8,
+            "useId": 2,
+            "productId": 7,
+            "rating" : 3
+        },
+        {
+            "id": 9,
+            "useId": 2,
+            "productId": 8,
+            "rating" : 5
         }
     ],
     "brands": [
@@ -38,6 +221,14 @@
         {
             "id": 4,
             "brandName": "Elise"
+        },
+        {
+            "id": 5,
+            "brandName": "SheIn"
+        },
+        {
+            "id": 6,
+            "brandName": "Gymboree"
         }
     ],
     "categories": [

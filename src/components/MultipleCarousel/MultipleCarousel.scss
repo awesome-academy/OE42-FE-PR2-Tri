@@ -1,0 +1,166 @@
+@import './../../styles/styles.scss';
+
+.product__title{
+    margin-bottom: 2rem;
+    padding: 0.625rem 0;
+    border-bottom: 1px solid $border-dark-light;
+
+    span{
+        padding: 0.625rem 0;
+        text-transform: capitalize;
+        border-bottom: 2px solid $color-blue;
+        font-size: 1.25rem;
+    }
+}
+
+.product__item{
+    padding: 0 10px;
+
+    .product__wrapper{
+        border: 1px solid $border-dark-light;
+
+        .img{
+            @include width-height(100%, 16.25rem);
+            position: relative;
+
+            img{
+                @include width-height(100%, 100%);
+            }
+
+            &__hover{
+                position: absolute;
+                bottom: -100%;
+                left: 0;
+                @include transition-ease-in-out;
+                visibility: hidden;
+                z-index: 1;
+            }
+
+            &:hover{
+
+                .img__hover{
+                    bottom: 0;
+                    z-index: 1;
+                    visibility: visible;
+                }
+
+                .button__icon{
+                    top: 0;
+                    z-index: 2;
+                }
+            }
+
+            .button__icon{
+                position: absolute;
+                top: -100%;
+                @include transition-ease-in-out;
+                left: 0;
+                @include flexCenter(row);
+                @include width-height(100%, 100%);
+
+                a{
+                    font-size: 0.7125rem;
+                    color: $color-black;
+                    border: 1px solid $border-dark-light;
+                    background: $color-white;
+                    @include circle(2.5rem);
+                    @include flexCenter(row);
+                    @include transition-ease-in-out;
+
+                    &:hover{
+                        background: transparent;
+                        transform: rotate(360deg);
+                    }
+
+                    &:first-child{
+                        margin-right: 0.5rem;
+
+                        &:hover{
+                            color: $color-blue;
+                            border-color: $color-blue;
+                        }
+                    }
+
+                    &:last-child{
+
+                        &:hover{
+                            color: $color-danger;
+                            border-color: $color-danger;
+                        }
+                    }
+                }
+            }
+
+            .product__sale-and-new{
+                position: absolute;
+                top: 0.5rem;
+                left: 0.5rem;
+                z-index: 10;
+                display: flex;
+                flex-direction: column;
+
+                span{
+                    @include circle(2.25rem);
+                    @include flexCenter(row);
+                    border: 1px solid $border-dark-light;
+                    margin-bottom: 0.25rem;
+                    text-transform: uppercase;
+                    color: $color-white;
+                    
+                    &.sale{
+                        font-size: 0.9125rem;
+                        background: $color-danger;
+                    }
+
+                    &.new{
+                        font-size: 0.75rem;
+                        background: $color-success;
+                    }
+                }
+            }
+        }
+
+        .des{
+            margin: 1.5rem 0;
+            text-align: center;
+
+            .product__name{
+                font-size: 1.25rem;
+                text-transform: capitalize;
+                padding: 0 0.5rem;
+                font-weight: 500;
+
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+            }
+
+            .product__rating{
+                margin: 0.5rem 0;
+
+                svg{
+                    font-size: 1.25rem;
+                }
+            }
+
+            .product__price{
+                margin-top: 0.4375rem;
+
+                span{
+                    margin: 0 0.5rem;
+                    
+                    &.new__price{
+                        font-size: 1.125rem;
+                        color: $color-danger;
+                        font-weight: 600;
+                    }
+                    &.old__price{
+                        font-size: 0.9125rem;
+                        color: $color-grey;
+                        text-decoration: line-through;
+                    }
+                }
+            }
+        }
+    }
+}
