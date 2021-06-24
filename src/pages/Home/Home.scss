@@ -2,4 +2,55 @@
 
 .section__hot-product{
     padding: 2.5rem 0;
+    border-bottom: 1px solid $border-dark-light;
+}
+
+.section__btn{
+    position: relative;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-right: 10px;
+    border: 1px solid $color-blue-hover;
+    @include width-height(120px, 30px);
+
+    &:hover{
+
+        .btn__see-more{
+            color: $color-grey;
+        }
+
+        span{
+            width: 100%;
+        }
+    }
+
+    .btn__see-more{
+        text-transform: capitalize;
+        @include width-height(100%, 100%);
+        position: absolute;
+        z-index: 2;
+        @include transition-ease-in-out;
+        @include flexCenter(row);
+    
+    }
+    
+    span{
+        position: absolute;
+        width: 2px;
+        height: 100%;
+        background: $color-blue-hover;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        @include transition-ease-in-out;
+    }
+}
+
+.section__banner{
+    padding: 2.5rem 0;
+
+    img{
+        width: 100%;
+        object-fit: cover;
+    }
 }
