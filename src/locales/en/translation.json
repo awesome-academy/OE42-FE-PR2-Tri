@@ -66,5 +66,6 @@
     "price": "price",
     "rating": "rating",
     "sort by": "sort by",
-    "name": "name"
+    "name": "name",
+    "reset": "reset"
 } 

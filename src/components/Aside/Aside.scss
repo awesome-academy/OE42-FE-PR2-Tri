@@ -1,0 +1,45 @@
+@import './../../styles/styles.scss';
+
+.section__handle-filter-product{
+
+    .button__reset-filter{
+        margin-bottom: 1rem;
+        padding-left: 3rem;
+
+        button{
+            text-transform: capitalize;
+            display: flex;
+            align-items: center;
+            padding: 0.25rem 0.75rem;
+            border-radius: 1rem;
+            border: 1px solid $color-dark;
+            cursor: pointer;
+            @include transition-ease-in-out;
+            box-shadow: 0px 1px 2px $color-grey;
+            color: $color-grey;
+
+            &:hover{
+                color: $color-white;
+                background: $color-success-hover;
+                border-color: $color-white;
+                box-shadow: none;
+
+                svg{
+                    animation: none;
+                }
+            }
+
+            svg{
+                font-size: 1rem;
+                margin-left: 0.25rem;
+                animation: asyncRotate 1.35s linear 0s infinite;
+            }
+        }
+        
+    }
+}
+@keyframes asyncRotate{
+    to{
+        transform: rotate(-360deg);
+    }
+}

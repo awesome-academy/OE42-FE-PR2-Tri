@@ -179,6 +179,10 @@
                         @include transition-ease-in-out;
                         position: relative;
 
+                        svg{
+                            @include transition-ease-in-out;
+                        }
+
                         ul{
                             position: absolute;
                             opacity: 0;
@@ -217,6 +221,11 @@
 
                         &:hover{
                             color: $color-blue;
+
+                            svg{
+                                color: $color-blue;
+                                transform: rotate(180deg);
+                            }
 
                             ul{
                                 opacity: 1;
