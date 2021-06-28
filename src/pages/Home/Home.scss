@@ -5,6 +5,13 @@
     border-bottom: 1px solid $border-dark-light;
 }
 
+.section__men-product, 
+.section__women-product,
+.section__kids-product,
+.section__handbag-shoes-product{
+    padding-bottom: 2rem;
+}
+
 .section__btn{
     position: relative;
     margin-left: auto;
@@ -16,7 +23,7 @@
     &:hover{
 
         .btn__see-more{
-            color: $color-grey;
+            color: $color-white;
         }
 
         span{

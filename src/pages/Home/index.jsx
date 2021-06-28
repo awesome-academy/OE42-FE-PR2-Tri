@@ -45,6 +45,42 @@ function Home() {
                 <section className="section__banner">
                     <img src={bannerImg} alt={`link ${bannerImg} error`} />
                 </section>
+                <section className="section__men-product">
+                    <MultipleCarousel label="men clothes" products={menProducts} />
+                    <div className="section__btn">
+                        <Link to="/men-clothes" className="btn__see-more">
+                            <ArrowRightAltIcon /> {t('see more')}
+                        </Link>
+                        <span></span>
+                    </div>
+                </section>
+                <section className="section__women-product">
+                    <MultipleCarousel label="women clothes" products={womenProducts} />
+                    <div className="section__btn">
+                        <Link to="/women-clothes" className="btn__see-more">
+                            <ArrowRightAltIcon /> {t('see more')}
+                        </Link>
+                        <span></span>
+                    </div>
+                </section>
+                <section className="section__kids-product">
+                    <MultipleCarousel label="kids clothes" products={kidsProducts} />
+                    <div className="section__btn">
+                        <Link to="/kids-clothes" className="btn__see-more">
+                            <ArrowRightAltIcon /> {t('see more')}
+                        </Link>
+                        <span></span>
+                    </div>
+                </section>
+                <section className="section__handbag-shoes-product">
+                    <MultipleCarousel label="handbag and shoes" products={handbagAndShoesProducts} />
+                    <div className="section__btn">
+                        <Link to="/handbag-and-shoes" className="btn__see-more">
+                            <ArrowRightAltIcon /> {t('see more')}
+                        </Link>
+                        <span></span>
+                    </div>
+                </section>
             </Container>
         </main>
     );
