@@ -1,0 +1,80 @@
+@import './../../../styles/styles.scss';
+
+.news__wrapper{
+    border: 1px solid $border-dark-light;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 1px 1px 10px $border-dark-light;
+
+    .img__wrapper{
+        @include width-height(100%, 250px);
+
+        img{
+            @include width-height(100%, 100%);     
+        }
+    }
+
+    .news__info{
+        padding: 1rem;
+
+        .news__date{
+            color: $color-time;
+            font-size: 0.9375rem;
+        }
+
+        .news__title{
+            margin: 0.9375rem 0;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            font-weight: 500;
+
+            a{
+                text-transform: capitalize;
+                font-size: 1.25rem;
+                @include transition-ease-in-out;
+
+                &:hover{
+                    color: $color-blue-hover;
+                }
+            }
+        }
+
+        .news__des{
+            line-height: 1.4;
+            color: $color-dark;
+            height: 90px;
+
+            p{
+                height: 100%;
+                overflow: hidden;
+                display: -webkit-box;
+                -webkit-line-clamp: 4;
+                -webkit-box-orient: vertical;
+                font-size: 1.0625rem;
+            }
+        }
+    }
+
+    .news__footer{
+        padding: 0 1rem;
+        margin-bottom: 1rem;
+
+        a{
+            display: flex;
+            align-items: center;
+            text-transform: capitalize;
+            font-size: 0.9375rem;
+            color: $color-grey;
+            @include transition-ease-in-out;
+
+            &:hover{
+                color: $color-time;
+            }
+
+            svg{
+                font-size: 1rem;
+            }
+        }
+    }
+}

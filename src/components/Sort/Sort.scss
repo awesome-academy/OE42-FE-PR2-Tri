@@ -1,0 +1,14 @@
+@import './../../styles/styles.scss';
+
+.section__handle-sort-product{
+    text-align: right;
+
+    select{
+        border: 1px solid $color-dark;
+        padding: 0.325rem 0.625rem;
+        box-shadow: 0px 1px 6px $color-dark;
+        color: $color-grey;
+        cursor: pointer;
+        text-transform: capitalize;
+    }
+}

@@ -66,7 +66,7 @@ function Footer() {
                                     </li>
                                     {categories.map(cate => (
                                         <li key={cate.id}>
-                                            <Link to={`/${cate.otherId}`}>
+                                            <Link to={`/product/${cate.otherId}`}>
                                                 <ArrowRightAlt />{t(`${cate.categoryName}`)}
                                             </Link>
                                         </li>

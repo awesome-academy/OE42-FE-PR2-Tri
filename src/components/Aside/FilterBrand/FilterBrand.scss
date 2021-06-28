@@ -1,0 +1,29 @@
+@import './../../../styles/styles.scss';
+
+.filter__brands{
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid $color-dark;
+    margin-bottom: 1.5rem;
+
+    &-title{
+        font-size: 1.25rem;
+        text-transform: capitalize;
+        color: $color-dark;
+        font-weight: 600;
+        margin-bottom: 0.5rem;
+    }
+
+    &-content{
+
+        label{
+            height: 2rem;
+            color: $color-grey;
+            @include transition-ease-in-out;
+
+            &:hover{
+                color: $color-blue-hover;
+                text-transform: 0px 0px 6px $color-blue-hover;
+            }
+        }
+    }
+}

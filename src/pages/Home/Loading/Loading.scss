@@ -1,0 +1,6 @@
+@import "./../../../styles/styles.scss";
+
+.loading{
+    @include width-height(100%, 400px);
+    @include flexCenter(column);
+}
