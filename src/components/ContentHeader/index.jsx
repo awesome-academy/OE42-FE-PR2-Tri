@@ -7,21 +7,25 @@ import './ContentHeader.scss';
 
 
 ContentHeader.propTypes = {
-    label: PropTypes.string
+    label: PropTypes.string,
+    path: PropTypes.string,
 };
 
 ContentHeader.defaultProps = {
-    label: ""
+    label: "",
+    path: ""
 }
 
-function ContentHeader({ label }) {
+function ContentHeader({ label, path, label_2 }) {
     const { t } = useTranslation();
 
     return (
         <section className="section__content-header">
             <Link to="/">{t('home')}</Link>
             <KeyboardArrowRightIcon />
-            <span>{t(label)}</span>
+            <Link to={`/${path}`}><span>{t(label)}</span></Link>
+            {label_2 && <KeyboardArrowRightIcon />}
+            {label_2 && <span>{t(label_2)}</span>}
         </section>
     );
 }

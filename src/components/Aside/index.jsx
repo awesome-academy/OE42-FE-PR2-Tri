@@ -20,6 +20,9 @@ function Aside(props) {
 
     useEffect(() => {
         dispatch(actFetchBrands());
+        return () => {
+            dispatch(actions.actResetFilterProduct(t));
+        }
     }, []);
 
     const handleChangeBrandId = (event) => {

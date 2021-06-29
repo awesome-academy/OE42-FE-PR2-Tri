@@ -10,7 +10,8 @@ import bannerImg from './../../assets/images/summer-sale.jpg';
 import './Home.scss';
 import News from './News';
 import Slide from './Slide';
-import Loading from './Loading'
+import Loading from './Loading';
+import ScrollTop from '../../components/ScrollTop';
 
 function Home() {
     const dispatch = useDispatch();
@@ -113,6 +114,7 @@ function Home() {
                     </div>
                 </section>
             </Container>
+            <ScrollTop />
         </main>
     );
 }
