@@ -21,7 +21,7 @@ function FilterPrice({ label, handleChangePriceId }) {
             <p className="filter__price-title">{label}</p>
             <ul className="filter__price-content">
                 {prices.map(price => {
-                    if (price.id !== 5) {
+                    if (price.id !== 6) {
                         return (
                             <li key={price.id}
                                 onClick={() => handleChangePriceId(price.id)}

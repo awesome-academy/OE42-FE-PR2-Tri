@@ -1,16 +1,17 @@
 import Container from '@material-ui/core/Container';
 import Grid from '@material-ui/core/Grid';
 import React, { useEffect } from 'react';
-import ContentHeader from '../../components/ContentHeader';
 import { useTranslation } from 'react-i18next';
-import Aside from '../../components/Aside';
-import Sort from '../../components/Sort';
-import ListItem from '../../components/ListItem';
 import { useDispatch, useSelector } from 'react-redux';
-import * as actions from './../../actions';
-import Paginate from '../../components/Paginate';
 import { useHistory, useParams } from 'react-router-dom';
+import Aside from '../../components/Aside';
+import ContentHeader from '../../components/ContentHeader';
+import ListItem from '../../components/ListItem';
 import LoadingProduct from '../../components/LoadingProduct';
+import Paginate from '../../components/Paginate';
+import Sort from '../../components/Sort';
+import sortBy from '../../utils/sortBy';
+import * as actions from './../../actions';
 
 function AllProduct() {
     const { t } = useTranslation();
@@ -56,7 +57,9 @@ function AllProduct() {
     }, [page])
 
     const handleChangeSort = (event) => {
-        console.log(parseInt(event.target.value));
+        const sortId = parseInt(event.target.value);
+        const newListProduct = sortBy(sortId, filterProducts, t);
+        dispatch(actions.actSortProduct(newListProduct, sortId));
     }
 
     const handleChangePage = (event, value) => {

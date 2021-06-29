@@ -150,8 +150,47 @@ export const actChangeFilterProductData = (products) => {
     }
 }
 
-export const actResetFilterProduct = () => {
+export const actResetFilterProduct = (t) => {
     return{
-        type: types.RESET_FILTER_PRODUCT
+        type: types.RESET_FILTER_PRODUCT,
+        payload: t
+    }
+}
+
+export const actAddBrandId = (id) => {
+    return{
+        type: types.ADD_BRAND_ID,
+        payload: id
+    }
+}
+
+export const actRemoveBrandId = (id) => {
+    return{
+        type: types.REMOVE_BRAND_ID,
+        payload: id
+    }
+}
+
+export const actChangePrice = (priceId) => {
+    return{
+        type: types.CHANGE_PRICE,
+        payload: priceId
+    }
+}
+
+export const actChangeRating = (ratingId) => {
+    return{
+        type: types.CHANGE_RATING,
+        payload: ratingId
+    }
+}
+
+export const actSortProduct = (products, sortId) => {
+    return{
+        type: types.SORT_PRODUCT,
+        payload: {
+            products,
+            sortId
+        }
     }
 }
