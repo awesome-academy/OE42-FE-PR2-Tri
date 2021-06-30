@@ -14,7 +14,9 @@
             "totalRating": 4,
             "categoryId": "men-clothes",
             "brandId": 1,
-            "quantitySold": 5
+            "quantitySold": 5,
+            "description": "- material: 2-way stretch cotton",
+            "information": ""
         },
         {
             "id": 2,
@@ -31,7 +33,9 @@
             "totalRating": 5,
             "categoryId": "men-clothes",
             "brandId": 5,
-            "quantitySold": 6
+            "quantitySold": 6,
+            "description": "- material: 2-way stretch cotton",
+            "information": ""
         },
         {
             "id": 3,
@@ -50,7 +54,9 @@
             "totalRating": 5,
             "categoryId": "women-clothes",
             "brandId": 1,
-            "quantitySold": 3
+            "quantitySold": 3,
+            "description": "- material: 2-way stretch cotton",
+            "information": ""
         },
         {
             "id": 4,
@@ -68,7 +74,9 @@
             "totalRating": 4,
             "categoryId": "women-clothes",
             "brandId": 1,
-            "quantitySold": 2
+            "quantitySold": 2,
+            "description": "- material: 2-way stretch cotton",
+            "information": ""
         },
         {
             "id": 5,
@@ -83,7 +91,9 @@
             "totalRating": 5,
             "categoryId": "men-clothes",
             "brandId": 4,
-            "quantitySold": 2
+            "quantitySold": 2,
+            "description": "- active, comfortable umbrella jacket. Simple style, cricket wear, from beautiful standard shirt - material: high quality canvas, soft and cool inner lining",
+            "information": ""
         },
         {
             "id": 6,
@@ -98,7 +108,9 @@
             "totalRating": 4,
             "categoryId": "women-clothes",
             "brandId": 4,
-            "quantitySold": 3
+            "quantitySold": 3,
+            "description": "- young dynamic jeans, from slim",
+            "information": ""
         },
         {
             "id": 7,
@@ -112,8 +124,10 @@
             ],
             "totalRating": 4,
             "categoryId": "kids-clothes",
-            "brandId": 5,
-            "quantitySold": 0
+            "brandId": 6,
+            "quantitySold": 0,
+            "description": "- material: 2-way stretch cotton",
+            "information": ""
         },
         {
             "id": 8,
@@ -129,7 +143,9 @@
             "totalRating": 5,
             "categoryId": "handbag-and-shoes",
             "brandId": 5,
-            "quantitySold": 4
+            "quantitySold": 4,
+            "description": "- basic, classic and elegant design Easy to combine with many outfits - meticulously designed to every stitch line",
+            "information": ""
         },
         {
             "id": 9,
@@ -146,8 +162,299 @@
             "totalRating": 0,
             "categoryId": "handbag-and-shoes",
             "brandId": 5,
-            "quantitySold": 5
-        }
+            "quantitySold": 5,
+            "description": "- basic, classic and elegant design Easy to combine with many outfits - meticulously designed to every stitch line",
+            "information": ""
+        },
+        {
+            "id": 10,
+            "productName": "men's collar t-shirt ATN0116",
+            "sale": 0,
+            "class": "",
+            "oldPrice": 220000,
+            "newPrice": 220000,
+            "images": [
+                "https://product.hstatic.net/1000096703/product/1_29d4b88ee1ec4bedae072d82bffde89a_master.jpg"
+            ],
+            "totalRating": 3,
+            "categoryId": "men-clothes",
+            "brandId": 1,
+            "quantitySold": 2,
+            "description": "- active, comfortable umbrella jacket. Simple style, cricket wear, from beautiful standard shirt - material: high quality canvas, soft and cool inner lining",
+            "information": ""
+        },
+        {
+            "id": 11,
+            "productName": "2-layer umbrella jacket AKD0030",
+            "sale": 0,
+            "class": "new",
+            "oldPrice": 295000,
+            "newPrice": 295000,
+            "images": [
+                "https://product.hstatic.net/1000096703/product/1_79d22def9b984445944e650813a85c94_master.jpg"
+            ],
+            "totalRating": 0,
+            "categoryId": "men-clothes",
+            "brandId": 5,
+            "quantitySold": 3,
+            "description": "- material: 2-way stretch cotton",
+            "information": ""
+        },
+        {
+            "id": 12,
+            "productName": "tweed hand bag HB0097",
+            "sale": 38,
+            "class": "",
+            "oldPrice": 865000,
+            "newPrice": 536000,
+            "images": [
+                "https://cdn.sablanca.vn/ImageProducts/hb0097/blu/hb0097_blu_1000x1000_5234341689.jpg",
+                "https://cdn.sablanca.vn/ImageProducts/hb0097/pik/hb0097_pik_1000x1000_5559301673.jpg"
+            ],
+            "totalRating": 5,
+            "categoryId": "handbag-and-shoes",
+            "brandId": 4,
+            "quantitySold": 8,
+            "description": "- the combination between leather and tweed fabric is delicate and beautiful - high quality synthetic leather material, soft, durable, beautiful",
+            "information": ""
+        },
+        {
+            "id": 13,
+            "productName": "men's and women's domba shoes",
+            "sale": 15,
+            "class": "",
+            "oldPrice": 1300000,
+            "newPrice": 1105000,
+            "images": [
+                "https://s4.shopbay.vn/files/289/giay-the-thao-domba-high-point-white-black-h-9111-size-42-5e5338049f9f6-24022020094212-5f896a4287314.jpg"
+            ],
+            "totalRating": 3,
+            "categoryId": "handbag-and-shoes",
+            "brandId": 4,
+            "quantitySold": 2,
+            "description": "- basic, classic and elegant design Easy to combine with many outfits - meticulously designed to every stitch line",
+            "information": ""
+        },
+        {
+            "id": 14,
+            "productName": "classic pleated handbag HB0122",
+            "sale": 11,
+            "class": "new",
+            "oldPrice": 745000,
+            "newPrice": 666000,
+            "images": [
+                "https://cdn.sablanca.vn/ImageProducts/hb0122/pur/hb0122_pur_1000x1000_1141834254.jpg",
+                "https://cdn.sablanca.vn/ImageProducts/hb0122/blk/hb0122_blk_1000x1000_1106753227.jpg"
+            ],
+            "totalRating": 4,
+            "categoryId": "handbag-and-shoes",
+            "brandId": 2,
+            "quantitySold": 5,
+            "description": "- the combination between leather and tweed fabric is delicate and beautiful - high quality synthetic leather material, soft, durable, beautiful",
+            "information": ""
+        },
+        {
+            "id": 15,
+            "productName": "handbag with stylized handle HB0108",
+            "sale": 0,
+            "class": "new",
+            "oldPrice": 825000,
+            "newPrice": 825000,
+            "images": [
+                "https://cdn.sablanca.vn/ImageProducts/hb0108/bei/hb0108_bei_1000x1000_0559494443.jpg",
+                "https://cdn.sablanca.vn/ImageProducts/hb0108/min/hb0108_min_1000x1000_0522680404.jpg"
+            ],
+            "totalRating": 0,
+            "categoryId": "handbag-and-shoes",
+            "brandId": 2,
+            "quantitySold": 0,
+            "description": "- the combination between leather and tweed fabric is delicate and beautiful - high quality synthetic leather material, soft, durable, beautiful",
+            "information": ""
+        },
+        {
+            "id": 16,
+            "productName": "pointed toe high heels with tweed fabric BN0144",
+            "sale": 14,
+            "class": "",
+            "oldPrice": 545000,
+            "newPrice": 466000,
+            "images": [
+                "https://cdn.sablanca.vn/ImageProducts/bn0144/nud/bn0144_nud_1000x1000_0155898358.jpg",
+                "https://cdn.sablanca.vn/ImageProducts/bn0144/nay/bn0144_nay_1000x1000_0140896493.jpg"
+            ],
+            "totalRating": 5,
+            "categoryId": "handbag-and-shoes",
+            "brandId": 4,
+            "quantitySold": 5,
+            "description": "- the combination between leather and tweed fabric is delicate and beautiful - high quality synthetic leather material, soft, durable, beautiful",
+            "information": ""
+        },
+        {
+            "id": 17,
+            "productName": "double layer umbrella jacket AKD0030",
+            "sale": 0,
+            "class": "",
+            "oldPrice": 295000,
+            "newPrice": 295000,
+            "images": [
+                "https://product.hstatic.net/1000096703/product/1_29c8093594f34770bec2dce1d04ca138_master.jpg"
+            ],
+            "totalRating": 2,
+            "categoryId": "men-clothes",
+            "brandId": 5,
+            "quantitySold": 0,
+            "description": "- active, comfortable umbrella jacket. Simple style, cricket wear, from beautiful standard shirt - material: high quality canvas, soft and cool inner lining",
+            "information": ""
+        },
+        {
+            "id": 18,
+            "productName": "cartoon pattern shirt SMN0076",
+            "sale": 0,
+            "class": "",
+            "oldPrice": 280000,
+            "newPrice": 280000,
+            "images": [
+                "https://product.hstatic.net/1000096703/product/1_c8b328a835794dc7890eab7908c4b9ff_master.jpg",
+                "https://product.hstatic.net/1000096703/product/1_d4c71c15a5494f1098116b7fb9035f47_master.jpg",
+                "https://product.hstatic.net/1000096703/product/1_0df6dcdaad294cde8da58b2a64af248b_master.jpg"
+            ],
+            "totalRating": 2,
+            "categoryId": "kids-clothes",
+            "brandId": 6,
+            "quantitySold": 0,
+            "description": "- material: 2-way stretch cotton",
+            "information": ""
+        },
+        {
+            "id": 19,
+            "productName": "patterned shirt SMN0068",
+            "sale": 0,
+            "class": "",
+            "oldPrice": 255000,
+            "newPrice": 255000,
+            "images": [
+                "https://product.hstatic.net/1000096703/product/1_c93ff7165e40482dbeb923c9239b5bcd_master.jpg",
+                "https://product.hstatic.net/1000096703/product/1_41b3d15b9bdb4015a60e80026c6b98ca_master.jpg"
+            ],
+            "totalRating": 1,
+            "categoryId": "kids-clothes",
+            "brandId": 6,
+            "quantitySold": 0,
+            "description": "- material: 2-way stretch cotton",
+            "information": ""
+        },
+        {
+            "id": 20,
+            "productName": "men's short sleeve shirt SMN0001",
+            "sale": 0,
+            "class": "",
+            "oldPrice": 220000,
+            "newPrice": 220000,
+            "images": [
+                "https://product.hstatic.net/1000096703/product/1_adfb63283e484f9097b792432c937b78_master.jpg",
+                "https://product.hstatic.net/1000096703/product/1_ce112ea96b5c49f1afd055db578945db_master.jpg",
+                "https://product.hstatic.net/1000096703/product/1_86b6ac9d04134e1b871542e5d308674a_master.jpg",
+                "https://product.hstatic.net/1000096703/product/1_eb513d5470274c3fbb9505242163e9c6_master.jpg"
+            ],
+            "totalRating": 3,
+            "categoryId": "men-clothes",
+            "brandId": 5,
+            "quantitySold": 0,
+            "description": "- material: 2-way stretch cotton",
+            "information": ""
+        },
+        {
+            "id": 21,
+            "productName": "men's kaki shorts QSK0049",
+            "sale": 0,
+            "class": "",
+            "oldPrice": 220000,
+            "newPrice": 220000,
+            "images": [
+                "https://product.hstatic.net/1000096703/product/1_73f549a609314e009a6f4d450496bc84_master.jpg",
+                "https://product.hstatic.net/1000096703/product/1_eacf61283609436ea71107edf8d42f59_master.jpg",
+                "https://product.hstatic.net/1000096703/product/0_52fd0d0ff26b4d4e8823c9e4ad58c0a9_master.jpg",
+                "https://product.hstatic.net/1000096703/product/1_d6122c4c31eb426faf8fd784f7fed2cb_master.jpg"
+            ],
+            "totalRating": 4,
+            "categoryId": "men-clothes",
+            "brandId": 4,
+            "quantitySold": 0,
+            "description": "- material: 2-way stretch cotton",
+            "information": ""
+        },
+        {
+            "id": 22,
+            "productName": "women's jean pants W2QJN1041006",
+            "sale": 0,
+            "class": "new",
+            "oldPrice": 440000,
+            "newPrice": 440000,
+            "images": [
+                "https://storage.googleapis.com/cdn.nhanh.vn/store/7136/ps/20210416/16042021110426_1.jpg"
+            ],
+            "totalRating": 4,
+            "categoryId": "women-clothes",
+            "brandId": 5,
+            "quantitySold": 3,
+            "description": "- young dynamic jeans, from slim",
+            "information": ""
+        },
+        {
+            "id": 23,
+            "productName": "women's T-shirt W2ATN2021028",
+            "sale": 0,
+            "class": "new",
+            "oldPrice": 185000,
+            "newPrice": 185000,
+            "images": [
+                "https://storage.googleapis.com/cdn.nhanh.vn/store/7136/ps/20210329/2914202131425_IMG_4397.jpg",
+                "https://storage.googleapis.com/cdn.nhanh.vn/store/7136/ps/20210329/2914202131439_IMG_4398.jpg",
+                "https://storage.googleapis.com/cdn.nhanh.vn/store/7136/ps/20210329/2914202131411_IMG_4395.jpg",
+                "https://storage.googleapis.com/cdn.nhanh.vn/store/7136/ps/20210329/2913202131359_IMG_4394.jpg"
+            ],
+            "totalRating": 4,
+            "categoryId": "women-clothes",
+            "brandId": 4,
+            "quantitySold": 3,
+            "description": "- material: 2-way stretch cotton",
+            "information": ""
+        },
+        {
+            "id": 24,
+            "productName": "baby girl dress 91084",
+            "sale": 0,
+            "class": "",
+            "oldPrice": 249000,
+            "newPrice": 249000,
+            "images": [
+                "https://product.hstatic.net/1000290074/product/91084__2__623f6dce0c0d4fb981149a2745548136_1024x1024.jpg"
+            ],
+            "totalRating": 3,
+            "categoryId": "kids-clothes",
+            "brandId": 6,
+            "quantitySold": 1,
+            "description": "- material: 2-way stretch cotton",
+            "information": ""
+        },
+        {
+            "id": 25,
+            "productName": "baby girl flower dress 90188",
+            "sale": 0,
+            "class": "",
+            "oldPrice": 139000,
+            "newPrice": 139000,
+            "images": [
+                "https://product.hstatic.net/1000290074/product/90188_758e9a525e184037b17cf4f45c829d2a_1024x1024.jpg",
+                "https://product.hstatic.net/1000290074/product/90188__2__4b8cf36936b2493995eeb291d6c29421_1024x1024.jpg"
+            ],
+            "totalRating": 3,
+            "categoryId": "kids-clothes",
+            "brandId": 6,
+            "quantitySold": 1,
+            "description": "- material: 2-way stretch cotton",
+            "information": ""
+        }      
     ],
     "ratings": [
         {
@@ -216,7 +523,7 @@
         },
         {
             "id": 3,
-            "nameBrand": "Nice"
+            "nameBrand": "Nike"
         },
         {
             "id": 4,

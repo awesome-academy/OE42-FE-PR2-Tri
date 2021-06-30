@@ -2,7 +2,7 @@ import * as types from './../constants/index';
 
 let initialState = {
     page: 1,
-    limit: 6
+    limit: 12
 }
 
 export const paginateReducer = (state = initialState, action) => {

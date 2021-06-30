@@ -9,6 +9,7 @@ import ContentHeader from '../../components/ContentHeader';
 import ListItem from '../../components/ListItem';
 import LoadingProduct from '../../components/LoadingProduct';
 import Paginate from '../../components/Paginate';
+import ScrollTop from '../../components/ScrollTop';
 import Sort from '../../components/Sort';
 import sortBy from '../../utils/sortBy';
 import * as actions from './../../actions';
@@ -69,7 +70,7 @@ function AllProduct() {
     return (
         <main className="main">
             <Container>
-                <ContentHeader label="all product" />
+                <ContentHeader label="all product" path="products" />
                 <Grid container spacing={3}>
                     <Grid item xs={12} sm={4} md={3}>
                         <Aside />
@@ -82,6 +83,7 @@ function AllProduct() {
                     </Grid>
                 </Grid>
             </Container>
+            <ScrollTop />
         </main>
     );
 }

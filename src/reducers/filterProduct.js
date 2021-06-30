@@ -15,6 +15,7 @@ export const filterProductReducer = (state = initialState, action) => {
         case types.CHANGE_FILTER_PRODUCT_DATA:
             return{
                 ...state,
+                sortId: 0,
                 filterProductData: [...action.payload],
                 permanentProduct: [...action.payload]
             };
