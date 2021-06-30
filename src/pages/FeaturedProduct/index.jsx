@@ -14,11 +14,11 @@ import Sort from '../../components/Sort';
 import sortBy from '../../utils/sortBy';
 import * as actions from './../../actions';
 
-function CategoryProduct() {
+function FeaturedProduct(props) {
     const { t } = useTranslation();
     const dispatch = useDispatch();
     const history = useHistory();
-    const { categoryId, pageId } = useParams();
+    const { pageId } = useParams();
 
     const loading = useSelector(state => state.loading);
     const products = useSelector(state => state.products);
@@ -32,16 +32,17 @@ function CategoryProduct() {
     const currentList = filterProducts.slice(indexOfFirstList, indexOfLastList);
 
     useEffect(() => {
-        document.title = t(`${categoryId.replace(/-/g, " ")}`);
+        document.title = t('featured products');
         dispatch(actions.actChangePage(parseInt(pageId)));
         dispatch(actions.actShowLoading());
 
-        const categoryProducts = products.filter(product => {
-            return product.categoryId === categoryId;
-        })
+        const featuredProducts = [...products].filter(product => {
+            return product.quantitySold > 0;
+        }).sort((a, b) => b.quantitySold - a.quantitySold);
+        console.log(featuredProducts);
 
         const loadingProduct = setTimeout(() => {
-            dispatch(actions.actChangeFilterProductData(categoryProducts));
+            dispatch(actions.actChangeFilterProductData(featuredProducts));
             dispatch(actions.actHideLoading());
         }, 1500);
 
@@ -49,10 +50,10 @@ function CategoryProduct() {
             dispatch(actions.actChangePage(1));
             clearTimeout(loadingProduct);
         }
-    }, [categoryId, products]);
+    }, [products]);
 
     useEffect(() => {
-        history.push(`/product/${categoryId}/page=${page}`);
+        history.push(`/featured-products/page=${page}`);
     }, [page])
 
     const handleChangeSort = (event) => {
@@ -68,7 +69,7 @@ function CategoryProduct() {
     return (
         <main className="main">
             <Container>
-                <ContentHeader label="all products" path="products" label_2={categoryId.replace(/-/g, " ")} />
+                <ContentHeader label="all products" path="products" label_2="featured products" />
                 <Grid container spacing={3}>
                     <Grid item xs={12} sm={4} md={3}>
                         <Aside />
@@ -86,4 +87,4 @@ function CategoryProduct() {
     );
 }
 
-export default CategoryProduct;
+export default FeaturedProduct;

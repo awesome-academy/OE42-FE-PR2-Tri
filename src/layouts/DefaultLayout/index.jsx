@@ -4,6 +4,7 @@ import Footer from '../../components/Footer';
 import Header from '../../components/Header';
 import AllProduct from '../../pages/AllProduct';
 import CategoryProduct from '../../pages/CategoryProduct';
+import FeaturedProduct from '../../pages/FeaturedProduct';
 import Home from '../../pages/Home';
 import RecentlyViewedProduct from '../../pages/RecentlyViewedProduct';
 
@@ -28,6 +29,9 @@ function DefaultLayout() {
 
                 <Route path={`${match.url}product/:categoryId/page=:pageId`} component={CategoryProduct} />
                 <Redirect exact from={`${match.url}product/:categoryId`} to={`${match.url}product/:categoryId/page=1`} />
+
+                <Route path={`${match.url}featured-products/page=:pageId`} component={FeaturedProduct} />
+                <Redirect exact from={`${match.url}featured-products`} to={`${match.url}featured-products/page=1`} />
             </Switch>
             <Footer />
         </>

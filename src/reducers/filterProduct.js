@@ -31,8 +31,9 @@ export const filterProductReducer = (state = initialState, action) => {
             };
         case types.ADD_BRAND_ID:
             const {brandId} = state;
-            brandId.push(action.payload);
-            const addBrandsProducts = filterProduct({...state, brandId: brandId});
+            brandId.push(action.payload.brandId);
+            let addBrandsProducts = filterProduct({...state, brandId: brandId});
+                addBrandsProducts = sortBy(state.sortId, addBrandsProducts, action.payload.t);
             return{
                 ...state,
                 brandId: brandId,
@@ -40,26 +41,31 @@ export const filterProductReducer = (state = initialState, action) => {
             }
         case types.REMOVE_BRAND_ID:
             const brand_id = state.brandId;
-            const index = brand_id.findIndex(b => b === action.payload);
+            const index = brand_id.findIndex(b => b === action.payload.brandId);
             brand_id.splice(index, 1);
-            const removeBrandsProducts = filterProduct({...state, brandId: brand_id});
+            let removeBrandsProducts = filterProduct({...state, brandId: brand_id});
+                removeBrandsProducts = sortBy(state.sortId, removeBrandsProducts, action.payload.t);
             return{
                 ...state,
                 brandId: brand_id,
                 filterProductData: [...removeBrandsProducts]
             };
         case types.CHANGE_PRICE:
-            const changePriceProducts = filterProduct({...state, priceId: action.payload});
+            const {priceId} = action.payload;
+            let changePriceProducts = filterProduct({...state, priceId: priceId});
+                changePriceProducts = sortBy(state.sortId, changePriceProducts, action.payload.t);
             return{
                 ...state,
-                priceId: action.payload,
+                priceId: priceId,
                 filterProductData: [...changePriceProducts]
             };
         case types.CHANGE_RATING:
-            const changeRatingProducts = filterProduct({...state, rating: action.payload});
+            const {ratingId} = action.payload
+            let changeRatingProducts = filterProduct({...state, rating: ratingId});
+                changeRatingProducts = sortBy(state.sortId, changeRatingProducts, action.payload.t);
             return{
                 ...state,
-                rating: action.payload,
+                rating: ratingId,
                 filterProductData: [...changeRatingProducts]
             };
         case types.SORT_PRODUCT:
