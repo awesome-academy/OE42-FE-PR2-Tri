@@ -28,19 +28,19 @@ function Aside(props) {
     const handleChangeBrandId = (event) => {
         const id = parseInt(event.target.value);
         if (event.target.checked) {
-            dispatch(actions.actAddBrandId(id));
+            dispatch(actions.actAddBrandId(id, t));
         } else {
-            dispatch(actions.actRemoveBrandId(id));
+            dispatch(actions.actRemoveBrandId(id, t));
         }
         dispatch(actions.actChangePage(1));
     }
     const handleChangePriceId = (id) => {
-        dispatch(actions.actChangePrice(id));
+        dispatch(actions.actChangePrice(id, t));
         dispatch(actions.actChangePage(1));
     }
 
     const handleChangeRating = (rating) => {
-        dispatch(actions.actChangeRating(rating));
+        dispatch(actions.actChangeRating(rating, t));
         dispatch(actions.actChangePage(1));
     }
 

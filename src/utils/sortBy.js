@@ -1,3 +1,4 @@
+import removeVietnameseTones from "./removeVietnameseTones";
 
 const sortByName = (field, reverse, primer) => {
 
@@ -16,11 +17,11 @@ const sortBy = (sortId, filterProducts, t) => {
     switch(sortId){
         case 1:
             return filterProducts.sort(sortByName('productName', false, (name) => {
-                return t(`${name}`).toLowerCase();
+                return removeVietnameseTones(t(`${name}`).toLowerCase());
             }));
         case 2:
             return filterProducts.sort(sortByName('productName', true, (name) => {
-                return t(`${name}`).toLowerCase();
+                return removeVietnameseTones(t(`${name}`).toLowerCase());
             }));
         case 3:
             return filterProducts.sort((a, b) => {

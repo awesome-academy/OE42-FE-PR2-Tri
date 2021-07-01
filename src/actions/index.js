@@ -157,31 +157,43 @@ export const actResetFilterProduct = (t) => {
     }
 }
 
-export const actAddBrandId = (id) => {
+export const actAddBrandId = (id, t) => {
     return{
         type: types.ADD_BRAND_ID,
-        payload: id
+        payload: {
+            brandId: id,
+            t
+        }
     }
 }
 
-export const actRemoveBrandId = (id) => {
+export const actRemoveBrandId = (id, t) => {
     return{
         type: types.REMOVE_BRAND_ID,
-        payload: id
+        payload: {
+            brandId: id,
+            t
+        }
     }
 }
 
-export const actChangePrice = (priceId) => {
+export const actChangePrice = (priceId, t) => {
     return{
         type: types.CHANGE_PRICE,
-        payload: priceId
+        payload: {
+            priceId,
+            t
+        }
     }
 }
 
-export const actChangeRating = (ratingId) => {
+export const actChangeRating = (ratingId, t) => {
     return{
         type: types.CHANGE_RATING,
-        payload: ratingId
+        payload: {
+            ratingId,
+            t
+        }
     }
 }
 

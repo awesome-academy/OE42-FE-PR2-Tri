@@ -36,7 +36,7 @@ function ListItem({ products }) {
                             </div>
                         </div>
                         <div className="des">
-                            <h5 className="product__name">{t(`${product.productName}`)}</h5>
+                            <h5 className="product__name" title={t(`${product.productName}`)}>{t(`${product.productName}`)}</h5>
                             <Rating className="product__rating" name="read-only" value={product.totalRating} readOnly />
                             <div className="product__price">
                                 <span className="new__price">{product.newPrice.toLocaleString()}đ</span>
