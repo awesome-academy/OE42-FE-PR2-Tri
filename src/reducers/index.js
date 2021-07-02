@@ -8,6 +8,8 @@ import newsReducer from './news';
 import brandsReducer from './brands';
 import paginateReducer from './paginate';
 import filterProductReducer from './filterProduct';
+import detailProductReducer from './detailProduct';
+import sizesReducer from './sizes';
 
 const rootReducer = combineReducers({
     loading: loadingReducer,
@@ -18,7 +20,9 @@ const rootReducer = combineReducers({
     news: newsReducer,
     brands: brandsReducer,
     paginate: paginateReducer,
-    filterProduct: filterProductReducer
+    filterProduct: filterProductReducer,
+    detailProduct: detailProductReducer,
+    sizes: sizesReducer
 });
 
 export default rootReducer;

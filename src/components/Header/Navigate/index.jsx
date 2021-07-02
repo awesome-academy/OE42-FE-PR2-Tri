@@ -9,7 +9,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 import {
     actCheckCallApi, actFetchCategories,
-    actFetchProducts, actFetchNews
+    actFetchProducts, actFetchNews, actFetchSizes
 } from './../../../actions';
 
 function Navigate() {
@@ -23,6 +23,7 @@ function Navigate() {
             dispatch(actFetchCategories());
             dispatch(actFetchProducts());
             dispatch(actFetchNews());
+            dispatch(actFetchSizes());
         }
         return () => {
             dispatch(actCheckCallApi(false));
