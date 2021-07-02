@@ -4,9 +4,11 @@ import Footer from '../../components/Footer';
 import Header from '../../components/Header';
 import AllProduct from '../../pages/AllProduct';
 import CategoryProduct from '../../pages/CategoryProduct';
+import Detail from '../../pages/Detail';
 import FeaturedProduct from '../../pages/FeaturedProduct';
 import Home from '../../pages/Home';
 import RecentlyViewedProduct from '../../pages/RecentlyViewedProduct';
+import SearchProduct from '../../pages/SearchProduct';
 
 function DefaultLayout() {
     const match = useRouteMatch();
@@ -32,6 +34,11 @@ function DefaultLayout() {
 
                 <Route path={`${match.url}featured-products/page=:pageId`} component={FeaturedProduct} />
                 <Redirect exact from={`${match.url}featured-products`} to={`${match.url}featured-products/page=1`} />
+
+                <Route path={`${match.url}detail/:slug.:id`} component={Detail} />
+
+                <Route path={`${match.url}search_query=:keyword/page=:pageId`} component={SearchProduct} />
+                <Redirect exact from={`${match.url}search_query=:keyword`} to={`${match.url}search_query=:keyword/page=1`} />
             </Switch>
             <Footer />
         </>

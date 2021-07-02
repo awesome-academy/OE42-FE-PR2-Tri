@@ -7,6 +7,7 @@ import SearchIcon from '@material-ui/icons/Search';
 import FavoriteIcon from '@material-ui/icons/Favorite';
 import { Link } from 'react-router-dom';
 import Rating from '@material-ui/lab/Rating';
+import toSlug from './../../utils/toSlug';
 
 MultipleCarousel.propTypes = {
     products: PropTypes.array,
@@ -74,8 +75,8 @@ function MultipleCarousel({ label, products }) {
                                 <img src={product.images[0]} alt={`link ${product.productName} error`} />
                                 <img className="img__hover" src={product.images[0]} alt={`link ${product.productName} error`} />
                                 <div className="button__icon">
-                                    <Link to="/"><SearchIcon /></Link>
-                                    <a href="#"><FavoriteIcon /></a>
+                                    <a href={`/detail/${toSlug(product.productName)}.${product.id}`}><SearchIcon /></a>
+                                    <Link to="/"><FavoriteIcon /></Link>
                                 </div>
                                 <div className="product__sale-and-new">
                                     {product.class !== "" ? <span className="new">{product.class}</span> : null}
