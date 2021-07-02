@@ -113,6 +113,15 @@ function Home() {
                         <span></span>
                     </div>
                 </section>
+                <section className="section__news">
+                    <News label="news" news={news} />
+                    <div className="section__btn">
+                        <Link to="/news" className="btn__see-more">
+                            <ArrowRightAltIcon /> {t('see more')}
+                        </Link>
+                        <span></span>
+                    </div>
+                </section>
             </Container>
             <ScrollTop />
         </main>
