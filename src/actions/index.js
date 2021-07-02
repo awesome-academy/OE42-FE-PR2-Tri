@@ -206,3 +206,58 @@ export const actSortProduct = (products, sortId) => {
         }
     }
 }
+
+export const actDetailProduct = (product) => {
+    return{
+        type: types.DETAIL_PRODUCT,
+        payload: product
+    }
+}
+
+export const actRelatedProduct = (products) => {
+    return{
+        type: types.RELATED_PRODUCT,
+        payload: products
+    }
+}
+
+export const actChangeQuantityDetail = (quantity) => {
+    return{
+        type: types.CHANGE_QUANTITY_DETAIL,
+        payload: quantity
+    }
+}
+
+export const actChangeSizeDetail = (sizeId) => {
+    return{
+        type: types.CHANGE_SIZE_DETAIL,
+        payload: sizeId
+    }
+}
+
+export const actChangeImageDetail = (image) => {
+    return{
+        type: types.CHANGE_IMAGE_DETAIL,
+        payload: image
+    }
+}
+
+export const actFetchSizes = () => {
+    return{
+        type: types.FETCH_SIZES
+    }
+}
+
+export const actFetchSizesSuccess = (sizes) => {
+    return{
+        type: types.FETCH_SIZES_SUCCESS,
+        payload: sizes
+    }
+}
+
+export const actFetchSizesFailed = (error) => {
+    return{
+        type: types.FETCH_SIZES_FAILED,
+        payload: error
+    }
+}
