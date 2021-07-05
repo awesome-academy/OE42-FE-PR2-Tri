@@ -39,6 +39,8 @@ function DefaultLayout() {
 
                 <Route path={`${match.url}search_query=:keyword/page=:pageId`} component={SearchProduct} />
                 <Redirect exact from={`${match.url}search_query=:keyword`} to={`${match.url}search_query=:keyword/page=1`} />
+
+                <Redirect exact from="*" to="/404" />
             </Switch>
             <Footer />
         </>
