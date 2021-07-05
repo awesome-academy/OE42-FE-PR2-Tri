@@ -7,6 +7,7 @@ import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import Grid from '@material-ui/core/Grid';
 import './ListItem.scss';
+import toSlug from './../../utils/toSlug';
 
 ListItem.propTypes = {
     products: PropTypes.array,
@@ -27,7 +28,7 @@ function ListItem({ products }) {
                             <img src={product.images[0]} alt={`link ${product.productName} error`} />
                             <img className="img__hover" src={product.images[0]} alt={`link ${product.productName} error`} />
                             <div className="button__icon">
-                                <Link to="/"><SearchIcon /></Link>
+                                <a href={`/detail/${toSlug(product.productName)}.${product.id}`}><SearchIcon /></a>
                                 <Link to="/"><FavoriteIcon /></Link>
                             </div>
                             <div className="product__sale-and-new">

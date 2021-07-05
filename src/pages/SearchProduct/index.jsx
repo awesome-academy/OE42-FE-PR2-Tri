@@ -11,16 +11,19 @@ import LoadingProduct from '../../components/LoadingProduct';
 import Paginate from '../../components/Paginate';
 import ScrollTop from '../../components/ScrollTop';
 import Sort from '../../components/Sort';
+import removeVietnameseTones from '../../utils/removeVietnameseTones';
 import sortBy from '../../utils/sortBy';
 import * as actions from './../../actions';
 
-function RecentlyViewedProduct() {
+function SearchProduct() {
     const { t } = useTranslation();
     const dispatch = useDispatch();
     const history = useHistory();
-    const { pageId } = useParams();
+    const { keyword, pageId } = useParams();
 
     const loading = useSelector(state => state.loading);
+    const products = useSelector(state => state.products);
+    const search = useSelector(state => state.search);
     const filterProducts = useSelector(state => state.filterProduct.filterProductData);
     const limit = useSelector(state => state.paginate.limit);
     const page = useSelector(state => state.paginate.page);
@@ -31,36 +34,33 @@ function RecentlyViewedProduct() {
     const currentList = filterProducts.slice(indexOfFirstList, indexOfLastList);
 
     useEffect(() => {
-        document.title = `${t('recently viewed products')}`;
-        dispatch(actions.actChangePage(parseInt(pageId)));
-
-        return () => {
-            dispatch(actions.actChangePage(1));
-        }
-    }, []);
+        dispatch(actions.actSearchProduct(keyword));
+    }, [keyword]);
 
     useEffect(() => {
+        history.push(`/search_query=${keyword}/page=${page}`);
+    }, [page]);
+
+    useEffect(() => {
+        document.title = `${t('search')} ${search}`;
+        dispatch(actions.actChangePage(parseInt(pageId)));
         dispatch(actions.actShowLoading());
-        const productsJSON = localStorage.getItem('recentlyViewedProduct');
-        if (productsJSON) {
-            const recentlyViewedProduct = JSON.parse(productsJSON);
-            dispatch(actions.actChangeFilterProductData(recentlyViewedProduct));
-        } else {
-            dispatch(actions.actChangeFilterProductData([]));
-        }
+
+        const searchProduct = products.filter((product) => {
+            return removeVietnameseTones(t(product.productName)
+                .toLowerCase()).includes(removeVietnameseTones(search).toLowerCase());
+        });
+
         const loadingProduct = setTimeout(() => {
+            dispatch(actions.actChangeFilterProductData(searchProduct));
             dispatch(actions.actHideLoading());
         }, 1500);
 
         return () => {
+            dispatch(actions.actChangePage(1));
             clearTimeout(loadingProduct);
         }
-
-    }, [])
-
-    useEffect(() => {
-        history.push(`/recently-viewed-products/page=${page}`);
-    }, [page])
+    }, [search, products]);
 
     const handleChangeSort = (event) => {
         const sortId = parseInt(event.target.value);
@@ -75,7 +75,7 @@ function RecentlyViewedProduct() {
     return (
         <main className="main">
             <Container>
-                <ContentHeader label="all product" path="products" label_2="recently viewed products" />
+                <ContentHeader label="all product" path="products" label_2={`${t('keyword search')} = ${search}`} />
                 <Grid container spacing={3}>
                     <Grid item xs={12} sm={4} md={3}>
                         <Aside />
@@ -90,7 +90,7 @@ function RecentlyViewedProduct() {
             </Container>
             <ScrollTop />
         </main>
-    );
+    )
 }
 
-export default RecentlyViewedProduct;
+export default SearchProduct;

@@ -6,15 +6,17 @@ import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
 import React, { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useDispatch, useSelector } from 'react-redux';
-import { Link } from 'react-router-dom';
+import { Link, useHistory } from 'react-router-dom';
 import {
     actCheckCallApi, actFetchCategories,
-    actFetchProducts, actFetchNews
+    actFetchProducts, actFetchNews,
+    actFetchSizes, actSearchProduct
 } from './../../../actions';
 
 function Navigate() {
     const { t } = useTranslation();
     const dispatch = useDispatch();
+    const history = useHistory();
     const categories = useSelector(state => state.categories);
     const checkCallApi = useSelector(state => state.checkCallApi);
 
@@ -23,12 +25,19 @@ function Navigate() {
             dispatch(actFetchCategories());
             dispatch(actFetchProducts());
             dispatch(actFetchNews());
+            dispatch(actFetchSizes());
         }
         return () => {
             dispatch(actCheckCallApi(false));
         }
     }, []);
 
+    const handleSearch = (event) => {
+        event.preventDefault();
+        const search = event.target.search.value;
+        dispatch(actSearchProduct(search));
+        history.push(`/search_query=${search}/page=1`);
+    }
 
     return (
         <div className="header__wrapper-content">
@@ -75,8 +84,8 @@ function Navigate() {
                         </li>
                     </ul>
                     <div className="header__content-right">
-                        <form>
-                            <input type="text" placeholder={t("search product")} />
+                        <form onSubmit={handleSearch}>
+                            <input type="text" name="search" placeholder={t("search product")} />
                             <button type="submit">
                                 <SearchIcon />
                             </button>
