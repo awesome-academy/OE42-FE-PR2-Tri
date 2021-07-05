@@ -33,6 +33,80 @@
             color: $color-light;
             height: 100%;
 
+            .user{
+                display: flex;
+                align-items: center;
+                height: 100%;
+                border-right: 1px solid $border-dark-light;
+                padding: 0 0.5rem;
+                cursor: pointer;
+                position: relative;
+
+                .avatar{
+                    @include circle(25px);
+                    margin-right: 0.5rem;
+                }
+
+                &__sub-menu{
+                    position: absolute;
+                    background: $color-dark-weight;
+                    top: 45px;
+                    right: 0;
+                    z-index: 10;
+                    width: 170px;
+                    padding: 5px 0 10px;
+                    opacity: 0;
+                    visibility: hidden;
+                    @include transition-ease-in-out;
+
+                    li{
+                        display: flex;
+                        align-items: center;
+                        line-height: 1.6;
+
+                        svg{
+                            font-size: 1.125rem;
+                            margin-right: 0.25rem;
+                            @include transition-ease-in-out;
+                        }
+
+                        a{
+                            border: 0;
+                            padding: 0;
+                            text-transform: capitalize;
+                            @include transition-ease-in-out;
+                        }
+
+                        span{
+                            text-transform: capitalize;
+                            @include transition-ease-in-out;
+                        }
+
+                        &:hover{
+                            svg{
+                                color: $color-time;
+                            }
+                                
+                            a{
+                                color: $color-time;
+                            }
+
+                            span{
+                                color: $color-time;
+                            }
+                        }
+                    }
+                }
+
+                &:hover{
+                    .user__sub-menu{
+                        top: 35px;
+                        opacity: 1;
+                        visibility: visible;
+                    }
+                }
+            }
+
             a{
                 display: flex;
                 color: $color-light;

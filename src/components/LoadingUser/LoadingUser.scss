@@ -1,7 +1,7 @@
 @import './../../styles/styles.scss';
 
 .loading__user{
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
@@ -9,4 +9,5 @@
     @include flexCenter(column);
     overflow: hidden;
     background: rgba($color-black-weight, 0.2);
+    z-index: 10;
 }
