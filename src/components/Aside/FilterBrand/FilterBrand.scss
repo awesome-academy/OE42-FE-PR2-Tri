@@ -14,16 +14,26 @@
     }
 
     &-content{
+        li{
+           line-height: 1.6;
 
-        label{
-            height: 2rem;
-            color: $color-grey;
-            @include transition-ease-in-out;
-
-            &:hover{
-                color: $color-blue-hover;
-                text-transform: 0px 0px 6px $color-blue-hover;
+            input{
+                @include width-height(0.9375rem, 0.9375rem);
+                cursor: pointer;
             }
-        }
+
+            label{
+                color: $color-grey;
+                @include transition-ease-in-out;
+                cursor: pointer;
+                margin-left: 0.5rem;
+                font-size: 1.125rem;
+
+                &:hover{
+                    color: $color-blue-hover;
+                    text-shadow: 0px 0px 4px $color-blue-hover;
+                }
+            }
+        }  
     }
 }

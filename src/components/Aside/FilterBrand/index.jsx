@@ -1,6 +1,3 @@
-import Checkbox from '@material-ui/core/Checkbox';
-import FormControlLabel from '@material-ui/core/FormControlLabel';
-import FormGroup from '@material-ui/core/FormGroup';
 import PropTypes from 'prop-types';
 import React from 'react';
 import './FilterBrand.scss';
@@ -21,16 +18,14 @@ function FilterBrand({ brands, label, handleChangeBrandId }) {
     return (
         <div className="filter__brands">
             <p className="filter__brands-title">{label}</p>
-            <FormGroup className="filter__brands-content">
+            <ul className="filter__brands-content">
                 {brands.map((brand) => (
-                    <FormControlLabel
-                        key={brand.id}
-                        control={<Checkbox onChange={handleChangeBrandId} value={brand.id} />}
-                        label={brand.nameBrand}
-                    />
-
+                    <li key={brand.id}>
+                        <input type="checkbox" id={`brand-${brand.id}`} value={brand.id} onChange={handleChangeBrandId} />
+                        <label htmlFor={`brand-${brand.id}`}>{brand.nameBrand}</label>
+                    </li>
                 ))}
-            </FormGroup>
+            </ul>
         </div>
     );
 }

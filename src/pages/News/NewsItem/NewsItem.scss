@@ -1,0 +1,121 @@
+@import './../../../styles/styles.scss';
+
+.news__item{
+    display: flex;
+    width: 100%;
+    margin-bottom: 2.25rem;
+    border: 1px solid $border-dark-light;
+    border-radius: 8px;
+    box-shadow: 1px 1px 6px $border-dark-light;
+    overflow: hidden;
+
+    .news__img-wrapper{
+        @include width-height(50%, 270px);
+        margin-right: 1rem;
+
+        img{
+            @include width-height(100%, 100%);
+        }
+    }
+
+    .news__info{
+        width: 50%;
+        padding-top: 0.5rem;
+        padding-right: 1rem;
+        
+        &-title{
+            text-transform: capitalize;
+            font-size: 1.125rem;
+            font-weight: 600;
+            color: $color-grey;
+            @include transition-ease-in-out;
+
+            &:hover{
+                color: $color-blue-hover;
+            }
+        }
+
+        &-posted{
+            margin-top: 0.5rem;
+            display: flex;
+
+            li{
+                margin-right: 1rem;
+                display: inline-flex;
+                color: $color-dark;
+
+                span{
+                    font-size: 0.875rem;
+                    margin-top: 0.0625rem;
+                }
+
+                svg{
+                    color: $color-time;
+                    font-size: 1rem;
+                }
+            }
+        }
+
+        &-des{
+            margin: 1rem 0;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid $border-dark-light;
+
+            p{
+                line-height: 1.3;
+                color: $color-dark;
+                font-size: 1.0625rem;
+                overflow: hidden;
+                display: -webkit-box;
+                -webkit-line-clamp: 5;
+                -webkit-box-orient: vertical;
+            }
+        }
+
+        &-footer{
+            display: flex;
+
+            li{
+                display: inline-flex;
+                align-items: center;
+                margin-right: 0.75rem;
+                color: $color-dark;
+                
+                svg{
+                    font-size: 1rem;
+                    margin-right: 0.125rem;
+                    color: $color-blue-hover;
+                }
+
+                span{
+                    text-shadow: 0px 0px 1px $color-grey;
+                    font-size: 0.875rem;
+                    text-transform: capitalize;
+                }
+                
+                a{
+                    @extend li;
+                    color: $color-grey;
+                    font-size: 1rem;
+                    text-transform: capitalize;
+                    @include transition-ease-in-out;
+
+                    svg{
+                        margin-left: 0.125rem;
+                        color: $color-grey;
+                        font-size: 1.25rem;
+                        @include transition-ease-in-out;
+                    }
+
+                    &:hover{
+                        color: $color-blue-hover;
+                        
+                        svg{
+                            color: $color-blue-hover;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
