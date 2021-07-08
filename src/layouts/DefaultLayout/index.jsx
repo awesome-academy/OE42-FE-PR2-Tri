@@ -4,6 +4,7 @@ import Footer from '../../components/Footer';
 import Header from '../../components/Header';
 import AllProduct from '../../pages/AllProduct';
 import CategoryProduct from '../../pages/CategoryProduct';
+import Contact from '../../pages/Contact';
 import Detail from '../../pages/Detail';
 import FeaturedProduct from '../../pages/FeaturedProduct';
 import Home from '../../pages/Home';
@@ -42,6 +43,7 @@ function DefaultLayout() {
                 <Redirect exact from={`${match.url}search_query=:keyword`} to={`${match.url}search_query=:keyword/page=1`} />
 
                 <Route path="/news" component={News} />
+                <Route path="/contact" component={Contact} />
                 <Redirect exact from="*" to="/404" />
             </Switch>
             <Footer />

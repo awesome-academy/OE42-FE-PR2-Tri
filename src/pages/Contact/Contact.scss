@@ -1,0 +1,135 @@
+@import './../../styles/styles.scss';
+
+.map{
+    @include width-height(100%, 500px);
+    margin-bottom: 3rem;
+
+    iframe{
+        @include width-height(100%, 100%);
+    }
+}
+
+.contact__content{
+    margin-bottom: 5rem !important;
+
+    &-left{
+
+        h5{
+            text-transform: uppercase;
+            color: $color-blue;
+            font-weight: 600;
+            font-size: 1.0625rem;
+            margin-bottom: 1.5rem;
+        }
+
+        form{
+
+            .item{
+                margin-bottom: 1.75rem;
+
+                label {
+                    position: relative;
+                    font-size: 0.85rem;
+                    color: $color-grey;
+                    text-transform: capitalize;
+
+                    &::before {
+                        position: absolute;
+                        content: '\2736';
+                        color: $color-danger;
+                        font-size: 0.625rem;
+                        right: -10px;
+                        top: -2px;
+                    }
+
+                    &::after {
+                        position: absolute;
+                        content: ':';
+                        color: #dc3545;
+                        font-size: 0.75rem;
+                        right: -14px;
+                        top: 0px;
+                        font-weight: 600;
+                    }
+                }
+
+                input {
+                    border: 1px solid $border-dark-light;
+                    @include width-height(100%, 42px);
+                    color: $color-grey;
+                    font-size: 0.85rem;
+                    padding-left: 1.125rem;
+                    margin-top: 0.5rem;
+                    @include transition-ease-in-out;
+
+                    &:focus {
+                        border-color: $color-blue-hover;
+                    }
+                }
+
+                textarea {
+                    @extend input;
+                    height: 230px;
+                    resize: none;
+                }
+            }
+
+            .btn__send{
+                float: right;
+                padding: 10px 20px;
+                background: $color-time;
+                cursor: pointer;
+                border-radius: 50px;
+                color: $color-white;
+                border: 1px solid $color-time;
+                @include transition-ease-in-out;
+                
+                &:hover{
+                    background: $color-white;
+                    color: $color-time;
+                }
+            }
+        }
+    }
+
+    &-right{
+
+        .logo{
+            color: $color-blue;
+            font-size: 2.25rem;
+            font-weight: 700;
+            margin: 1.5rem 0 1.75rem;
+
+            &::first-letter{
+                color: red;
+                font-size: 3rem;
+            }
+        }
+
+        .text{
+            line-height: 1.3;
+            color: $color-grey;
+            margin-bottom: 2rem;
+            font-size: 0.9375rem;
+        }
+
+        ul{
+            
+            li{
+                color: $color-grey;
+                line-height: 1.4;
+
+                span{
+                    display: flex;
+                    align-items: center;
+
+                    svg{
+                        font-size: 1.125rem;
+                        margin-right: 0.25rem;
+                        color: $color-blue;
+                    }
+                }              
+            }
+        }
+    }
+}
