@@ -1,5 +1,6 @@
 import React from 'react';
 import './NotFound.scss';
+import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next'
 
 function NotFound() {
@@ -36,7 +37,7 @@ function NotFound() {
                 <div className="text">
                     <article>
                         <p>{t('maybe you got lost')}<br />{t('return to the homepage if you want')}!</p>
-                        <a href="/">{t('come back')}</a>
+                        <Link to="/">{t('come back')}</Link>
                     </article>
                 </div>
 
