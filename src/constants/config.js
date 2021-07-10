@@ -44,3 +44,50 @@ export const prices = [
         price: "1.000.000đ"
     }
 ]
+
+export const unStyled = [
+    {
+        name: "introducing TMart",
+        path: "/introduce",
+    },
+    {
+        name: "contact",
+        path: "/contact"
+    },
+    {
+        name: "recruitment",
+        path: "/introduce"
+    },
+    {
+        name: "map",
+        path: "/contact"
+    },
+    {
+        name: "privacy policy",
+        path: "/introduce"
+    },
+    {
+        name: "ordering guide",
+        path: "/introduce"
+    },
+    {
+        name: "size guide",
+        path: "/introduce"
+    },
+    {
+        name: "payment policy - delivery",
+        path: "/introduce"
+    },
+    {
+        name: "exchange policy",
+        path: "/introduce"
+    },
+    {
+        name: "vip guest policy",
+        path: "/introduce"
+    },
+    {
+        name: "frequently asked questions",
+        path: "/introduce"
+    }
+]

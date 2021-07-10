@@ -8,6 +8,7 @@ import Contact from '../../pages/Contact';
 import Detail from '../../pages/Detail';
 import FeaturedProduct from '../../pages/FeaturedProduct';
 import Home from '../../pages/Home';
+import Introduce from '../../pages/Introduce';
 import News from '../../pages/News';
 import RecentlyViewedProduct from '../../pages/RecentlyViewedProduct';
 import SearchProduct from '../../pages/SearchProduct';
@@ -42,6 +43,7 @@ function DefaultLayout() {
                 <Route path={`${match.url}search_query=:keyword/page=:pageId`} component={SearchProduct} />
                 <Redirect exact from={`${match.url}search_query=:keyword`} to={`${match.url}search_query=:keyword/page=1`} />
 
+                <Route path="/introduce" component={Introduce} />
                 <Route path="/news" component={News} />
                 <Route path="/contact" component={Contact} />
                 <Redirect exact from="*" to="/404" />

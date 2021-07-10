@@ -1,0 +1,142 @@
+@import './../../styles/styles.scss';
+
+.introduce__content{
+    margin-bottom: 3rem !important;
+
+    &-left{
+
+        .introduce__img-wrapper{
+            width: 100%;
+            position: relative;
+            @include flexCenter(row);
+
+            img{
+                width: 100%;
+            }
+
+            span{
+                position: absolute;
+                border: 2px solid $color-white;
+                cursor: pointer;
+                @include flexCenter(row);
+                @include circle(50px);
+                animation: pulse 1.5s ease infinite;
+
+                &:hover{
+                    animation: none;
+                }
+
+                svg{
+                    font-size: 2rem;
+                    color: $color-white;
+                }
+            }
+        }
+
+        .introduce__info{
+
+            h4{
+                text-transform: capitalize;
+                font-size: 1.625rem;
+                margin-bottom: 1.5rem;
+            }
+
+            p{
+                line-height: 1.3;
+
+                &.text-info{
+                    margin-bottom: 1.5rem;
+                }
+
+                &.text{
+                    margin-bottom: 0.5rem;
+                }
+
+                &.choose{
+                    font-size: 1.0625rem;
+                    font-weight: 600;
+                }
+            }
+
+            div{
+                margin-bottom: 1rem;
+
+                h5{
+                    font-size: 1.0625rem;
+                    text-transform: uppercase;
+                    margin-bottom: 0.125rem;
+                }
+            }
+        }
+    }
+
+    &-right{
+        margin-top: 1.25rem;
+        
+        h5{
+            position: relative;
+
+            span{
+                position: relative;
+                z-index: 10;
+                background: $color-white;
+                padding: 0.25rem 0.75rem 0.25rem 0;
+                font-size: 1.5rem;
+            }
+
+            &::after{
+                @include width-height(100%, 1px);
+                content: "";
+                background: $color-grey;
+                position: absolute;
+                top: 14px;
+                left: 0;
+                z-index: 0;
+            }
+        }
+
+        .introduce__content-unStyled{
+            margin-top: 1rem;
+
+            li{
+                line-height: 1.7;
+                margin-bottom: 0.5rem;
+
+                a{
+                    text-transform: capitalize;
+                    display: flex;
+                    align-items: center;
+                    color: $color-grey;
+                    @include transition-ease-in-out;
+
+                    svg{
+                        font-size: 1rem;
+                        margin-right: 0.25rem;
+                        color: $color-time;
+                    }
+
+                    &:hover{
+                        color: $color-blue-hover;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@keyframes pulse{
+    0% {
+        transform: scale(0.94);
+        box-shadow: 0 0 0 rgba($color-white, 0.4);
+    }
+
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 30px rgba($color-white, 0);
+    }
+
+    100% {
+        transform: scale(0.94);
+        box-shadow: 0 0 0 0 rgba($color-white, 0);
+    }
+}
