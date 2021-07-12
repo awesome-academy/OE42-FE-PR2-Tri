@@ -271,6 +271,7 @@
                 display: flex;
                 align-items: center;
                 margin-right: 1.25rem;
+                height: 100%;
 
                 form{
                     margin-right: 1.5rem;
@@ -313,13 +314,116 @@
                     color: $color-grey;
                     cursor: pointer;
                     @include transition-ease-in-out;
+                    position: relative;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
 
                     &:hover{
-                        color: $color-black;
+                        
+                        .cart__list-item{
+                            visibility: visible;
+                            opacity: 1;
+                            top: 45px;
+                        }
                     }
 
-                    &>svg{
+                    &>a{
                         font-size: 1.625rem;
+                        @include flexCenter(row);
+                    }
+
+                    &__list-item{
+                        background: $color-grey;
+                        color: $color-white;
+                        position: absolute;
+                        top: 65px;
+
+                        right: 0;
+                        z-index: 20;
+                        width: 300px;
+                        max-height: 345px;
+
+                        overflow-y: auto;
+                        opacity: 0;
+                        visibility: hidden;
+                        @include transition-ease-in-out;
+
+                        li{
+                            @include width-height(100%, 115px);
+                            border-bottom: 1px solid $border-dark-light;
+
+                            &:last-child{
+                                border-bottom: 0;
+                            }
+
+                            &.cart__item{
+                                padding: 1rem 0.625rem 0;
+                                display: flex;
+
+                                img{
+                                    @include width-height(65px, 65px);
+                                    margin-right: 0.625rem;
+                                }
+
+                                .cart__item-info{
+                                    display: flex;
+                                    flex-direction: column;
+
+                                    span{
+                                        line-height: 1.3;
+
+                                        &::first-letter{
+                                            text-transform: uppercase;
+                                        }
+                                    }
+                                }
+                            }
+
+                            &.total-sum-price{
+                                padding-top: 0.75rem;
+                                position: relative;
+                                
+                                p{
+                                    display: flex;
+                                    justify-content: space-between;
+                                    text-transform: capitalize;
+                                    font-size: 1.125rem;
+                                    margin-bottom: 0.5rem;
+                                    padding: 0 1rem;
+
+                                    span{
+                                        float: bottom;
+                                        text-transform: lowercase;
+                                        color: $color-time;
+                                        font-size: 1.25rem;
+                                    }
+                                }
+
+                                a{
+                                    text-align: center;
+                                    background: $color-success-hover;
+                                    position: absolute;
+                                    bottom: 0;
+                                    left: 0;
+                                    right: 0;
+                                    color: $color-white;
+                                    padding: 0.625rem 0;
+                                    text-transform: capitalize;
+                                    font-size: 1.125rem;
+                                }
+                            }
+
+                            &.no-product{
+                                @include flexCenter(row);
+                                font-size: 1.25rem;
+                                text-transform: capitalize;
+
+                                svg{
+                                    margin-right: 0.25rem;
+                                }
+                            }
+                        }
                     }
                 }
             }

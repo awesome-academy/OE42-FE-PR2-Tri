@@ -12,6 +12,12 @@ import {
     actFetchProducts, actFetchNews,
     actFetchSizes, actSearchProduct
 } from './../../../actions';
+import ShoppingBasketIcon from '@material-ui/icons/ShoppingBasket';
+import {
+    totalQuantityProduct,
+    sumPriceProduct,
+    totalSumPriceProducts
+} from './../../../utils/calculatePrice';
 
 function Navigate() {
     const { t } = useTranslation();
@@ -19,6 +25,7 @@ function Navigate() {
     const history = useHistory();
     const categories = useSelector(state => state.categories);
     const checkCallApi = useSelector(state => state.checkCallApi);
+    const cart = useSelector(state => state.cart);
 
     useEffect(() => {
         if (checkCallApi) {
@@ -90,9 +97,52 @@ function Navigate() {
                                 <SearchIcon />
                             </button>
                         </form>
-                        <Badge badgeContent={4} color="error" className="cart">
-                            <ShoppingCartIcon />
-                        </Badge>
+                        <div className="cart">
+                            <Badge badgeContent={cart.length} color="error">
+                                <Link to="/cart"><ShoppingCartIcon /></Link>
+                                <ul className="cart__list-item">
+                                    {
+                                        cart.length !== 0 ?
+                                            <>
+                                                {
+                                                    cart.map((item, index) => (
+                                                        <li key={index} className="cart__item">
+                                                            <img src={item.image} alt={`link ${item.image} error`} />
+                                                            <div className="cart__item-info">
+                                                                <span className="cart__item-name">
+                                                                    {t(`${item.productName}`)} - Size: {item.sizeName}
+                                                                </span>
+                                                                <span className="cart__item-quantity">
+                                                                    {t('quantity')}: {item.quantity} x {item.price.toLocaleString()} đ
+                                                                </span>
+                                                                <span className="cart__item-sum-price">
+                                                                    {t('into money')}: {sumPriceProduct(item.quantity, item.price).toLocaleString()} đ
+                                                                </span>
+                                                            </div>
+                                                        </li>
+                                                    ))
+                                                }
+                                                <li className="total-sum-price">
+                                                    <p>
+                                                        {t('the number of products')}:
+                                                        <span>
+                                                            {totalQuantityProduct(cart)}
+                                                        </span>
+                                                    </p>
+                                                    <p>
+                                                        {t('total money')}:
+                                                        <span>
+                                                            {totalSumPriceProducts(cart).toLocaleString()} đ
+                                                        </span>
+                                                    </p>
+                                                    <Link to="/cart">{t('check out')}</Link>
+                                                </li>
+                                            </> :
+                                            <li className="no-product"><ShoppingBasketIcon /> {t('empty')}</li>
+                                    }
+                                </ul>
+                            </Badge>
+                        </div>
                     </div>
                 </div>
             </Container>

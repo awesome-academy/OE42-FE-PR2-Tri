@@ -39,7 +39,7 @@ function Header(props) {
                                 <PersonIcon className="icon" />
                                 <span>{t("login")}</span>
                             </a>
-                            <a href="/logout">
+                            <a href="/register">
                                 <PersonAddIcon className="icon" />
                                 <span>{t("register")}</span>
                             </a>

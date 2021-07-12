@@ -3,6 +3,7 @@ import { Route, Switch, useRouteMatch, Redirect, useLocation } from 'react-route
 import Footer from '../../components/Footer';
 import Header from '../../components/Header';
 import AllProduct from '../../pages/AllProduct';
+import Cart from '../../pages/Cart';
 import CategoryProduct from '../../pages/CategoryProduct';
 import Contact from '../../pages/Contact';
 import Detail from '../../pages/Detail';
@@ -46,6 +47,7 @@ function DefaultLayout() {
                 <Route path="/introduce" component={Introduce} />
                 <Route path="/news" component={News} />
                 <Route path="/contact" component={Contact} />
+                <Route path="/cart" component={Cart} />
                 <Redirect exact from="*" to="/404" />
             </Switch>
             <Footer />

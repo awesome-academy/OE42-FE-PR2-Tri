@@ -268,3 +268,10 @@ export const actSearchProduct = (key) => {
         payload: key
     }
 }
+
+export const actAddToCart = (product) => {
+    return{
+        type: types.ADD_TO_CART,
+        payload: product
+    }
+}
