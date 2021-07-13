@@ -1,755 +1,757 @@
 {
-    "products": [
-        {
-            "id": 1,
-            "productName": "T-shirt U1ATN2031002",
-            "sale": 0,
-            "class": "",
-            "oldPrice": 265000,
-            "newPrice": 265000,
-            "images": [
-                "https://storage.googleapis.com/cdn.nhanh.vn/store/7136/ps/20210331/31032021090312_IMG_4449.gif",
-                "https://storage.googleapis.com/cdn.nhanh.vn/store/7136/ps/20210331/31032021090326_IMG_4451.gif"
-            ],
-            "totalRating": 4,
-            "categoryId": "men-clothes",
-            "brandId": 1,
-            "quantitySold": 5,
-            "description": "- material: 2-way stretch cotton",
-            "information": "- do not use bleach - iron at a suitable temperature, limit the use of a dryer - wash in normal mode, with similar colors"
-        },
-        {
-            "id": 2,
-            "productName": "shirt M1SMD2031001",
-            "sale": 0,
-            "class": "new",
-            "oldPrice": 285000,
-            "newPrice": 285000,
-            "images": [
-                "https://storage.googleapis.com/cdn.nhanh.vn/store/7136/ps/20210331/31032021090352_IMG_4442.jpg",
-                "https://storage.googleapis.com/cdn.nhanh.vn/store/7136/ps/20210331/31032021090310_IMG_4440.jpg"
-            ],
-            "totalRating": 5,
-            "categoryId": "men-clothes",
-            "brandId": 5,
-            "quantitySold": 6,
-            "description": "- material: 2-way stretch cotton",
-            "information": "- do not use bleach - iron at a suitable temperature, limit the use of a dryer - wash in normal mode, with similar colors"
-        },
-        {
-            "id": 3,
-            "productName": "T-shirt W2ATN2051003",
-            "sale": 0,
-            "class": "",
-            "oldPrice": 185000,
-            "newPrice": 185000,
-            "images": [
-                "https://storage.googleapis.com/cdn.nhanh.vn/store/7136/ps/20210618/18062021030623_IMG_9829.jpg",
-                "https://storage.googleapis.com/cdn.nhanh.vn/store/7136/ps/20210618/18062021030618_IMG_9825.jpg",
-                "https://storage.googleapis.com/cdn.nhanh.vn/store/7136/ps/20210618/18062021030604_IMG_9830.jpg",
-                "https://storage.googleapis.com/cdn.nhanh.vn/store/7136/ps/20210618/18062021030628_IMG_9826.jpg",
-                "https://storage.googleapis.com/cdn.nhanh.vn/store/7136/ps/20210618/18062021030614_IMG_9827.jpg"
-            ],
-            "totalRating": 5,
-            "categoryId": "women-clothes",
-            "brandId": 1,
-            "quantitySold": 3,
-            "description": "- material: 2-way stretch cotton",
-            "information": "- do not use bleach - iron at a suitable temperature, limit the use of a dryer - wash in normal mode, with similar colors"
-        },
-        {
-            "id": 4,
-            "productName": "T-shirt W2ATN2051003",
-            "sale": 0,
-            "class": "",
-            "oldPrice": 185000,
-            "newPrice": 185000,
-            "images": [
-                "https://storage.googleapis.com/cdn.nhanh.vn/store/7136/ps/20210618/18062021030650_IMG_9813.jpg",
-                "https://storage.googleapis.com/cdn.nhanh.vn/store/7136/ps/20210618/18062021030618_IMG_9809.jpg",
-                "https://storage.googleapis.com/cdn.nhanh.vn/store/7136/ps/20210618/18062021030607_IMG_9810.jpg",
-                "https://storage.googleapis.com/cdn.nhanh.vn/store/7136/ps/20210618/18062021030612_IMG_9811.jpg"
-            ],
-            "totalRating": 4,
-            "categoryId": "women-clothes",
-            "brandId": 1,
-            "quantitySold": 2,
-            "description": "- material: 2-way stretch cotton",
-            "information": "- do not use bleach - iron at a suitable temperature, limit the use of a dryer - wash in normal mode, with similar colors"
-        },
-        {
-            "id": 5,
-            "productName": "jacket U1AKD2051003",
-            "sale": 0,
-            "class": "",
-            "oldPrice": 295000,
-            "newPrice": 295000,
-            "images": [
-                "https://storage.googleapis.com/cdn.nhanh.vn/store/7136/ps/20210527/27052021060532_IMG_9861.jpg"
-            ],
-            "totalRating": 5,
-            "categoryId": "men-clothes",
-            "brandId": 4,
-            "quantitySold": 2,
-            "description": "- active, comfortable umbrella jacket. Simple style, cricket wear, from beautiful standard shirt - material: high quality canvas, soft and cool inner lining",
-            "information": "- do not use bleach - iron at a suitable temperature, limit the use of a dryer - wash in normal mode, with similar colors"
-        },
-        {
-            "id": 6,
-            "productName": "trousers jean W2QJN50410011",
-            "sale": 0,
-            "class": "new",
-            "oldPrice": 320000,
-            "newPrice": 320000,
-            "images": [
-                "https://storage.googleapis.com/cdn.nhanh.vn/store/7136/ps/20210416/16042021110430_IMG_7034.jpg"
-            ],
-            "totalRating": 4,
-            "categoryId": "women-clothes",
-            "brandId": 4,
-            "quantitySold": 3,
-            "description": "- young dynamic jeans, from slim",
-            "information": "- do not use bleach - iron at a suitable temperature, limit the use of a dryer - wash in normal mode, with similar colors"
-        },
-        {
-            "id": 7,
-            "productName": "GYMBOREE 50313",
-            "sale": 20,
-            "class": "new",
-            "oldPrice": 450000,
-            "newPrice": 360000,
-            "images": [
-                "http://bizweb.dktcdn.net/thumb/medium/100/115/248/products/2113096140150313-jpeg.jpg?v=1470970202037"
-            ],
-            "totalRating": 4,
-            "categoryId": "kids-clothes",
-            "brandId": 6,
-            "quantitySold": 0,
-            "description": "- material: 2-way stretch cotton",
-            "information": "- do not use bleach - iron at a suitable temperature, limit the use of a dryer - wash in normal mode, with similar colors"
-        },
-        {
-            "id": 8,
-            "productName": "suede men's shoes AG0001",
-            "sale": 30,
-            "class": "new",
-            "oldPrice": 495000,
-            "newPrice": 346000,
-            "images": [
-                "https://imgproxy.agiay.com/imgproxy/6TlljkqeSTgs3KRvXTWzvF5GFFJtoynxle2wMBM-_vQ/fill/500/500/no/1/aHR0cHM6Ly9obmNncm91cC13ZWIuc2dwMS5jZG4uZGlnaXRhbG9jZWFuc3BhY2VzLmNvbS8yMDIxLzA0LzYwNzk0ZmI3NzdjNTIxZjYwNmFkNTI3OWVmNGY5ZmU3LmpwZw.jpg",
-                "https://imgproxy.agiay.com/imgproxy/HiENkXP_VR589T-gVDLjFeserr5YiYkiaRurTXJI0Tc/fill/500/500/no/1/aHR0cHM6Ly9obmNncm91cC13ZWIuc2dwMS5jZG4uZGlnaXRhbG9jZWFuc3BhY2VzLmNvbS8yMDIxLzA0LzFlZTUwMDk0YTg4NGU4Njc4NzNhZjUwZGZmNzExYjllLmpwZw.jpg"
-            ],
-            "totalRating": 5,
-            "categoryId": "handbag-and-shoes",
-            "brandId": 5,
-            "quantitySold": 4,
-            "description": "- basic, classic and elegant design Easy to combine with many outfits - meticulously designed to every stitch line",
-            "information": "- do not use bleach - iron at a suitable temperature, limit the use of a dryer - wash in normal mode, with similar colors"
-        },
-        {
-            "id": 9,
-            "productName": "hot women's lazy shoes 2021 BN0091",
-            "sale": 20,
-            "class": "",
-            "oldPrice": 320000,
-            "newPrice": 256000,
-            "images": [
-                "https://imgproxy.agiay.com/imgproxy/HjrU8_psrtbKRIYpcoLfpzzMHHiCNp9C76xTU-qyx3g/fill/500/500/no/1/aHR0cHM6Ly9obmNncm91cC13ZWIuc2dwMS5jZG4uZGlnaXRhbG9jZWFuc3BhY2VzLmNvbS8yMDIxLzAzLzE2OTBhNDMxMGQyYTlhZDRiOTljNjIzZmRhYzI1MWVmLmpwZw.jpg",
-                "https://imgproxy.agiay.com/imgproxy/Gz4dr6PuMikYns0VMXUqvCSuyVF38jHRgdVpHaE9lbA/fill/500/500/no/1/aHR0cHM6Ly9obmNncm91cC13ZWIuc2dwMS5jZG4uZGlnaXRhbG9jZWFuc3BhY2VzLmNvbS8yMDIxLzAzLzZkODdhNDZlNWU4NGQ5NTEyYWI0NjAyYTQ0Y2NkYzc2LmpwZw.jpg",
-                "https://imgproxy.agiay.com/imgproxy/gychvpN9qD0awSlMEQq8z8kHagt8r-u42W0awx-w3Gw/fill/500/500/no/1/aHR0cHM6Ly9obmNncm91cC13ZWIuc2dwMS5jZG4uZGlnaXRhbG9jZWFuc3BhY2VzLmNvbS8yMDIxLzAzLzEwODg3ZmRhM2ZlODhlMzNhNjQ2YzdhZjFhZmY5NTVjLmpwZw.jpg"
-            ],
-            "totalRating": 0,
-            "categoryId": "handbag-and-shoes",
-            "brandId": 5,
-            "quantitySold": 5,
-            "description": "- basic, classic and elegant design Easy to combine with many outfits - meticulously designed to every stitch line",
-            "information": "- do not use bleach - iron at a suitable temperature, limit the use of a dryer - wash in normal mode, with similar colors"
-        },
-        {
-            "id": 10,
-            "productName": "men's collar t-shirt ATN0116",
-            "sale": 0,
-            "class": "",
-            "oldPrice": 220000,
-            "newPrice": 220000,
-            "images": [
-                "https://product.hstatic.net/1000096703/product/1_29d4b88ee1ec4bedae072d82bffde89a_master.jpg"
-            ],
-            "totalRating": 3,
-            "categoryId": "men-clothes",
-            "brandId": 1,
-            "quantitySold": 2,
-            "description": "- active, comfortable umbrella jacket. Simple style, cricket wear, from beautiful standard shirt - material: high quality canvas, soft and cool inner lining",
-            "information": "- do not use bleach - iron at a suitable temperature, limit the use of a dryer - wash in normal mode, with similar colors"
-        },
-        {
-            "id": 11,
-            "productName": "2-layer umbrella jacket AKD0030",
-            "sale": 0,
-            "class": "new",
-            "oldPrice": 295000,
-            "newPrice": 295000,
-            "images": [
-                "https://product.hstatic.net/1000096703/product/1_79d22def9b984445944e650813a85c94_master.jpg"
-            ],
-            "totalRating": 0,
-            "categoryId": "men-clothes",
-            "brandId": 5,
-            "quantitySold": 3,
-            "description": "- material: 2-way stretch cotton",
-            "information": "- do not use bleach - iron at a suitable temperature, limit the use of a dryer - wash in normal mode, with similar colors"
-        },
-        {
-            "id": 12,
-            "productName": "tweed hand bag HB0097",
-            "sale": 38,
-            "class": "",
-            "oldPrice": 865000,
-            "newPrice": 536000,
-            "images": [
-                "https://cdn.sablanca.vn/ImageProducts/hb0097/blu/hb0097_blu_1000x1000_5234341689.jpg",
-                "https://cdn.sablanca.vn/ImageProducts/hb0097/pik/hb0097_pik_1000x1000_5559301673.jpg"
-            ],
-            "totalRating": 5,
-            "categoryId": "handbag-and-shoes",
-            "brandId": 4,
-            "quantitySold": 8,
-            "description": "- the combination between leather and tweed fabric is delicate and beautiful - high quality synthetic leather material, soft, durable, beautiful",
-            "information": "- do not use bleach - iron at a suitable temperature, limit the use of a dryer - wash in normal mode, with similar colors"
-        },
-        {
-            "id": 13,
-            "productName": "men's and women's domba shoes",
-            "sale": 15,
-            "class": "",
-            "oldPrice": 1300000,
-            "newPrice": 1105000,
-            "images": [
-                "https://s4.shopbay.vn/files/289/giay-the-thao-domba-high-point-white-black-h-9111-size-42-5e5338049f9f6-24022020094212-5f896a4287314.jpg"
-            ],
-            "totalRating": 3,
-            "categoryId": "handbag-and-shoes",
-            "brandId": 4,
-            "quantitySold": 2,
-            "description": "- basic, classic and elegant design Easy to combine with many outfits - meticulously designed to every stitch line",
-            "information": "- do not use bleach - iron at a suitable temperature, limit the use of a dryer - wash in normal mode, with similar colors"
-        },
-        {
-            "id": 14,
-            "productName": "classic pleated handbag HB0122",
-            "sale": 11,
-            "class": "new",
-            "oldPrice": 745000,
-            "newPrice": 666000,
-            "images": [
-                "https://cdn.sablanca.vn/ImageProducts/hb0122/pur/hb0122_pur_1000x1000_1141834254.jpg",
-                "https://cdn.sablanca.vn/ImageProducts/hb0122/blk/hb0122_blk_1000x1000_1106753227.jpg"
-            ],
-            "totalRating": 4,
-            "categoryId": "handbag-and-shoes",
-            "brandId": 2,
-            "quantitySold": 5,
-            "description": "- the combination between leather and tweed fabric is delicate and beautiful - high quality synthetic leather material, soft, durable, beautiful",
-            "information": "- do not use bleach - iron at a suitable temperature, limit the use of a dryer - wash in normal mode, with similar colors"
-        },
-        {
-            "id": 15,
-            "productName": "handbag with stylized handle HB0108",
-            "sale": 0,
-            "class": "new",
-            "oldPrice": 825000,
-            "newPrice": 825000,
-            "images": [
-                "https://cdn.sablanca.vn/ImageProducts/hb0108/bei/hb0108_bei_1000x1000_0559494443.jpg",
-                "https://cdn.sablanca.vn/ImageProducts/hb0108/min/hb0108_min_1000x1000_0522680404.jpg"
-            ],
-            "totalRating": 0,
-            "categoryId": "handbag-and-shoes",
-            "brandId": 2,
-            "quantitySold": 0,
-            "description": "- the combination between leather and tweed fabric is delicate and beautiful - high quality synthetic leather material, soft, durable, beautiful",
-            "information": "- do not use bleach - iron at a suitable temperature, limit the use of a dryer - wash in normal mode, with similar colors"
-        },
-        {
-            "id": 16,
-            "productName": "pointed toe high heels with tweed fabric BN0144",
-            "sale": 14,
-            "class": "",
-            "oldPrice": 545000,
-            "newPrice": 466000,
-            "images": [
-                "https://cdn.sablanca.vn/ImageProducts/bn0144/nud/bn0144_nud_1000x1000_0155898358.jpg",
-                "https://cdn.sablanca.vn/ImageProducts/bn0144/nay/bn0144_nay_1000x1000_0140896493.jpg"
-            ],
-            "totalRating": 5,
-            "categoryId": "handbag-and-shoes",
-            "brandId": 4,
-            "quantitySold": 5,
-            "description": "- the combination between leather and tweed fabric is delicate and beautiful - high quality synthetic leather material, soft, durable, beautiful",
-            "information": "- do not use bleach - iron at a suitable temperature, limit the use of a dryer - wash in normal mode, with similar colors"
-        },
-        {
-            "id": 17,
-            "productName": "double layer umbrella jacket AKD0030",
-            "sale": 0,
-            "class": "",
-            "oldPrice": 295000,
-            "newPrice": 295000,
-            "images": [
-                "https://product.hstatic.net/1000096703/product/1_29c8093594f34770bec2dce1d04ca138_master.jpg"
-            ],
-            "totalRating": 2,
-            "categoryId": "men-clothes",
-            "brandId": 5,
-            "quantitySold": 0,
-            "description": "- active, comfortable umbrella jacket. Simple style, cricket wear, from beautiful standard shirt - material: high quality canvas, soft and cool inner lining",
-            "information": "- do not use bleach - iron at a suitable temperature, limit the use of a dryer - wash in normal mode, with similar colors"
-        },
-        {
-            "id": 18,
-            "productName": "cartoon pattern shirt SMN0076",
-            "sale": 0,
-            "class": "",
-            "oldPrice": 280000,
-            "newPrice": 280000,
-            "images": [
-                "https://product.hstatic.net/1000096703/product/1_c8b328a835794dc7890eab7908c4b9ff_master.jpg",
-                "https://product.hstatic.net/1000096703/product/1_d4c71c15a5494f1098116b7fb9035f47_master.jpg",
-                "https://product.hstatic.net/1000096703/product/1_0df6dcdaad294cde8da58b2a64af248b_master.jpg"
-            ],
-            "totalRating": 2,
-            "categoryId": "kids-clothes",
-            "brandId": 6,
-            "quantitySold": 0,
-            "description": "- material: 2-way stretch cotton",
-            "information": "- do not use bleach - iron at a suitable temperature, limit the use of a dryer - wash in normal mode, with similar colors"
-        },
-        {
-            "id": 19,
-            "productName": "patterned shirt SMN0068",
-            "sale": 0,
-            "class": "",
-            "oldPrice": 255000,
-            "newPrice": 255000,
-            "images": [
-                "https://product.hstatic.net/1000096703/product/1_c93ff7165e40482dbeb923c9239b5bcd_master.jpg",
-                "https://product.hstatic.net/1000096703/product/1_41b3d15b9bdb4015a60e80026c6b98ca_master.jpg"
-            ],
-            "totalRating": 1,
-            "categoryId": "kids-clothes",
-            "brandId": 6,
-            "quantitySold": 0,
-            "description": "- material: 2-way stretch cotton",
-            "information": "- do not use bleach - iron at a suitable temperature, limit the use of a dryer - wash in normal mode, with similar colors"
-        },
-        {
-            "id": 20,
-            "productName": "men's short sleeve shirt SMN0001",
-            "sale": 0,
-            "class": "",
-            "oldPrice": 220000,
-            "newPrice": 220000,
-            "images": [
-                "https://product.hstatic.net/1000096703/product/1_adfb63283e484f9097b792432c937b78_master.jpg",
-                "https://product.hstatic.net/1000096703/product/1_ce112ea96b5c49f1afd055db578945db_master.jpg",
-                "https://product.hstatic.net/1000096703/product/1_86b6ac9d04134e1b871542e5d308674a_master.jpg",
-                "https://product.hstatic.net/1000096703/product/1_eb513d5470274c3fbb9505242163e9c6_master.jpg"
-            ],
-            "totalRating": 3,
-            "categoryId": "men-clothes",
-            "brandId": 5,
-            "quantitySold": 0,
-            "description": "- material: 2-way stretch cotton",
-            "information": "- do not use bleach - iron at a suitable temperature, limit the use of a dryer - wash in normal mode, with similar colors"
-        },
-        {
-            "id": 21,
-            "productName": "men's kaki shorts QSK0049",
-            "sale": 0,
-            "class": "",
-            "oldPrice": 220000,
-            "newPrice": 220000,
-            "images": [
-                "https://product.hstatic.net/1000096703/product/1_73f549a609314e009a6f4d450496bc84_master.jpg",
-                "https://product.hstatic.net/1000096703/product/1_eacf61283609436ea71107edf8d42f59_master.jpg",
-                "https://product.hstatic.net/1000096703/product/0_52fd0d0ff26b4d4e8823c9e4ad58c0a9_master.jpg",
-                "https://product.hstatic.net/1000096703/product/1_d6122c4c31eb426faf8fd784f7fed2cb_master.jpg"
-            ],
-            "totalRating": 4,
-            "categoryId": "men-clothes",
-            "brandId": 4,
-            "quantitySold": 0,
-            "description": "- material: 2-way stretch cotton",
-            "information": "- do not use bleach - iron at a suitable temperature, limit the use of a dryer - wash in normal mode, with similar colors"
-        },
-        {
-            "id": 22,
-            "productName": "women's jean pants W2QJN1041006",
-            "sale": 0,
-            "class": "new",
-            "oldPrice": 440000,
-            "newPrice": 440000,
-            "images": [
-                "https://storage.googleapis.com/cdn.nhanh.vn/store/7136/ps/20210416/16042021110426_1.jpg"
-            ],
-            "totalRating": 4,
-            "categoryId": "women-clothes",
-            "brandId": 5,
-            "quantitySold": 3,
-            "description": "- young dynamic jeans, from slim",
-            "information": "- do not use bleach - iron at a suitable temperature, limit the use of a dryer - wash in normal mode, with similar colors"
-        },
-        {
-            "id": 23,
-            "productName": "women's T-shirt W2ATN2021028",
-            "sale": 0,
-            "class": "new",
-            "oldPrice": 185000,
-            "newPrice": 185000,
-            "images": [
-                "https://storage.googleapis.com/cdn.nhanh.vn/store/7136/ps/20210329/2914202131425_IMG_4397.jpg",
-                "https://storage.googleapis.com/cdn.nhanh.vn/store/7136/ps/20210329/2914202131439_IMG_4398.jpg",
-                "https://storage.googleapis.com/cdn.nhanh.vn/store/7136/ps/20210329/2914202131411_IMG_4395.jpg",
-                "https://storage.googleapis.com/cdn.nhanh.vn/store/7136/ps/20210329/2913202131359_IMG_4394.jpg"
-            ],
-            "totalRating": 4,
-            "categoryId": "women-clothes",
-            "brandId": 4,
-            "quantitySold": 3,
-            "description": "- material: 2-way stretch cotton",
-            "information": "- do not use bleach - iron at a suitable temperature, limit the use of a dryer - wash in normal mode, with similar colors"
-        },
-        {
-            "id": 24,
-            "productName": "baby girl dress 91084",
-            "sale": 0,
-            "class": "",
-            "oldPrice": 249000,
-            "newPrice": 249000,
-            "images": [
-                "https://product.hstatic.net/1000290074/product/91084__2__623f6dce0c0d4fb981149a2745548136_1024x1024.jpg"
-            ],
-            "totalRating": 3,
-            "categoryId": "kids-clothes",
-            "brandId": 6,
-            "quantitySold": 1,
-            "description": "- material: 2-way stretch cotton",
-            "information": "- do not use bleach - iron at a suitable temperature, limit the use of a dryer - wash in normal mode, with similar colors"
-        },
-        {
-            "id": 25,
-            "productName": "baby girl flower dress 90188",
-            "sale": 0,
-            "class": "",
-            "oldPrice": 139000,
-            "newPrice": 139000,
-            "images": [
-                "https://product.hstatic.net/1000290074/product/90188_758e9a525e184037b17cf4f45c829d2a_1024x1024.jpg",
-                "https://product.hstatic.net/1000290074/product/90188__2__4b8cf36936b2493995eeb291d6c29421_1024x1024.jpg"
-            ],
-            "totalRating": 3,
-            "categoryId": "kids-clothes",
-            "brandId": 6,
-            "quantitySold": 1,
-            "description": "- material: 2-way stretch cotton",
-            "information": "- do not use bleach - iron at a suitable temperature, limit the use of a dryer - wash in normal mode, with similar colors"
-        }      
-    ],
-    "ratings": [
-        {
-            "id": 1,
-            "useId": 2,
-            "productId": 1,
-            "rating" : 4
-        },
-        {
-            "id": 2,
-            "useId": 1,
-            "productId": 1,
-            "rating" : 4
-        },
-        {
-            "id": 3,
-            "useId": 2,
-            "productId": 2,
-            "rating" : 5
-        },
-        {
-            "id": 4,
-            "useId": 2,
-            "productId": 3,
-            "rating" : 5
-        },
-        {
-            "id": 5,
-            "useId": 2,
-            "productId": 4,
-            "rating" : 4
-        },
-        {
-            "id": 6,
-            "useId": 2,
-            "productId": 5,
-            "rating" : 5
-        },
-        {
-            "id": 7,
-            "useId": 2,
-            "productId": 6,
-            "rating" : 4
-        },
-        {
-            "id": 8,
-            "useId": 2,
-            "productId": 7,
-            "rating" : 3
-        },
-        {
-            "id": 9,
-            "useId": 2,
-            "productId": 8,
-            "rating" : 5
-        }
-    ],
-    "brands": [
-        {
-            "id": 1,
-            "nameBrand": "The Blue T-Shirt"
-        },
-        {
-            "id": 2,
-            "nameBrand": "Gucci"
-        },
-        {
-            "id": 3,
-            "nameBrand": "Nike"
-        },
-        {
-            "id": 4,
-            "nameBrand": "Elise"
-        },
-        {
-            "id": 5,
-            "nameBrand": "SheIn"
-        },
-        {
-            "id": 6,
-            "nameBrand": "Gymboree"
-        }
-    ],
-    "categories": [
-        {
-            "id": 1,
-            "otherId": "men-clothes",
-            "categoryName": "men clothes" 
-        },
-        {
-            "id": 2,
-            "otherId": "women-clothes",
-            "categoryName": "women clothes"
-        },
-        {
-            "id": 3,
-            "otherId": "kids-clothes",
-            "categoryName": "kids clothes"
-        },
-        {
-            "id": 4,
-            "otherId": "handbag-and-shoes",
-            "categoryName": "handbag and shoes"
-        }
-    ],
-    "sizes": [
-        {
-            "id": 1,
-            "sizeName": "11" 
-        },
-        {
-            "id": 2,
-            "sizeName": "12" 
-        },
-        {
-            "id": 3,
-            "sizeName": "13" 
-        },
-        {
-            "id": 4,
-            "sizeName": "14" 
-        },
-        {
-            "id": 5,
-            "sizeName": "15" 
-        },
-        {
-            "id": 6,
-            "sizeName": "16" 
-        },
-        {
-            "id": 7,
-            "sizeName": "17" 
-        },
-        {
-            "id": 8,
-            "sizeName": "18" 
-        },
-        {
-            "id": 9,
-            "sizeName": "19" 
-        },
-        {
-            "id": 10,
-            "sizeName": "20" 
-        },
-        {
-            "id": 11,
-            "sizeName": "21"
-        },
-        {
-            "id": 12,
-            "sizeName": "22" 
-        },
-        {
-            "id": 13,
-            "sizeName": "23"
-        },
-        {
-            "id": 14,
-            "sizeName": "24"
-        },
-        {
-            "id": 15,
-            "sizeName": "25"
-        },
-        {
-            "id": 16,
-            "sizeName": "26"
-        },
-        {
-            "id": 17,
-            "sizeName": "27"
-        },
-        {
-            "id": 18,
-            "sizeName": "28"
-        },
-        {
-            "id": 19,
-            "sizeName": "29"
-        },
-        {
-            "id": 20,
-            "sizeName": "30"
-        },
-        {
-            "id": 21,
-            "sizeName": "31"
-        },
-        {
-            "id": 22,
-            "sizeName": "32"
-        },
-        {
-            "id": 23,
-            "sizeName": "33"
-        },
-        {
-            "id": 24,
-            "sizeName": "34"
-        },
-        {
-            "id": 25,
-            "sizeName": "S"
-        },
-        {
-            "id": 26,
-            "sizeName": "M"
-        },
-        {
-            "id": 27,
-            "sizeName": "L"
-        },
-        {
-            "id": 28,
-            "sizeName": "XL"
-        },
-        {
-            "id": 29,
-            "sizeName": "XXL"
-        },
-        {
-            "id": 30,
-            "sizeName": "No Size"
-        }
-    ],
-    "news": [
-        {
-            "id": 1,
-            "title": "very standard outfit with black jeans for guys",
-            "createDate": "04-02-2021",
-            "imageTitle": "https://storage.googleapis.com/cdn.nhanh.vn/store/7136/art/article_1612431752_505.jpg",
-            "description":"One of the 'must have' outfits in the wardrobe probably can't help but mention the black jeans. With a simple, modern design but full of sophistication and fashion, they go with any outfit, giving the wearer a look that will never go out of style! So how to grasp the standard ways to coordinate without adjusting with these pants? Follow up with the sharing below with Tmart!"
-        },
-        {
-            "id": 2,
-            "title": "trend of mixing clothes with beautiful standard men's jogger pants for men",
-            "createDate": "06-02-2021",
-            "imageTitle": "https://storage.googleapis.com/cdn.nhanh.vn/store/7136/art/article_1609390965_66.jpg",
-            "description":"youthful, dynamic and bold personality is the most concise thing when it comes to men's jogger pants. The pants were originally just for gym, sports or outdoor activities, today are cleverly 'transformed' by designers to be suitable for mixing & matching sets for going out, even going to school or work. in dynamic environments that do not require formal attire. So the trend of coordinating this item with this item is so beautiful? Let's follow Tmart right now!"
-        },
-        {
-            "id": 3,
-            "title": "revealing the formula to mix beautiful clothes with men's tapered jeans",
-            "createDate": "06-03-2021",
-            "imageTitle": "https://storage.googleapis.com/cdn.nhanh.vn/store/7136/art/article_1604637375_814.jpg",
-            "description":"with the beauty that 'lasts with time', men's jeans are always loved and 'favored' by men to apply to most of their sets. Not only that, this item is even more 'stylized' into more designs and colors, giving 'fashionistas' a variety of styles and more choices"
-        },
-        {
-            "id": 4,
-            "title": "pocket set of women's clothes for active summer",
-            "createDate": "10-05-2021",
-            "imageTitle": "https://storage.googleapis.com/cdn.nhanh.vn/store/7136/art/article_1603785456_844.jpg",
-            "description":"the clothes are liberal, young and full of energy, representing the 'summer windy' days, which are loved and chosen by the majority of women. In addition, they are also extremely versatile, not encapsulated in a few styles. Therefore, to better understand them as well as 'pocket' more women's clothing sets for the active summer right in the shares below"
-        },
-        {
-            "id": 5,
-            "title": "the perfect way to mix women's fashion with these two styles",
-            "createDate": "15-06-2021",
-            "imageTitle": "https://storage.googleapis.com/cdn.nhanh.vn/store/7136/art/article_1603430397_869.jpg",
-            "description":"when it comes to the most 'easy' shirts when mixing, it's probably impossible not to mention T-shirts and shirts, right? With their delicate and unique design, these two items have never shown any signs of cooling down in 'all these years'. Whether you are a girl with an active, cute or personality, dusty style, they can still make the wearer 'satisfied'"
-        }
-    ],
-    "user": [
-        {
-            "id": 1,
-            "email": "tripro9x12@gmail.com",
-            "password": "123456789",
-            "firstName": "Huỳnh",
-            "lastName": "Trí",
-            "avatar": "123.jpg",
-            "phoneNumber": "0838611735",
-            "address": "TP.Huế",
-            "roleId": 1
-        },
-        {
-            "id": 2,
-            "email": "trihuynh123@gmail.com",
-            "password": "123456789",
-            "firstName": "Huỳnh",
-            "lastName": "Trí",
-            "avatar": "123.jpg",
-            "phoneNumber": "0838611735",
-            "address": "TP.Huế",
-            "roleId": 2
-        }
-    ],
-    "role": [
-        {
-           "id" : 1,
-           "roleName": "Admin"
-        },
-        {
-            "id" : 2,
-            "roleName": "Khách Hàng"
-        }  
-    ]
+  "products": [
+    {
+      "id": 1,
+      "productName": "T-shirt U1ATN2031002",
+      "sale": 0,
+      "class": "",
+      "oldPrice": 265000,
+      "newPrice": 265000,
+      "images": [
+        "https://storage.googleapis.com/cdn.nhanh.vn/store/7136/ps/20210331/31032021090312_IMG_4449.gif",
+        "https://storage.googleapis.com/cdn.nhanh.vn/store/7136/ps/20210331/31032021090326_IMG_4451.gif"
+      ],
+      "totalRating": 4,
+      "categoryId": "men-clothes",
+      "brandId": 1,
+      "quantitySold": 5,
+      "description": "- material: 2-way stretch cotton",
+      "information": "- do not use bleach - iron at a suitable temperature, limit the use of a dryer - wash in normal mode, with similar colors"
+    },
+    {
+      "id": 2,
+      "productName": "shirt M1SMD2031001",
+      "sale": 0,
+      "class": "new",
+      "oldPrice": 285000,
+      "newPrice": 285000,
+      "images": [
+        "https://storage.googleapis.com/cdn.nhanh.vn/store/7136/ps/20210331/31032021090352_IMG_4442.jpg",
+        "https://storage.googleapis.com/cdn.nhanh.vn/store/7136/ps/20210331/31032021090310_IMG_4440.jpg"
+      ],
+      "totalRating": 5,
+      "categoryId": "men-clothes",
+      "brandId": 5,
+      "quantitySold": 6,
+      "description": "- material: 2-way stretch cotton",
+      "information": "- do not use bleach - iron at a suitable temperature, limit the use of a dryer - wash in normal mode, with similar colors"
+    },
+    {
+      "id": 3,
+      "productName": "T-shirt W2ATN2051003",
+      "sale": 0,
+      "class": "",
+      "oldPrice": 185000,
+      "newPrice": 185000,
+      "images": [
+        "https://storage.googleapis.com/cdn.nhanh.vn/store/7136/ps/20210618/18062021030623_IMG_9829.jpg",
+        "https://storage.googleapis.com/cdn.nhanh.vn/store/7136/ps/20210618/18062021030618_IMG_9825.jpg",
+        "https://storage.googleapis.com/cdn.nhanh.vn/store/7136/ps/20210618/18062021030604_IMG_9830.jpg",
+        "https://storage.googleapis.com/cdn.nhanh.vn/store/7136/ps/20210618/18062021030628_IMG_9826.jpg",
+        "https://storage.googleapis.com/cdn.nhanh.vn/store/7136/ps/20210618/18062021030614_IMG_9827.jpg"
+      ],
+      "totalRating": 5,
+      "categoryId": "women-clothes",
+      "brandId": 1,
+      "quantitySold": 3,
+      "description": "- material: 2-way stretch cotton",
+      "information": "- do not use bleach - iron at a suitable temperature, limit the use of a dryer - wash in normal mode, with similar colors"
+    },
+    {
+      "id": 4,
+      "productName": "T-shirt W2ATN2051003",
+      "sale": 0,
+      "class": "",
+      "oldPrice": 185000,
+      "newPrice": 185000,
+      "images": [
+        "https://storage.googleapis.com/cdn.nhanh.vn/store/7136/ps/20210618/18062021030650_IMG_9813.jpg",
+        "https://storage.googleapis.com/cdn.nhanh.vn/store/7136/ps/20210618/18062021030618_IMG_9809.jpg",
+        "https://storage.googleapis.com/cdn.nhanh.vn/store/7136/ps/20210618/18062021030607_IMG_9810.jpg",
+        "https://storage.googleapis.com/cdn.nhanh.vn/store/7136/ps/20210618/18062021030612_IMG_9811.jpg"
+      ],
+      "totalRating": 4,
+      "categoryId": "women-clothes",
+      "brandId": 1,
+      "quantitySold": 2,
+      "description": "- material: 2-way stretch cotton",
+      "information": "- do not use bleach - iron at a suitable temperature, limit the use of a dryer - wash in normal mode, with similar colors"
+    },
+    {
+      "id": 5,
+      "productName": "jacket U1AKD2051003",
+      "sale": 0,
+      "class": "",
+      "oldPrice": 295000,
+      "newPrice": 295000,
+      "images": [
+        "https://storage.googleapis.com/cdn.nhanh.vn/store/7136/ps/20210527/27052021060532_IMG_9861.jpg"
+      ],
+      "totalRating": 5,
+      "categoryId": "men-clothes",
+      "brandId": 4,
+      "quantitySold": 2,
+      "description": "- active, comfortable umbrella jacket. Simple style, cricket wear, from beautiful standard shirt - material: high quality canvas, soft and cool inner lining",
+      "information": "- do not use bleach - iron at a suitable temperature, limit the use of a dryer - wash in normal mode, with similar colors"
+    },
+    {
+      "id": 6,
+      "productName": "trousers jean W2QJN50410011",
+      "sale": 0,
+      "class": "new",
+      "oldPrice": 320000,
+      "newPrice": 320000,
+      "images": [
+        "https://storage.googleapis.com/cdn.nhanh.vn/store/7136/ps/20210416/16042021110430_IMG_7034.jpg"
+      ],
+      "totalRating": 4,
+      "categoryId": "women-clothes",
+      "brandId": 4,
+      "quantitySold": 3,
+      "description": "- young dynamic jeans, from slim",
+      "information": "- do not use bleach - iron at a suitable temperature, limit the use of a dryer - wash in normal mode, with similar colors"
+    },
+    {
+      "id": 7,
+      "productName": "GYMBOREE 50313",
+      "sale": 20,
+      "class": "new",
+      "oldPrice": 450000,
+      "newPrice": 360000,
+      "images": [
+        "http://bizweb.dktcdn.net/thumb/medium/100/115/248/products/2113096140150313-jpeg.jpg?v=1470970202037"
+      ],
+      "totalRating": 4,
+      "categoryId": "kids-clothes",
+      "brandId": 6,
+      "quantitySold": 0,
+      "description": "- material: 2-way stretch cotton",
+      "information": "- do not use bleach - iron at a suitable temperature, limit the use of a dryer - wash in normal mode, with similar colors"
+    },
+    {
+      "id": 8,
+      "productName": "suede men's shoes AG0001",
+      "sale": 30,
+      "class": "new",
+      "oldPrice": 495000,
+      "newPrice": 346000,
+      "images": [
+        "https://imgproxy.agiay.com/imgproxy/6TlljkqeSTgs3KRvXTWzvF5GFFJtoynxle2wMBM-_vQ/fill/500/500/no/1/aHR0cHM6Ly9obmNncm91cC13ZWIuc2dwMS5jZG4uZGlnaXRhbG9jZWFuc3BhY2VzLmNvbS8yMDIxLzA0LzYwNzk0ZmI3NzdjNTIxZjYwNmFkNTI3OWVmNGY5ZmU3LmpwZw.jpg",
+        "https://imgproxy.agiay.com/imgproxy/HiENkXP_VR589T-gVDLjFeserr5YiYkiaRurTXJI0Tc/fill/500/500/no/1/aHR0cHM6Ly9obmNncm91cC13ZWIuc2dwMS5jZG4uZGlnaXRhbG9jZWFuc3BhY2VzLmNvbS8yMDIxLzA0LzFlZTUwMDk0YTg4NGU4Njc4NzNhZjUwZGZmNzExYjllLmpwZw.jpg"
+      ],
+      "totalRating": 5,
+      "categoryId": "handbag-and-shoes",
+      "brandId": 5,
+      "quantitySold": 4,
+      "description": "- basic, classic and elegant design Easy to combine with many outfits - meticulously designed to every stitch line",
+      "information": "- do not use bleach - iron at a suitable temperature, limit the use of a dryer - wash in normal mode, with similar colors"
+    },
+    {
+      "id": 9,
+      "productName": "hot women's lazy shoes 2021 BN0091",
+      "sale": 20,
+      "class": "",
+      "oldPrice": 320000,
+      "newPrice": 256000,
+      "images": [
+        "https://imgproxy.agiay.com/imgproxy/HjrU8_psrtbKRIYpcoLfpzzMHHiCNp9C76xTU-qyx3g/fill/500/500/no/1/aHR0cHM6Ly9obmNncm91cC13ZWIuc2dwMS5jZG4uZGlnaXRhbG9jZWFuc3BhY2VzLmNvbS8yMDIxLzAzLzE2OTBhNDMxMGQyYTlhZDRiOTljNjIzZmRhYzI1MWVmLmpwZw.jpg",
+        "https://imgproxy.agiay.com/imgproxy/Gz4dr6PuMikYns0VMXUqvCSuyVF38jHRgdVpHaE9lbA/fill/500/500/no/1/aHR0cHM6Ly9obmNncm91cC13ZWIuc2dwMS5jZG4uZGlnaXRhbG9jZWFuc3BhY2VzLmNvbS8yMDIxLzAzLzZkODdhNDZlNWU4NGQ5NTEyYWI0NjAyYTQ0Y2NkYzc2LmpwZw.jpg",
+        "https://imgproxy.agiay.com/imgproxy/gychvpN9qD0awSlMEQq8z8kHagt8r-u42W0awx-w3Gw/fill/500/500/no/1/aHR0cHM6Ly9obmNncm91cC13ZWIuc2dwMS5jZG4uZGlnaXRhbG9jZWFuc3BhY2VzLmNvbS8yMDIxLzAzLzEwODg3ZmRhM2ZlODhlMzNhNjQ2YzdhZjFhZmY5NTVjLmpwZw.jpg"
+      ],
+      "totalRating": 0,
+      "categoryId": "handbag-and-shoes",
+      "brandId": 5,
+      "quantitySold": 5,
+      "description": "- basic, classic and elegant design Easy to combine with many outfits - meticulously designed to every stitch line",
+      "information": "- do not use bleach - iron at a suitable temperature, limit the use of a dryer - wash in normal mode, with similar colors"
+    },
+    {
+      "id": 10,
+      "productName": "men's collar t-shirt ATN0116",
+      "sale": 0,
+      "class": "",
+      "oldPrice": 220000,
+      "newPrice": 220000,
+      "images": [
+        "https://product.hstatic.net/1000096703/product/1_29d4b88ee1ec4bedae072d82bffde89a_master.jpg"
+      ],
+      "totalRating": 3,
+      "categoryId": "men-clothes",
+      "brandId": 1,
+      "quantitySold": 2,
+      "description": "- active, comfortable umbrella jacket. Simple style, cricket wear, from beautiful standard shirt - material: high quality canvas, soft and cool inner lining",
+      "information": "- do not use bleach - iron at a suitable temperature, limit the use of a dryer - wash in normal mode, with similar colors"
+    },
+    {
+      "id": 11,
+      "productName": "2-layer umbrella jacket AKD0030",
+      "sale": 0,
+      "class": "new",
+      "oldPrice": 295000,
+      "newPrice": 295000,
+      "images": [
+        "https://product.hstatic.net/1000096703/product/1_79d22def9b984445944e650813a85c94_master.jpg"
+      ],
+      "totalRating": 0,
+      "categoryId": "men-clothes",
+      "brandId": 5,
+      "quantitySold": 3,
+      "description": "- material: 2-way stretch cotton",
+      "information": "- do not use bleach - iron at a suitable temperature, limit the use of a dryer - wash in normal mode, with similar colors"
+    },
+    {
+      "id": 12,
+      "productName": "tweed hand bag HB0097",
+      "sale": 38,
+      "class": "",
+      "oldPrice": 865000,
+      "newPrice": 536000,
+      "images": [
+        "https://cdn.sablanca.vn/ImageProducts/hb0097/blu/hb0097_blu_1000x1000_5234341689.jpg",
+        "https://cdn.sablanca.vn/ImageProducts/hb0097/pik/hb0097_pik_1000x1000_5559301673.jpg"
+      ],
+      "totalRating": 5,
+      "categoryId": "handbag-and-shoes",
+      "brandId": 4,
+      "quantitySold": 8,
+      "description": "- the combination between leather and tweed fabric is delicate and beautiful - high quality synthetic leather material, soft, durable, beautiful",
+      "information": "- do not use bleach - iron at a suitable temperature, limit the use of a dryer - wash in normal mode, with similar colors"
+    },
+    {
+      "id": 13,
+      "productName": "men's and women's domba shoes",
+      "sale": 15,
+      "class": "",
+      "oldPrice": 1300000,
+      "newPrice": 1105000,
+      "images": [
+        "https://s4.shopbay.vn/files/289/giay-the-thao-domba-high-point-white-black-h-9111-size-42-5e5338049f9f6-24022020094212-5f896a4287314.jpg"
+      ],
+      "totalRating": 3,
+      "categoryId": "handbag-and-shoes",
+      "brandId": 4,
+      "quantitySold": 2,
+      "description": "- basic, classic and elegant design Easy to combine with many outfits - meticulously designed to every stitch line",
+      "information": "- do not use bleach - iron at a suitable temperature, limit the use of a dryer - wash in normal mode, with similar colors"
+    },
+    {
+      "id": 14,
+      "productName": "classic pleated handbag HB0122",
+      "sale": 11,
+      "class": "new",
+      "oldPrice": 745000,
+      "newPrice": 666000,
+      "images": [
+        "https://cdn.sablanca.vn/ImageProducts/hb0122/pur/hb0122_pur_1000x1000_1141834254.jpg",
+        "https://cdn.sablanca.vn/ImageProducts/hb0122/blk/hb0122_blk_1000x1000_1106753227.jpg"
+      ],
+      "totalRating": 4,
+      "categoryId": "handbag-and-shoes",
+      "brandId": 2,
+      "quantitySold": 5,
+      "description": "- the combination between leather and tweed fabric is delicate and beautiful - high quality synthetic leather material, soft, durable, beautiful",
+      "information": "- do not use bleach - iron at a suitable temperature, limit the use of a dryer - wash in normal mode, with similar colors"
+    },
+    {
+      "id": 15,
+      "productName": "handbag with stylized handle HB0108",
+      "sale": 0,
+      "class": "new",
+      "oldPrice": 825000,
+      "newPrice": 825000,
+      "images": [
+        "https://cdn.sablanca.vn/ImageProducts/hb0108/bei/hb0108_bei_1000x1000_0559494443.jpg",
+        "https://cdn.sablanca.vn/ImageProducts/hb0108/min/hb0108_min_1000x1000_0522680404.jpg"
+      ],
+      "totalRating": 0,
+      "categoryId": "handbag-and-shoes",
+      "brandId": 2,
+      "quantitySold": 0,
+      "description": "- the combination between leather and tweed fabric is delicate and beautiful - high quality synthetic leather material, soft, durable, beautiful",
+      "information": "- do not use bleach - iron at a suitable temperature, limit the use of a dryer - wash in normal mode, with similar colors"
+    },
+    {
+      "id": 16,
+      "productName": "pointed toe high heels with tweed fabric BN0144",
+      "sale": 14,
+      "class": "",
+      "oldPrice": 545000,
+      "newPrice": 466000,
+      "images": [
+        "https://cdn.sablanca.vn/ImageProducts/bn0144/nud/bn0144_nud_1000x1000_0155898358.jpg",
+        "https://cdn.sablanca.vn/ImageProducts/bn0144/nay/bn0144_nay_1000x1000_0140896493.jpg"
+      ],
+      "totalRating": 5,
+      "categoryId": "handbag-and-shoes",
+      "brandId": 4,
+      "quantitySold": 5,
+      "description": "- the combination between leather and tweed fabric is delicate and beautiful - high quality synthetic leather material, soft, durable, beautiful",
+      "information": "- do not use bleach - iron at a suitable temperature, limit the use of a dryer - wash in normal mode, with similar colors"
+    },
+    {
+      "id": 17,
+      "productName": "double layer umbrella jacket AKD0030",
+      "sale": 0,
+      "class": "",
+      "oldPrice": 295000,
+      "newPrice": 295000,
+      "images": [
+        "https://product.hstatic.net/1000096703/product/1_29c8093594f34770bec2dce1d04ca138_master.jpg"
+      ],
+      "totalRating": 2,
+      "categoryId": "men-clothes",
+      "brandId": 5,
+      "quantitySold": 0,
+      "description": "- active, comfortable umbrella jacket. Simple style, cricket wear, from beautiful standard shirt - material: high quality canvas, soft and cool inner lining",
+      "information": "- do not use bleach - iron at a suitable temperature, limit the use of a dryer - wash in normal mode, with similar colors"
+    },
+    {
+      "id": 18,
+      "productName": "cartoon pattern shirt SMN0076",
+      "sale": 0,
+      "class": "",
+      "oldPrice": 280000,
+      "newPrice": 280000,
+      "images": [
+        "https://product.hstatic.net/1000096703/product/1_c8b328a835794dc7890eab7908c4b9ff_master.jpg",
+        "https://product.hstatic.net/1000096703/product/1_d4c71c15a5494f1098116b7fb9035f47_master.jpg",
+        "https://product.hstatic.net/1000096703/product/1_0df6dcdaad294cde8da58b2a64af248b_master.jpg"
+      ],
+      "totalRating": 2,
+      "categoryId": "kids-clothes",
+      "brandId": 6,
+      "quantitySold": 0,
+      "description": "- material: 2-way stretch cotton",
+      "information": "- do not use bleach - iron at a suitable temperature, limit the use of a dryer - wash in normal mode, with similar colors"
+    },
+    {
+      "id": 19,
+      "productName": "patterned shirt SMN0068",
+      "sale": 0,
+      "class": "",
+      "oldPrice": 255000,
+      "newPrice": 255000,
+      "images": [
+        "https://product.hstatic.net/1000096703/product/1_c93ff7165e40482dbeb923c9239b5bcd_master.jpg",
+        "https://product.hstatic.net/1000096703/product/1_41b3d15b9bdb4015a60e80026c6b98ca_master.jpg"
+      ],
+      "totalRating": 1,
+      "categoryId": "kids-clothes",
+      "brandId": 6,
+      "quantitySold": 0,
+      "description": "- material: 2-way stretch cotton",
+      "information": "- do not use bleach - iron at a suitable temperature, limit the use of a dryer - wash in normal mode, with similar colors"
+    },
+    {
+      "id": 20,
+      "productName": "men's short sleeve shirt SMN0001",
+      "sale": 0,
+      "class": "",
+      "oldPrice": 220000,
+      "newPrice": 220000,
+      "images": [
+        "https://product.hstatic.net/1000096703/product/1_adfb63283e484f9097b792432c937b78_master.jpg",
+        "https://product.hstatic.net/1000096703/product/1_ce112ea96b5c49f1afd055db578945db_master.jpg",
+        "https://product.hstatic.net/1000096703/product/1_86b6ac9d04134e1b871542e5d308674a_master.jpg",
+        "https://product.hstatic.net/1000096703/product/1_eb513d5470274c3fbb9505242163e9c6_master.jpg"
+      ],
+      "totalRating": 3,
+      "categoryId": "men-clothes",
+      "brandId": 5,
+      "quantitySold": 0,
+      "description": "- material: 2-way stretch cotton",
+      "information": "- do not use bleach - iron at a suitable temperature, limit the use of a dryer - wash in normal mode, with similar colors"
+    },
+    {
+      "id": 21,
+      "productName": "men's kaki shorts QSK0049",
+      "sale": 0,
+      "class": "",
+      "oldPrice": 220000,
+      "newPrice": 220000,
+      "images": [
+        "https://product.hstatic.net/1000096703/product/1_73f549a609314e009a6f4d450496bc84_master.jpg",
+        "https://product.hstatic.net/1000096703/product/1_eacf61283609436ea71107edf8d42f59_master.jpg",
+        "https://product.hstatic.net/1000096703/product/0_52fd0d0ff26b4d4e8823c9e4ad58c0a9_master.jpg",
+        "https://product.hstatic.net/1000096703/product/1_d6122c4c31eb426faf8fd784f7fed2cb_master.jpg"
+      ],
+      "totalRating": 4,
+      "categoryId": "men-clothes",
+      "brandId": 4,
+      "quantitySold": 0,
+      "description": "- material: 2-way stretch cotton",
+      "information": "- do not use bleach - iron at a suitable temperature, limit the use of a dryer - wash in normal mode, with similar colors"
+    },
+    {
+      "id": 22,
+      "productName": "women's jean pants W2QJN1041006",
+      "sale": 0,
+      "class": "new",
+      "oldPrice": 440000,
+      "newPrice": 440000,
+      "images": [
+        "https://storage.googleapis.com/cdn.nhanh.vn/store/7136/ps/20210416/16042021110426_1.jpg"
+      ],
+      "totalRating": 4,
+      "categoryId": "women-clothes",
+      "brandId": 5,
+      "quantitySold": 3,
+      "description": "- young dynamic jeans, from slim",
+      "information": "- do not use bleach - iron at a suitable temperature, limit the use of a dryer - wash in normal mode, with similar colors"
+    },
+    {
+      "id": 23,
+      "productName": "women's T-shirt W2ATN2021028",
+      "sale": 0,
+      "class": "new",
+      "oldPrice": 185000,
+      "newPrice": 185000,
+      "images": [
+        "https://storage.googleapis.com/cdn.nhanh.vn/store/7136/ps/20210329/2914202131425_IMG_4397.jpg",
+        "https://storage.googleapis.com/cdn.nhanh.vn/store/7136/ps/20210329/2914202131439_IMG_4398.jpg",
+        "https://storage.googleapis.com/cdn.nhanh.vn/store/7136/ps/20210329/2914202131411_IMG_4395.jpg",
+        "https://storage.googleapis.com/cdn.nhanh.vn/store/7136/ps/20210329/2913202131359_IMG_4394.jpg"
+      ],
+      "totalRating": 4,
+      "categoryId": "women-clothes",
+      "brandId": 4,
+      "quantitySold": 3,
+      "description": "- material: 2-way stretch cotton",
+      "information": "- do not use bleach - iron at a suitable temperature, limit the use of a dryer - wash in normal mode, with similar colors"
+    },
+    {
+      "id": 24,
+      "productName": "baby girl dress 91084",
+      "sale": 0,
+      "class": "",
+      "oldPrice": 249000,
+      "newPrice": 249000,
+      "images": [
+        "https://product.hstatic.net/1000290074/product/91084__2__623f6dce0c0d4fb981149a2745548136_1024x1024.jpg"
+      ],
+      "totalRating": 3,
+      "categoryId": "kids-clothes",
+      "brandId": 6,
+      "quantitySold": 1,
+      "description": "- material: 2-way stretch cotton",
+      "information": "- do not use bleach - iron at a suitable temperature, limit the use of a dryer - wash in normal mode, with similar colors"
+    },
+    {
+      "id": 25,
+      "productName": "baby girl flower dress 90188",
+      "sale": 0,
+      "class": "",
+      "oldPrice": 139000,
+      "newPrice": 139000,
+      "images": [
+        "https://product.hstatic.net/1000290074/product/90188_758e9a525e184037b17cf4f45c829d2a_1024x1024.jpg",
+        "https://product.hstatic.net/1000290074/product/90188__2__4b8cf36936b2493995eeb291d6c29421_1024x1024.jpg"
+      ],
+      "totalRating": 3,
+      "categoryId": "kids-clothes",
+      "brandId": 6,
+      "quantitySold": 1,
+      "description": "- material: 2-way stretch cotton",
+      "information": "- do not use bleach - iron at a suitable temperature, limit the use of a dryer - wash in normal mode, with similar colors"
+    }
+  ],
+  "ratings": [
+    {
+      "id": 1,
+      "useId": 2,
+      "productId": 1,
+      "rating": 4
+    },
+    {
+      "id": 2,
+      "useId": 1,
+      "productId": 1,
+      "rating": 4
+    },
+    {
+      "id": 3,
+      "useId": 2,
+      "productId": 2,
+      "rating": 5
+    },
+    {
+      "id": 4,
+      "useId": 2,
+      "productId": 3,
+      "rating": 5
+    },
+    {
+      "id": 5,
+      "useId": 2,
+      "productId": 4,
+      "rating": 4
+    },
+    {
+      "id": 6,
+      "useId": 2,
+      "productId": 5,
+      "rating": 5
+    },
+    {
+      "id": 7,
+      "useId": 2,
+      "productId": 6,
+      "rating": 4
+    },
+    {
+      "id": 8,
+      "useId": 2,
+      "productId": 7,
+      "rating": 3
+    },
+    {
+      "id": 9,
+      "useId": 2,
+      "productId": 8,
+      "rating": 5
+    }
+  ],
+  "brands": [
+    {
+      "id": 1,
+      "nameBrand": "The Blue T-Shirt"
+    },
+    {
+      "id": 2,
+      "nameBrand": "Gucci"
+    },
+    {
+      "id": 3,
+      "nameBrand": "Nike"
+    },
+    {
+      "id": 4,
+      "nameBrand": "Elise"
+    },
+    {
+      "id": 5,
+      "nameBrand": "SheIn"
+    },
+    {
+      "id": 6,
+      "nameBrand": "Gymboree"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "otherId": "men-clothes",
+      "categoryName": "men clothes"
+    },
+    {
+      "id": 2,
+      "otherId": "women-clothes",
+      "categoryName": "women clothes"
+    },
+    {
+      "id": 3,
+      "otherId": "kids-clothes",
+      "categoryName": "kids clothes"
+    },
+    {
+      "id": 4,
+      "otherId": "handbag-and-shoes",
+      "categoryName": "handbag and shoes"
+    }
+  ],
+  "sizes": [
+    {
+      "id": 1,
+      "sizeName": "11"
+    },
+    {
+      "id": 2,
+      "sizeName": "12"
+    },
+    {
+      "id": 3,
+      "sizeName": "13"
+    },
+    {
+      "id": 4,
+      "sizeName": "14"
+    },
+    {
+      "id": 5,
+      "sizeName": "15"
+    },
+    {
+      "id": 6,
+      "sizeName": "16"
+    },
+    {
+      "id": 7,
+      "sizeName": "17"
+    },
+    {
+      "id": 8,
+      "sizeName": "18"
+    },
+    {
+      "id": 9,
+      "sizeName": "19"
+    },
+    {
+      "id": 10,
+      "sizeName": "20"
+    },
+    {
+      "id": 11,
+      "sizeName": "21"
+    },
+    {
+      "id": 12,
+      "sizeName": "22"
+    },
+    {
+      "id": 13,
+      "sizeName": "23"
+    },
+    {
+      "id": 14,
+      "sizeName": "24"
+    },
+    {
+      "id": 15,
+      "sizeName": "25"
+    },
+    {
+      "id": 16,
+      "sizeName": "26"
+    },
+    {
+      "id": 17,
+      "sizeName": "27"
+    },
+    {
+      "id": 18,
+      "sizeName": "28"
+    },
+    {
+      "id": 19,
+      "sizeName": "29"
+    },
+    {
+      "id": 20,
+      "sizeName": "30"
+    },
+    {
+      "id": 21,
+      "sizeName": "31"
+    },
+    {
+      "id": 22,
+      "sizeName": "32"
+    },
+    {
+      "id": 23,
+      "sizeName": "33"
+    },
+    {
+      "id": 24,
+      "sizeName": "34"
+    },
+    {
+      "id": 25,
+      "sizeName": "S"
+    },
+    {
+      "id": 26,
+      "sizeName": "M"
+    },
+    {
+      "id": 27,
+      "sizeName": "L"
+    },
+    {
+      "id": 28,
+      "sizeName": "XL"
+    },
+    {
+      "id": 29,
+      "sizeName": "XXL"
+    },
+    {
+      "id": 30,
+      "sizeName": "No Size"
+    }
+  ],
+  "news": [
+    {
+      "id": 1,
+      "title": "very standard outfit with black jeans for guys",
+      "createDate": "04-02-2021",
+      "imageTitle": "https://storage.googleapis.com/cdn.nhanh.vn/store/7136/art/article_1612431752_505.jpg",
+      "description": "One of the 'must have' outfits in the wardrobe probably can't help but mention the black jeans. With a simple, modern design but full of sophistication and fashion, they go with any outfit, giving the wearer a look that will never go out of style! So how to grasp the standard ways to coordinate without adjusting with these pants? Follow up with the sharing below with Tmart!"
+    },
+    {
+      "id": 2,
+      "title": "trend of mixing clothes with beautiful standard men's jogger pants for men",
+      "createDate": "06-02-2021",
+      "imageTitle": "https://storage.googleapis.com/cdn.nhanh.vn/store/7136/art/article_1609390965_66.jpg",
+      "description": "youthful, dynamic and bold personality is the most concise thing when it comes to men's jogger pants. The pants were originally just for gym, sports or outdoor activities, today are cleverly 'transformed' by designers to be suitable for mixing & matching sets for going out, even going to school or work. in dynamic environments that do not require formal attire. So the trend of coordinating this item with this item is so beautiful? Let's follow Tmart right now!"
+    },
+    {
+      "id": 3,
+      "title": "revealing the formula to mix beautiful clothes with men's tapered jeans",
+      "createDate": "06-03-2021",
+      "imageTitle": "https://storage.googleapis.com/cdn.nhanh.vn/store/7136/art/article_1604637375_814.jpg",
+      "description": "with the beauty that 'lasts with time', men's jeans are always loved and 'favored' by men to apply to most of their sets. Not only that, this item is even more 'stylized' into more designs and colors, giving 'fashionistas' a variety of styles and more choices"
+    },
+    {
+      "id": 4,
+      "title": "pocket set of women's clothes for active summer",
+      "createDate": "10-05-2021",
+      "imageTitle": "https://storage.googleapis.com/cdn.nhanh.vn/store/7136/art/article_1603785456_844.jpg",
+      "description": "the clothes are liberal, young and full of energy, representing the 'summer windy' days, which are loved and chosen by the majority of women. In addition, they are also extremely versatile, not encapsulated in a few styles. Therefore, to better understand them as well as 'pocket' more women's clothing sets for the active summer right in the shares below"
+    },
+    {
+      "id": 5,
+      "title": "the perfect way to mix women's fashion with these two styles",
+      "createDate": "15-06-2021",
+      "imageTitle": "https://storage.googleapis.com/cdn.nhanh.vn/store/7136/art/article_1603430397_869.jpg",
+      "description": "when it comes to the most 'easy' shirts when mixing, it's probably impossible not to mention T-shirts and shirts, right? With their delicate and unique design, these two items have never shown any signs of cooling down in 'all these years'. Whether you are a girl with an active, cute or personality, dusty style, they can still make the wearer 'satisfied'"
+    }
+  ],
+  "users": [
+    {
+      "firstName": "Trí",
+      "lastName": "Huỳnh",
+      "email": "tripro9x12@gmail.com",
+      "password": "25f9e794323b453885f5181f1b624d0b",
+      "avatar": "",
+      "roleId": 1,
+      "phoneNumber": "0332148275",
+      "address": "TP Huế",
+      "gender": "Nam",
+      "id": 1
+    },
+    {
+      "firstName": "Trí",
+      "lastName": "Huỳnh",
+      "email": "trihuynh123@gmail.com",
+      "password": "25f9e794323b453885f5181f1b624d0b",
+      "avatar": "",
+      "roleId": 2,
+      "phoneNumber": "",
+      "address": "",
+      "gender": "Nam",
+      "id": 2
+    }
+  ],
+  "role": [
+    {
+      "id": 1,
+      "roleName": "Admin"
+    },
+    {
+      "id": 2,
+      "roleName": "Khách Hàng"
+    }
+  ]
 }

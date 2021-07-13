@@ -275,3 +275,33 @@ export const actAddToCart = (product) => {
         payload: product
     }
 }
+
+export const actFetchUsers = () => {
+    return{
+        type: types.FETCH_USER
+    }
+}
+
+export const actFetchUsersSuccess = (users) => {
+    return{
+        type: types.FETCH_USER_SUCCESS,
+        payload: users
+    }
+}
+
+export const actFetchUsersFailed = (error) => {
+    return{
+        type: types.FETCH_USER_FAILED,
+        payload: error
+    }
+}
+
+export const actRegisterUser = (user, t) => {
+    return{
+        type: types.REGISTER,
+        payload: {
+            user,
+            t
+        }
+    }
+}

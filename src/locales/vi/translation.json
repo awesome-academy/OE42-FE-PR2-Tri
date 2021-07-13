@@ -159,5 +159,13 @@
     "delete": "xóa",
     "no products have been added yet": "chưa có sản phẩm nào được thêm vào",
     "continue shopping": "tiếp tục mua sắm",
-    "pay": "thanh toán"
+    "pay": "thanh toán",
+    "first name": "Tên đầu",
+    "last name": "Tên cuối",
+    "password": "Mật khẩu",
+    "this field is required": "Trường này là bắt buộc",
+    "must be at least 6 characters": "phải có ít nhất 6 ký tự",
+    "the email was registered": "Email đã được đăng ký",
+    "successful account registration": "Đăng ký tài khoản thành công",
+    "bad format email": "Email sai định dạng"
 } 

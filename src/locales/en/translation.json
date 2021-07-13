@@ -159,5 +159,13 @@
     "delete": "delete",
     "no products have been added yet": "no products have been added yet",
     "continue shopping": "continue shopping",
-    "pay": "pay"
+    "pay": "pay",
+    "first name": "First name",
+    "last name": "Last name",
+    "password": "Password",
+    "this field is required": "This field is required",
+    "must be at least 6 characters": "must be at least 6 characters",
+    "the email was registered": "The Email was registered",
+    "successful account registration": "Successful account registration",
+    "bad format email": "Bad format email"
 }
