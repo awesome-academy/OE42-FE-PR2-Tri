@@ -675,6 +675,10 @@
         {
             "id": 29,
             "sizeName": "XXL"
+        },
+        {
+            "id": 30,
+            "sizeName": "No Size"
         }
     ],
     "news": [

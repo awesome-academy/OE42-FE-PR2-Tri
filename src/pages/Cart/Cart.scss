@@ -1,0 +1,208 @@
+@import './../../styles/styles.scss';
+
+.cart__table-wrapper{
+    margin-bottom: 5rem;
+
+    .cart__table-info{
+        display: block;
+        overflow-x: auto;
+        overflow-y: hidden;
+        border-collapse: collapse;
+
+        thead{
+            height: 50px;
+
+            tr{
+                display: flex;
+                height: 50px;
+
+                th{
+                    border-right: 1px solid $border-dark-light;
+                    font-size: 1.0625rem;
+                    text-transform: uppercase;
+                    background: $color-success;
+                    color: $color-white;
+                    font-weight: 200;
+                    @include flexCenter(row);
+    
+                    &.img{
+                        @include width-height(190px, 100%);
+                    }
+    
+                    &.product-name{
+                        @include width-height(270px, 100%);
+                    }
+    
+                    &.price{
+                        @include width-height(150px, 100%);
+                    }
+    
+                    &.quantity{
+                        @include width-height(160px, 100%);
+                    }
+    
+                    &.size{
+                        @include width-height(150px, 100%);
+                    }
+                    
+                    &.into-money{
+                        @include width-height(200px, 100%);
+                    }
+    
+                    &.delete{
+                        @include width-height(110px, 100%);
+                    }
+                }
+            }  
+        }
+
+        tbody{
+
+            tr{
+                height: 150px;
+                display: flex;
+
+                td{
+                    border-right: 1px solid $border-dark-light;
+                    border-bottom: 1px solid $border-dark-light;
+                    text-align: center;
+                    height: 100%;
+                    font-size: 1.125rem;
+                    color: $color-grey;
+                    padding: 1rem;
+                    @include flexCenter(row);
+
+                    &.img{
+                        @include width-height(190px, 100%);
+                        border-left: 1px solid $border-dark-light;
+                        padding: 0;
+
+                        img{
+                            @include width-height(140px, 140px);
+                            padding: 0;
+                        }
+                    }
+    
+                    &.product-name{
+                        @include width-height(270px, 100%);
+                        text-transform: capitalize;
+                        font-size: 1.0625rem;
+                    }
+    
+                    &.price{
+                        @include width-height(150px, 100%);
+                    }
+    
+                    &.quantity{
+                        @include width-height(160px, 100%);
+
+                        input{
+                            @include width-height(60px, 40px);
+                            border: 1px solid $border-dark-light;
+                            text-align: center;
+                            color: $color-grey;
+                            @include transition-ease-in-out;
+        
+                            &:focus{
+                                border-color: $color-time;
+                            }
+                        }
+        
+                        .btn__change-quantity{
+                            display: flex;
+                            flex-direction: column;
+        
+                            button{
+                                @include width-height(22px, 20px);
+                                cursor: pointer;
+                                border: 1px solid $border-dark-light;
+                                @include flexCenter(row);
+        
+                                svg{
+                                    font-size: 1.5rem;
+                                }
+                            }
+                        }
+                    }
+    
+                    &.size{
+                        @include width-height(150px, 100%);
+                    }
+                    
+                    &.into-money{
+                        @include width-height(200px, 100%);
+                    }
+    
+                    &.delete{
+                        &.delete{
+                            @include width-height(110px, 100%);
+                        }
+
+                        button{
+                            background: transparent;
+                            color: $color-danger;
+                            cursor: pointer;
+                        }
+                    }
+
+                    &.item__no-product{
+                        width: 100%;
+                        @include flexCenter(row);
+                        border-left: 1px solid $border-dark-light;
+                        font-size: 1.25rem;
+                        text-transform: capitalize;
+                    }
+                }
+
+                &.cart__total-money{
+                    height: 70px;
+
+                    td{
+                        width: 100%;
+                        border-left: 1px solid $border-dark-light;
+                        display: flex;
+                        justify-content: space-between;
+                        padding: 0 2rem;
+                        font-size: 1.25rem;
+                        text-transform: uppercase;
+
+                        span{
+                            margin-right: 4rem;
+                            font-size: 1.5rem;
+                            color: $color-success;
+                            text-transform: lowercase;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .btn{
+        margin-top: 3rem;
+        display: flex;
+        justify-content: space-between;
+
+        &__continue-shopping{
+            padding: 0.75rem 1.25rem;
+            text-transform: uppercase;
+            border-radius: 50px;
+            @include transition-ease-in-out;
+            background: $color-dark;
+            color: $color-white;
+            box-shadow: 0px 0px 10px $color-dark;
+
+            &:hover{
+                box-shadow: none;
+            }
+        }
+
+        &__pay{
+           @extend .btn__continue-shopping;
+            background: $color-success;
+            color: $color-white;
+            box-shadow: 0px 0px 10px $color-success;
+            cursor: pointer;
+        }
+    }
+}

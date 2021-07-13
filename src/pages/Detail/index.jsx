@@ -44,6 +44,7 @@ function Detail() {
     const images = useSelector(state => state.detailProduct.images);
     const imageShow = useSelector(state => state.detailProduct.imageShow);
     const relatedProduct = useSelector(state => state.detailProduct.relatedProduct);
+    const sizeId = useSelector(state => state.detailProduct.sizeId);
 
     useEffect(() => {
         const product = products.find(p => p.id === parseInt(id));
@@ -85,6 +86,26 @@ function Detail() {
 
     const changeImage = (image) => {
         dispatch(actions.actChangeImageDetail(image));
+    }
+
+    const handleAddToCart = () => {
+        if (sizeId !== 0) {
+            const sizeProduct = sizes.find(size => size.id === sizeId);
+            const newProduct = {
+                productId: productId,
+                productName: productName,
+                categoryId: categoryId,
+                price: newPrice,
+                quantity: quantity,
+                image: imageShow,
+                sizeId: sizeId,
+                sizeName: sizeProduct.sizeName
+            };
+            dispatch(actions.actAddToCart(newProduct));
+            toastMsg.success(`${t('add to cart successfully')} 😍😍😍`);
+        } else {
+            toastMsg.fail(`${t('please choose product size')} 🤗🤗🤗`);
+        }
     }
 
     return (
@@ -172,7 +193,7 @@ function Detail() {
                                 </div>
                                 <div className="block__product-des-buy-and-share">
                                     <div className="buy">
-                                        <button className="add-to-cart">{t('add to cart')}</button>
+                                        <button className="add-to-cart" onClick={handleAddToCart}>{t('add to cart')}</button>
                                     </div>
                                     <div className="share">
                                         <p>{t('share now')}:</p>
