@@ -50,3 +50,9 @@ export const FETCH_SIZES_FAILED = 'FETCH_SIZES_FAILED';
 export const SEARCH_PRODUCT = 'SEARCH_PRODUCT'
 
 export const ADD_TO_CART = 'ADD_TO_CART';
+
+export const FETCH_USER = 'FETCH_USER';
+export const FETCH_USER_SUCCESS = 'FETCH_USER_SUCCESS';
+export const FETCH_USER_FAILED = 'FETCH_USER_FAILED';
+export const REGISTER = 'REGISTER';
+export const LOGIN = 'LOGIN';

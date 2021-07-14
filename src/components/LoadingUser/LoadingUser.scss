@@ -1,0 +1,12 @@
+@import './../../styles/styles.scss';
+
+.loading__user{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    @include flexCenter(column);
+    overflow: hidden;
+    background: rgba($color-black-weight, 0.2);
+}

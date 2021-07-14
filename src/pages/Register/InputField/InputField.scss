@@ -1,0 +1,26 @@
+@import './../../../styles/styles.scss';
+
+.input-field-register{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+
+    input{
+        margin-bottom: 0.25rem;
+        height: 2.5rem;
+        border-radius: 20px;
+        padding: 0.25rem 1rem;
+        border: 1px solid $border-dark-light;
+        color: $color-dark;
+        
+        &:focus{
+            border: 1px solid $color-time;
+        }
+    }
+
+    .error{
+        color: $color-danger;
+        font-size: 0.875rem;
+        margin-left: 1rem;
+    }
+}
