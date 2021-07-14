@@ -305,3 +305,46 @@ export const actRegisterUser = (user, t) => {
         }
     }
 }
+
+export const actLoginUser = (user, t) => {
+    return{
+        type: types.LOGIN,
+        payload: {
+            user,
+            t
+        }
+    }
+}
+
+export const actLoginUserSuccess = (user) => {
+    return{
+        type: types.LOGIN_SUCCESS,
+        payload: user
+    }
+}
+
+export const actLogoutUser = () => {
+    return{
+        type: types.LOGOUT
+    }
+}
+
+export const actFetchRoles = () => {
+    return{
+        type: types.FETCH_ROLES
+    }
+}
+
+export const actFetchRolesSuccess = (roles) => {
+    return{
+        type: types.FETCH_ROLES_SUCCESS,
+        payload: roles
+    }
+}
+
+export const actFetchRolesFailed = (error) => {
+    return{
+        type: types.FETCH_ROLES_FAILED,
+        payload: error
+    }
+}

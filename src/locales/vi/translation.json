@@ -167,5 +167,11 @@
     "must be at least 6 characters": "phải có ít nhất 6 ký tự",
     "the email was registered": "Email đã được đăng ký",
     "successful account registration": "Đăng ký tài khoản thành công",
-    "bad format email": "Email sai định dạng"
+    "bad format email": "Email sai định dạng",
+    "logged in successfully": "Đăng nhập thành công",
+    "wrong email or password": "Sai Email hoặc mật khẩu",
+    "you must logout first": "Bạn phải đăng xuất trước đã",
+    "purchase history": "lịch sử mua hàng",
+    "profile": "hồ sơ cá nhân",
+    "admin page": "trang admin"
 } 
