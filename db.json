@@ -720,8 +720,8 @@
   ],
   "users": [
     {
-      "firstName": "Trí",
-      "lastName": "Huỳnh",
+      "firstName": "Huỳnh",
+      "lastName": "Trí",
       "email": "tripro9x12@gmail.com",
       "password": "25f9e794323b453885f5181f1b624d0b",
       "avatar": "",
@@ -732,8 +732,8 @@
       "id": 1
     },
     {
-      "firstName": "Trí",
-      "lastName": "Huỳnh",
+      "firstName": "Huỳnh",
+      "lastName": "Trí",
       "email": "trihuynh123@gmail.com",
       "password": "25f9e794323b453885f5181f1b624d0b",
       "avatar": "",
@@ -744,14 +744,14 @@
       "id": 2
     }
   ],
-  "role": [
+  "roles": [
     {
       "id": 1,
-      "roleName": "Admin"
+      "roleName": "admin"
     },
     {
       "id": 2,
-      "roleName": "Khách Hàng"
+      "roleName": "customer"
     }
   ]
 }

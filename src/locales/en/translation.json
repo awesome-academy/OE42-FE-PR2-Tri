@@ -167,5 +167,11 @@
     "must be at least 6 characters": "must be at least 6 characters",
     "the email was registered": "The Email was registered",
     "successful account registration": "Successful account registration",
-    "bad format email": "Bad format email"
+    "bad format email": "Bad format email",
+    "logged in successfully": "Logged in successfully",
+    "wrong email or password": "Wrong Email or password",
+    "you must logout first": "You must logout first",
+    "purchase history": "purchase history",
+    "profile": "profile",
+    "admin page": "admin page"
 }
