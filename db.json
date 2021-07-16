@@ -720,8 +720,8 @@
   ],
   "users": [
     {
-      "firstName": "Trí",
-      "lastName": "Huỳnh",
+      "firstName": "Huỳnh",
+      "lastName": "Trí",
       "email": "tripro9x12@gmail.com",
       "password": "25f9e794323b453885f5181f1b624d0b",
       "avatar": "",
@@ -732,8 +732,8 @@
       "id": 1
     },
     {
-      "firstName": "Trí",
-      "lastName": "Huỳnh",
+      "firstName": "Huỳnh",
+      "lastName": "Trí",
       "email": "trihuynh123@gmail.com",
       "password": "25f9e794323b453885f5181f1b624d0b",
       "avatar": "",
@@ -744,14 +744,27 @@
       "id": 2
     }
   ],
-  "role": [
+  "roles": [
     {
       "id": 1,
-      "roleName": "Admin"
+      "roleName": "admin"
     },
     {
       "id": 2,
-      "roleName": "Khách Hàng"
+      "roleName": "customer"
+    }
+  ],
+  "productIntroduction": [
+    {
+      "productName": "áo khoác bomber",
+      "category": "áo quần nam",
+      "description": "mặc được cả mùa đông và mùa hè",
+      "images": [
+        "https://firebasestorage.googleapis.com/v0/b/ecommerce-image-upload.appspot.com/o/images%2F0.7654633515203446a%CC%81o%20khoac-bomber-2.jpg?alt=media&token=5b169184-667e-4c36-89ba-3e020bfd5c2a",
+        "https://firebasestorage.googleapis.com/v0/b/ecommerce-image-upload.appspot.com/o/images%2F0.03806894793417781mua-ao-khoac-bomber.jpg?alt=media&token=c44596ad-026b-4443-a374-27c49f8d37ea"
+      ],
+      "isSee": false,
+      "id": 1
     }
   ]
 }

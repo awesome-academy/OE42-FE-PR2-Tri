@@ -11,6 +11,7 @@ import FeaturedProduct from '../../pages/FeaturedProduct';
 import Home from '../../pages/Home';
 import Introduce from '../../pages/Introduce';
 import News from '../../pages/News';
+import ProductIntroduction from '../../pages/ProductIntroduction';
 import RecentlyViewedProduct from '../../pages/RecentlyViewedProduct';
 import SearchProduct from '../../pages/SearchProduct';
 
@@ -47,6 +48,7 @@ function DefaultLayout() {
                 <Route path="/introduce" component={Introduce} />
                 <Route path="/news" component={News} />
                 <Route path="/contact" component={Contact} />
+                <Route path="/product-introduction" component={ProductIntroduction} />
                 <Route path="/cart" component={Cart} />
                 <Redirect exact from="*" to="/404" />
             </Switch>

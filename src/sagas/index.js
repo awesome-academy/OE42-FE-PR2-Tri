@@ -5,6 +5,7 @@ import newsSaga from './news';
 import brandsSaga from './brands';
 import sizesSaga from './sizes';
 import usersSaga from './users';
+import productIntroductionSaga from './productIntroduction';
 
 function* rootSaga(){
     yield all([categoriesSaga(), 
@@ -12,7 +13,8 @@ function* rootSaga(){
             newsSaga(),
             brandsSaga(),
             sizesSaga(),
-            usersSaga()
+            usersSaga(),
+            productIntroductionSaga()
         ]);
 }
 

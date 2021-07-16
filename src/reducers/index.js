@@ -12,6 +12,7 @@ import detailProductReducer from './detailProduct';
 import sizesReducer from './sizes';
 import searchReducer from './search';
 import cartReducer from './cart';
+import loginReducer from './login';
 
 const rootReducer = combineReducers({
     loading: loadingReducer,
@@ -26,7 +27,8 @@ const rootReducer = combineReducers({
     detailProduct: detailProductReducer,
     sizes: sizesReducer,
     search: searchReducer,
-    cart: cartReducer
+    cart: cartReducer,
+    login: loginReducer
 });
 
 export default rootReducer;

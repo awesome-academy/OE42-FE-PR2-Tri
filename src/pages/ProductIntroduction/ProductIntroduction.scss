@@ -1,0 +1,106 @@
+@import './../../styles/styles.scss';
+
+.productIntroduction__content{
+    margin-bottom: 5rem !important;
+
+    &-left{
+        position: relative;
+
+        h5{
+            text-transform: uppercase;
+            color: $color-blue;
+            font-weight: 600;
+            font-size: 1.0625rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .upload-file{
+            margin-bottom: 1rem;
+
+            input{
+                margin-bottom: 0.625rem;
+            }
+
+            progress{
+                margin-right: 0.25rem;
+                width: 130px;
+            }
+
+            .list__img{
+                padding: 1rem 0;
+
+                .img__wrapper{
+                    position: relative;
+
+                    img{
+                        @include width-height(100%, 230px);
+                    }
+
+                    svg{
+                        position: absolute;
+                        top: 14px;
+                        right: 14px;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+
+        button{
+            float: right;
+            padding: 10px 20px;
+            background: $color-time;
+            cursor: pointer;
+            border-radius: 50px;
+            text-transform: uppercase;
+            color: $color-white;
+            border: 1px solid $color-time;
+            @include transition-ease-in-out;
+            
+            &:hover{
+                background: $color-white;
+                color: $color-time;
+            }
+        }
+    }
+
+    &-right{
+        .logo{
+            color: $color-blue;
+            font-size: 2.25rem;
+            font-weight: 700;
+            margin: 1.5rem 0 1.75rem;
+
+            &::first-letter{
+                color: red;
+                font-size: 3rem;
+            }
+        }
+
+        .text{
+            line-height: 1.3;
+            color: $color-grey;
+            margin-bottom: 2rem;
+            font-size: 0.9375rem;
+        }
+
+        ul{
+            
+            li{
+                color: $color-grey;
+                line-height: 1.4;
+
+                span{
+                    display: flex;
+                    align-items: center;
+
+                    svg{
+                        font-size: 1.125rem;
+                        margin-right: 0.25rem;
+                        color: $color-blue;
+                    }
+                }              
+            }
+        }
+    }
+}
