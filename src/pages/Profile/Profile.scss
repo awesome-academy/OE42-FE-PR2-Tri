@@ -1,0 +1,106 @@
+@import './../../styles/styles.scss';
+
+.profile{
+    width: 800px;
+    margin: 0 auto 5rem;
+    display: flex;
+
+    &__avatar{
+        @include width-height(300px, 300px);
+        position: relative;
+        border: 1px solid $border-dark-light;
+        border-radius: 8px;
+        overflow: hidden;
+
+        img{
+            @include width-height(100%, 100%);
+            object-fit: cover;
+            object-position: center top;
+        }
+
+        input{
+            display: none;
+        }
+
+        label{
+            position: absolute;
+            bottom: 0;
+            right: 10px;
+            color: $color-blue;
+            cursor: pointer;
+        }
+    }
+
+    &__info{
+        width: calc(100% - 350px);
+        margin-left: auto;
+
+        .change{
+            text-align: right;
+            margin-bottom: 1rem;
+            width: 100%;
+
+            button{
+                padding: 0.375rem 0.75rem;
+                margin-left: 1.25rem;
+                cursor: pointer;
+                text-transform: capitalize;    
+            }
+        }
+
+        ul{
+
+            li{
+                line-height: 1.8;
+                font-size: 1.125rem;
+                color: $color-grey;
+                
+                span{
+                    text-transform: capitalize;
+                    margin-right: 1rem;
+                    color: $color-black;
+                }
+            }
+        }
+
+        &-update, 
+        .profile__password-update{
+
+            .btn{
+                width: 100%;
+                text-align: right;
+
+                button{
+                    padding: 0.5rem 1rem ;
+                    margin-left: 1.5rem;
+                    cursor: pointer;
+                    color: $color-white;
+                    @include transition-ease-in-out;
+                    margin-bottom: 2rem;
+                    text-transform: capitalize;
+
+                    &.cancel{
+                        background: $color-danger;
+
+                        &:hover{
+                            background: rgba($color-danger, 0.8);
+                        }
+                    }
+
+                    &.update{
+                        background: $color-success;
+
+                        &:hover{
+                            background: rgba($color-success, 0.8);
+                        }
+                    }
+                }
+            }
+        }
+
+        .profile__password-update{
+            margin-top: 3rem;
+        }
+
+    }
+}

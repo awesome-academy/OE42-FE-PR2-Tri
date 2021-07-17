@@ -13,6 +13,9 @@ import sizesReducer from './sizes';
 import searchReducer from './search';
 import cartReducer from './cart';
 import loginReducer from './login';
+import billingDetailReducer from './billingDetail';
+import checkConfirmReducer from './checkConfirm';
+import purchaseHistoryReducer from './purchaseHistory';
 
 const rootReducer = combineReducers({
     loading: loadingReducer,
@@ -28,7 +31,10 @@ const rootReducer = combineReducers({
     sizes: sizesReducer,
     search: searchReducer,
     cart: cartReducer,
-    login: loginReducer
+    login: loginReducer,
+    billingDetail: billingDetailReducer,
+    confirm: checkConfirmReducer,
+    purchaseHistory: purchaseHistoryReducer
 });
 
 export default rootReducer;

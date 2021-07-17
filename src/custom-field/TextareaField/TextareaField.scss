@@ -1,0 +1,52 @@
+@import './../../styles/styles.scss';
+
+.textarea-field{
+    margin-bottom: 1.75rem;
+
+    label {
+        position: relative;
+        font-size: 0.85rem;
+        color: $color-grey;
+        text-transform: capitalize;
+
+        &::before {
+            position: absolute;
+            content: '\2736';
+            color: $color-danger;
+            font-size: 0.625rem;
+            right: -10px;
+            top: -2px;
+        }
+
+        &::after {
+            position: absolute;
+            content: ':';
+            color: #dc3545;
+            font-size: 0.75rem;
+            right: -14px;
+            top: 0px;
+            font-weight: 600;
+        }
+    }
+
+    textarea {
+        border: 1px solid $border-dark-light;
+        @include width-height(100%, 42px);
+        color: $color-grey;
+        font-size: 0.85rem;
+        padding: 0.25rem 1.125rem;
+        margin-top: 0.5rem;
+        @include transition-ease-in-out;
+        min-height: 100px;
+        resize: vertical;
+
+        &:focus {
+            border-color: $color-blue-hover;
+        }
+    }
+    .error{
+        color: $color-danger;
+        font-size: 0.875rem;
+        margin-left: 1rem;
+    }
+}

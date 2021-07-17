@@ -1,0 +1,320 @@
+@import './../../styles/styles.scss';
+
+.container{
+    position: relative;
+}
+
+.progress-payment{
+    width: 500px;
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 4rem;
+
+    li{
+        display: flex;
+        flex-direction: column;
+        width: 45%;
+
+        .progress__icon{
+            font-size: 2rem;
+            color: $color-success;
+        }
+
+        div{
+            position: relative;
+            margin-top: 6px;
+
+            span{
+
+                @include circle(18px);
+                @include flexCenter(column);
+                background: rgba($color-grey, 0.4);
+                color: $color-white;
+                left: 7px;
+                position: absolute;
+                z-index: 1;
+    
+                svg{           
+                    font-size: 0.9375rem;
+                }
+            }
+
+            .progress{
+                position: absolute;
+                width: calc(100% - 18px);
+                height: 6px;
+                background: rgba($color-grey, 0.2);
+                bottom: -12px;
+                left: 25px;
+            }
+        }
+
+        &.processed{
+
+            div{
+
+                span{
+                    background: $color-success;
+                }
+
+                .progress{
+                    background: $color-success;
+                }
+            }
+        }
+
+        &.processing{
+
+            div{
+
+                span{
+                    background: rgba($color-danger, 0.5);
+                }
+
+                .progress{
+                    background: rgba($color-danger, 0.5);
+                }
+            }
+        }
+
+        &:last-child{
+            width: auto;
+
+            .progress{
+                width: 0;
+            }
+        }
+    }
+}
+
+.billing-detail__content{
+    margin-bottom: 5rem !important;
+
+    &-left{
+        position: relative;
+
+        h5{
+            text-transform: uppercase;
+            color: $color-blue;
+            font-weight: 600;
+            font-size: 1.0625rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .btn{
+            display: flex;
+            justify-content: space-between;
+
+            button{
+                padding: 10px 20px;
+                cursor: pointer;
+                border-radius: 50px;
+                text-transform: uppercase;
+                color: $color-white;
+                border: 1px solid;
+                @include transition-ease-in-out;
+
+                &.btn__back{
+                    background: $color-success;
+                    border-color: $color-success;
+
+                    &:hover{
+                        background: $color-white;
+                        color: $color-success;
+                        border-color: $color-success;
+                    }
+                }
+
+                &.btn__submit{
+                    background: $color-time;
+                    border-color: $color-time;
+
+                    &:hover{
+                        background: $color-white;
+                        color: $color-time;
+                        border-color: $color-time;
+                    }
+                }
+            }
+        }
+    }
+
+    &-right{
+
+        .checkout__order{
+            width: 90%;
+            margin-left: auto;
+            background: $color-black-weight;
+
+            &-header{
+                width: 100%;
+                padding: 1.25rem 1.875rem;
+                border-bottom: 1px solid $color-dark;
+
+                h5{
+                    font-size: 1.25rem;
+                    color: $color-white;
+                    text-transform: capitalize;
+                }
+            }
+
+            &-content{
+                width: 100%;
+                padding: 1.25rem 1.875rem;
+                border-bottom: 1px solid $color-dark;
+
+                table{
+                    padding-bottom: 1rem;
+                    border-bottom: 1px solid $color-dark;
+                    width: 100%;
+
+                    tr{
+                        display: flex;
+                        align-items: center;
+                        margin-bottom: 0.625rem;
+    
+                        .name{
+                            width: 50%;
+                        }
+    
+                        .size{
+                            width: 15%;
+                        }
+    
+                        .price{
+                            width: 15%;
+                        }
+    
+                        .total{
+                            width: 20%;
+                        }
+    
+                        th{
+                            color: $color-white;
+                            text-transform: capitalize;
+                        }
+        
+                        td{
+                            color: $color-white;
+                            text-align: center;
+                            align-items: center;
+        
+                            &.name{
+                                display: flex;
+        
+                                img{
+                                    @include width-height(50px, 50px);
+                                    margin-right: 0.5rem;
+                                }
+    
+                                span{
+                                    width: calc(100% - 40px);
+                                    text-align: left;
+    
+                                    &::first-letter{
+                                        text-transform: uppercase;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .total-sum-price{
+                    color: $color-white;
+                    display: flex;
+                    justify-content: space-around;
+                    font-size: 1.125rem;
+                    text-transform: uppercase;
+                    margin-top: 0.75rem;
+
+                    span{
+                        text-transform: lowercase;
+                    }
+                }
+            }
+
+            .checkout__payment-method{
+                padding: 1.25rem 1.875rem;
+
+                h5{
+                    font-size: 1.25rem;
+                    color: $color-white;
+                    text-transform: capitalize;
+                    margin-bottom: 1rem;
+                }
+
+                .payment-item{
+                    margin-bottom: 0.75rem;      
+
+                    &.cod{
+                        border-bottom: 1px solid $color-dark;
+                        padding-bottom: 1rem;
+                    }
+
+                    &.paypal{
+                        display: flex;
+                        align-items: center;
+                        
+                        ul{
+                            display: flex;
+                            margin-left: 1.5rem;
+
+                            li{
+                                margin-right: 0.5rem;                              
+
+                                img{
+                                    background: $color-white;
+                                    @include width-height(50px, 25px);
+                                }
+                            }
+                        }
+                    }
+
+                    input{
+                        margin-right: 0.25rem;
+                        cursor: pointer;
+                    }
+
+                    label{
+                        color: $color-white;
+                        cursor: pointer;
+                    }
+
+                    p{
+                        color: $color-white;
+                    }
+                }
+            }   
+        }
+
+        .free-ship{
+            width: 90%;
+            margin-left: auto;
+            margin-top: 3rem;
+
+            &__wrapper{
+                width: 350px;
+                padding: 1.25rem 1.75rem;
+                border: 1px solid $border-dark-light;
+
+                h5{
+                    font-size: 1.25rem;
+                    text-transform: capitalize;
+                    margin-bottom: 0.75rem;
+                    display: flex;
+                    align-items: center;
+
+                    svg{
+                        margin-right: 0.75rem;
+                        font-size: 2rem;
+                    }
+                }
+
+                p{
+                    color: $color-grey;
+                    line-height: 1.3;
+                }
+            }
+        }
+    }
+}

@@ -724,10 +724,10 @@
       "lastName": "Trí",
       "email": "tripro9x12@gmail.com",
       "password": "25f9e794323b453885f5181f1b624d0b",
-      "avatar": "",
+      "avatar": "https://firebasestorage.googleapis.com/v0/b/ecommerce-image-upload.appspot.com/o/avatars%2F0.8174196196419998mydotoa4.jpg?alt=media&token=3b3ebc1b-8081-49b6-82bb-d8abaa3007bb",
       "roleId": 1,
       "phoneNumber": "0332148275",
-      "address": "TP Huế",
+      "address": "Nam Cao - TP Đà Nẵng",
       "gender": "Nam",
       "id": 1
     },
@@ -736,10 +736,10 @@
       "lastName": "Trí",
       "email": "trihuynh123@gmail.com",
       "password": "25f9e794323b453885f5181f1b624d0b",
-      "avatar": "",
+      "avatar": "https://firebasestorage.googleapis.com/v0/b/ecommerce-image-upload.appspot.com/o/avatars%2F0.8034375198478676mydotoa4.jpg?alt=media&token=f7f74d6a-7be0-4287-beea-08285c9399ac",
       "roleId": 2,
-      "phoneNumber": "",
-      "address": "",
+      "phoneNumber": "0332148275",
+      "address": "Trung An - Lộc Trì - Phú Lộc - TT Huế",
       "gender": "Nam",
       "id": 2
     }
@@ -764,6 +764,105 @@
         "https://firebasestorage.googleapis.com/v0/b/ecommerce-image-upload.appspot.com/o/images%2F0.03806894793417781mua-ao-khoac-bomber.jpg?alt=media&token=c44596ad-026b-4443-a374-27c49f8d37ea"
       ],
       "isSee": false,
+      "id": 1
+    }
+  ],
+  "orders": [
+    {
+      "codeOrder": "BrYorCw4CMef",
+      "firstName": "Huỳnh",
+      "lastName": "Trí",
+      "followEmail": "trihuynh123@gmail.com",
+      "phoneNumber": "0332148275",
+      "deliveryAddress": "Trung An - Lộc Trì - Phú Lộc - TT Huế",
+      "orderNotes": "",
+      "paymentMethod": "COD",
+      "day": "19/7/2021",
+      "time": "06:51:20",
+      "cart": [
+        {
+          "productId": 12,
+          "productName": "tweed hand bag HB0097",
+          "categoryId": "handbag-and-shoes",
+          "price": 536000,
+          "quantity": 1,
+          "image": "https://cdn.sablanca.vn/ImageProducts/hb0097/blu/hb0097_blu_1000x1000_5234341689.jpg",
+          "sizeId": 30,
+          "sizeName": "No Size"
+        },
+        {
+          "productId": 9,
+          "productName": "hot women's lazy shoes 2021 BN0091",
+          "categoryId": "handbag-and-shoes",
+          "price": 256000,
+          "quantity": 1,
+          "image": "https://imgproxy.agiay.com/imgproxy/HjrU8_psrtbKRIYpcoLfpzzMHHiCNp9C76xTU-qyx3g/fill/500/500/no/1/aHR0cHM6Ly9obmNncm91cC13ZWIuc2dwMS5jZG4uZGlnaXRhbG9jZWFuc3BhY2VzLmNvbS8yMDIxLzAzLzE2OTBhNDMxMGQyYTlhZDRiOTljNjIzZmRhYzI1MWVmLmpwZw.jpg",
+          "sizeId": 24,
+          "sizeName": "34"
+        },
+        {
+          "productId": 9,
+          "productName": "hot women's lazy shoes 2021 BN0091",
+          "categoryId": "handbag-and-shoes",
+          "price": 256000,
+          "quantity": 1,
+          "image": "https://imgproxy.agiay.com/imgproxy/Gz4dr6PuMikYns0VMXUqvCSuyVF38jHRgdVpHaE9lbA/fill/500/500/no/1/aHR0cHM6Ly9obmNncm91cC13ZWIuc2dwMS5jZG4uZGlnaXRhbG9jZWFuc3BhY2VzLmNvbS8yMDIxLzAzLzZkODdhNDZlNWU4NGQ5NTEyYWI0NjAyYTQ0Y2NkYzc2LmpwZw.jpg",
+          "sizeId": 24,
+          "sizeName": "34"
+        }
+      ],
+      "total": 1048000,
+      "isDelivery": false,
+      "pay": false,
+      "id": 1
+    }
+  ],
+  "purchaseHistory": [
+    {
+      "codeOrder": "BrYorCw4CMef",
+      "firstName": "Huỳnh",
+      "lastName": "Trí",
+      "followEmail": "trihuynh123@gmail.com",
+      "phoneNumber": "0332148275",
+      "deliveryAddress": "Trung An - Lộc Trì - Phú Lộc - TT Huế",
+      "orderNotes": "",
+      "paymentMethod": "COD",
+      "day": "19/7/2021",
+      "time": "06:51:20",
+      "cart": [
+        {
+          "productId": 12,
+          "productName": "tweed hand bag HB0097",
+          "categoryId": "handbag-and-shoes",
+          "price": 536000,
+          "quantity": 1,
+          "image": "https://cdn.sablanca.vn/ImageProducts/hb0097/blu/hb0097_blu_1000x1000_5234341689.jpg",
+          "sizeId": 30,
+          "sizeName": "No Size"
+        },
+        {
+          "productId": 9,
+          "productName": "hot women's lazy shoes 2021 BN0091",
+          "categoryId": "handbag-and-shoes",
+          "price": 256000,
+          "quantity": 1,
+          "image": "https://imgproxy.agiay.com/imgproxy/HjrU8_psrtbKRIYpcoLfpzzMHHiCNp9C76xTU-qyx3g/fill/500/500/no/1/aHR0cHM6Ly9obmNncm91cC13ZWIuc2dwMS5jZG4uZGlnaXRhbG9jZWFuc3BhY2VzLmNvbS8yMDIxLzAzLzE2OTBhNDMxMGQyYTlhZDRiOTljNjIzZmRhYzI1MWVmLmpwZw.jpg",
+          "sizeId": 24,
+          "sizeName": "34"
+        },
+        {
+          "productId": 9,
+          "productName": "hot women's lazy shoes 2021 BN0091",
+          "categoryId": "handbag-and-shoes",
+          "price": 256000,
+          "quantity": 1,
+          "image": "https://imgproxy.agiay.com/imgproxy/Gz4dr6PuMikYns0VMXUqvCSuyVF38jHRgdVpHaE9lbA/fill/500/500/no/1/aHR0cHM6Ly9obmNncm91cC13ZWIuc2dwMS5jZG4uZGlnaXRhbG9jZWFuc3BhY2VzLmNvbS8yMDIxLzAzLzZkODdhNDZlNWU4NGQ5NTEyYWI0NjAyYTQ0Y2NkYzc2LmpwZw.jpg",
+          "sizeId": 24,
+          "sizeName": "34"
+        }
+      ],
+      "total": 1048000,
+      "email": "trihuynh123@gmail.com",
       "id": 1
     }
   ]

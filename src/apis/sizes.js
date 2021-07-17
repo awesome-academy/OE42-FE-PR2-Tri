@@ -1,7 +1,7 @@
 import axiosService from './../utils/axiosService';
 
-const AND_POINT = "sizes";
+const endPoint = "sizes";
 
 export const fetchSizesData = () => {
-    return axiosService(AND_POINT);
+    return axiosService(endPoint);
 }

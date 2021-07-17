@@ -1,11 +1,11 @@
 import axiosService from './../utils/axiosService';
 
-const AND_POINT = "productIntroduction";
+const endPoint = "productIntroduction";
 
 export const fetchProductIntroductionData = () => {
-    return axiosService(AND_POINT);
+    return axiosService(endPoint);
 }
 
 export const addProductIntroductionData = (product) => {
-    return axiosService(AND_POINT, "POST", product);
+    return axiosService(endPoint, "POST", product);
 }

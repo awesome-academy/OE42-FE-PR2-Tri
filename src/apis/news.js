@@ -1,7 +1,7 @@
 import axiosService from './../utils/axiosService';
 
-const AND_POINT = "news";
+const endPoint = "news";
 
 export const fetchNewsData = () => {
-    return axiosService(AND_POINT);
+    return axiosService(endPoint);
 }

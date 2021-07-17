@@ -45,6 +45,7 @@
                 .avatar{
                     @include circle(25px);
                     margin-right: 0.5rem;
+                    object-fit: cover;
                 }
 
                 &__sub-menu{

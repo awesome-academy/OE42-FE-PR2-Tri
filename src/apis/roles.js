@@ -1,7 +1,7 @@
 import axiosService from './../utils/axiosService';
 
-const AND_POINT = "roles";
+const endPoint = "roles";
 
 export const fetchRolesData = () => {
-    return axiosService(AND_POINT);
+    return axiosService(endPoint);
 }
