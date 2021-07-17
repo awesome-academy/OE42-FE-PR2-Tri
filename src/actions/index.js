@@ -276,6 +276,69 @@ export const actAddToCart = (product) => {
     }
 }
 
+export const actResetCart = () => {
+    return{
+        type: types.RESET_CART
+    }
+}
+
+export const actChangeQuantityOfProductInCart = (quantity, index) => {
+    return{
+        type: types.CHANGE_QUANTITY_OF_PRODUCT_IN_CART,
+        payload:{
+            quantity,
+            index
+        } 
+    }
+}
+
+export const actRemoveProductInCart = (index) =>{
+    return{
+        type: types.REMOVE_PRODUCT_IN_CART,
+        payload: index
+    }
+}
+
+export const actAddBillingDetail = (billingDetail) => {
+    return{
+        type: types.ADD_BILLING_DETAIL,
+        payload: billingDetail
+    }
+}
+
+export const actResetBillingDetail = () => {
+    return{
+        type: types.RESET_BILLING_DETAIL
+    }
+}
+
+export const actChangePaymentMethod = (method) => {
+    return{
+        type: types.CHANGE_PAYMENT_METHOD,
+        payload: method
+    }
+}
+
+export const actAddOrder = (order, t) => {
+    return{
+        type: types.ADD_ORDER,
+        payload: {
+            order,
+            t
+        }
+    }
+}
+
+export const actAddPurchaseHistory = (order, t) => {
+    return{
+        type: types.ADD_PURCHASE_HISTORY,
+        payload: {
+            order,
+            t
+        }
+    }
+}   
+
 export const actFetchUsers = () => {
     return{
         type: types.FETCH_USER
@@ -356,5 +419,12 @@ export const actAddProductIntroduction = (product, t) => {
             product,
             t
         }
+    }
+}
+
+export const actCheckConfirm = (bool) => {
+    return{
+        type: types.CHECK_CONFIRM,
+        payload: bool
     }
 }
