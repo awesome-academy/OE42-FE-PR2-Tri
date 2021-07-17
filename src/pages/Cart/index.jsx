@@ -5,9 +5,10 @@ import DeleteIcon from '@material-ui/icons/Delete';
 import React, { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useDispatch, useSelector } from 'react-redux';
-import { Link } from 'react-router-dom';
+import { Link, useHistory } from 'react-router-dom';
 import ContentHeader from '../../components/ContentHeader';
 import ScrollTop from '../../components/ScrollTop';
+import { BILLING_DETAIL_URL } from '../../constants/config';
 import * as actions from './../../actions';
 import { sumPriceProduct, totalSumPriceProducts } from './../../utils/calculatePrice';
 import * as toastMsg from './../../utils/toastMsg';
@@ -16,26 +17,36 @@ import './Cart.scss';
 function Cart() {
     const { t } = useTranslation();
     const dispatch = useDispatch();
+    const history = useHistory();
     const cart = useSelector(state => state.cart);
 
     useEffect(() => {
         document.title = t('cart');
     }, []);
 
-    const changeQuantity = (event) => {
+    const changeQuantity = (event, index) => {
         const count = parseInt(event.target.value);
         if (count && count <= 500) {
-            dispatch(actions.actChangeQuantityDetail(count));
+            dispatch(actions.actChangeQuantityOfProductInCart(count, index));
         } else if (count > 500) {
-            toastMsg.fail(`${t('you can not set too 500 product')} !!!`);
-            dispatch(actions.actChangeQuantityDetail(500));
+            toastMsg.fail(`${t('you can not set too 500 product')} 😱😱😱`);
+            dispatch(actions.actChangeQuantityOfProductInCart(500, index));
         } else {
-            dispatch(actions.actChangeQuantityDetail(1));
+            dispatch(actions.actChangeQuantityOfProductInCart(1, index));
         }
     }
 
-    const clickChangeQuantity = (number) => {
+    const clickChangeQuantity = (number, index) => {
+        dispatch(actions.actChangeQuantityOfProductInCart(number, index));
+    }
 
+    const handleRemoveProduct = (index) => {
+        dispatch(actions.actRemoveProductInCart(index));
+        toastMsg.success(`${t('this product has been removed from the cart')} 😤😤😤`);
+    }
+
+    const handlePay = () => {
+        history.push(BILLING_DETAIL_URL);
     }
 
     return (
@@ -67,12 +78,12 @@ function Cart() {
                                                 <td className="product-name">{t(`${item.productName}`)}</td>
                                                 <td className="price">{item.price.toLocaleString()}đ</td>
                                                 <td className="quantity">
-                                                    <input type="text" value={item.quantity} onChange={changeQuantity} />
+                                                    <input type="text" value={item.quantity} onChange={(event) => changeQuantity(event, index)} />
                                                     <div className="btn__change-quantity">
-                                                        <button type="button" onClick={() => clickChangeQuantity(1)} disabled={item.quantity === 500}>
+                                                        <button type="button" onClick={() => clickChangeQuantity(item.quantity + 1, index)} disabled={item.quantity === 500}>
                                                             <ArrowDropUpIcon />
                                                         </button>
-                                                        <button type="button" onClick={() => clickChangeQuantity(-1)} disabled={item.quantity === 1}>
+                                                        <button type="button" onClick={() => clickChangeQuantity(item.quantity - 1, index)} disabled={item.quantity === 1}>
                                                             <ArrowDropDownIcon />
                                                         </button>
                                                     </div>
@@ -80,7 +91,8 @@ function Cart() {
                                                 <td className="size">{item.sizeName}</td>
                                                 <td className="into-money">{sumPriceProduct(item.quantity, item.price).toLocaleString()}đ</td>
                                                 <td className="delete">
-                                                    <button><DeleteIcon /></button></td>
+                                                    <button onClick={() => handleRemoveProduct(index)}><DeleteIcon /></button>
+                                                </td>
                                             </tr>
 
                                         ))
@@ -97,7 +109,7 @@ function Cart() {
                     </table>
                     <div className="btn">
                         <Link to="/products" className="btn__continue-shopping">{t('continue shopping')}</Link>
-                        {cart.length !== 0 ? <button className="btn__pay">{t('pay')}</button> : null}
+                        {cart.length !== 0 ? <button className="btn__pay" onClick={handlePay}>{t('pay')}</button> : null}
                     </div>
                 </div>
             </Container>

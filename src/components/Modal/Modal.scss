@@ -1,0 +1,72 @@
+@import './../../styles/styles.scss';
+
+.modal{
+    @include flexCenter(column);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba($color-black-weight, 0.1);
+    @include transition-ease-in-out;
+
+    &__content{
+        padding: 0.5rem 1rem;
+        background: $color-white;
+        max-width: 350px;
+        position: relative;
+
+        svg{
+            position: absolute;
+            top: 6px;
+            right: 10px;
+            font-size: 1.125rem;
+            cursor: pointer;
+            color: $color-grey;
+        }
+
+        p{
+            font-size: 1.0625rem;
+            text-transform: capitalize;
+            margin-bottom: 1rem;
+            margin-right: 2rem;
+        }
+
+        .btn{
+            text-transform: capitalize;
+            float: right;
+
+            button{
+                margin-left: 1rem;
+                padding: 4px 10px;
+                cursor: pointer;
+                text-transform: capitalize;
+                color: $color-white;
+                border: 1px solid;
+                @include transition-ease-in-out;
+
+                &.btn__cancel{
+                    background: $color-danger;
+                    border-color: $color-danger;
+    
+                    &:hover{
+                        background: $color-white;
+                        color: $color-danger;
+                        border-color: $color-danger;
+                    }
+                }
+    
+                &.btn__confirm{
+                    background: $color-success;
+                    border-color: $color-success;
+    
+                    &:hover{
+                        background: $color-white;
+                        color: $color-success;
+                        border-color: $color-success;
+                    }
+                }
+            }
+        }
+    }
+}
