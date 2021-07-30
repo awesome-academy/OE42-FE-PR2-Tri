@@ -68,7 +68,7 @@ function Detail() {
         if (count && count <= 500) {
             dispatch(actions.actChangeQuantityDetail(count));
         } else if (count > 500) {
-            toastMsg.fail(`${t('you can not set too 500 product')} !!!`);
+            toastMsg.fail(`${t('you can not set too 500 product')} 😱😱😱`);
             dispatch(actions.actChangeQuantityDetail(500));
         } else {
             dispatch(actions.actChangeQuantityDetail(1));

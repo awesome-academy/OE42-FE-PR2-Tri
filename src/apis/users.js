@@ -9,3 +9,7 @@ export const fetchUserData = () => {
 export const registerUser = (user) => {
     return axiosService(AND_POINT, "POST", user);
 }
+
+export const updateUser = (id, user) => {
+    return axiosService(`${AND_POINT}/${id}`, "PUT", user);
+}
