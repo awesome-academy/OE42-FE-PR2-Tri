@@ -1,11 +1,15 @@
 import axiosService from './../utils/axiosService';
 
-const AND_POINT = "users";
+const endPoint = "users";
 
 export const fetchUserData = () => {
-    return axiosService(AND_POINT);
+    return axiosService(endPoint);
 }
 
 export const registerUser = (user) => {
-    return axiosService(AND_POINT, "POST", user);
+    return axiosService(endPoint, "POST", user);
+}
+
+export const updateUser = (id, user) => {
+    return axiosService(`${endPoint}/${id}`, "PUT", user);
 }

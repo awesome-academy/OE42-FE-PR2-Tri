@@ -3,6 +3,8 @@ import { Route, Switch, useRouteMatch, Redirect, useLocation } from 'react-route
 import Footer from '../../components/Footer';
 import Header from '../../components/Header';
 import AllProduct from '../../pages/AllProduct';
+import Bill from '../../pages/Bill';
+import BillingDetail from '../../pages/BillingDetail';
 import Cart from '../../pages/Cart';
 import CategoryProduct from '../../pages/CategoryProduct';
 import Contact from '../../pages/Contact';
@@ -12,6 +14,8 @@ import Home from '../../pages/Home';
 import Introduce from '../../pages/Introduce';
 import News from '../../pages/News';
 import ProductIntroduction from '../../pages/ProductIntroduction';
+import Profile from '../../pages/Profile';
+import PurchaseHistory from '../../pages/PurchaseHistory';
 import RecentlyViewedProduct from '../../pages/RecentlyViewedProduct';
 import SearchProduct from '../../pages/SearchProduct';
 
@@ -49,7 +53,12 @@ function DefaultLayout() {
                 <Route path="/news" component={News} />
                 <Route path="/contact" component={Contact} />
                 <Route path="/product-introduction" component={ProductIntroduction} />
+                <Route path="/cart/billing-detail" component={BillingDetail} />
+                <Route path="/cart/bill/:codeOrder" component={Bill} />
                 <Route path="/cart" component={Cart} />
+
+                <Route path="/profile/:email" component={Profile} />
+                <Route path="/purchase-history/:email" component={PurchaseHistory} />
                 <Redirect exact from="*" to="/404" />
             </Switch>
             <Footer />

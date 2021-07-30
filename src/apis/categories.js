@@ -1,7 +1,7 @@
 import axiosService from './../utils/axiosService';
 
-const AND_POINT = "categories";
+const endPoint = "categories";
 
 export const fetchCategoriesData = () => {
-    return axiosService(AND_POINT);
+    return axiosService(endPoint);
 }
